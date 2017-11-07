@@ -9,18 +9,14 @@ public class Head extends Actor {
     private int nextY;
     private int spaceX;
     private int spaceY;
-    private int Space;
+    private int tempSpace;
     public Head()
     {
         //BLUE
         setImage("head.png");
         nextX = 0;
         nextY = 0;
-<<<<<<< HEAD
-        Space = -1;
-=======
-        tempSpace = 0;
->>>>>>> parent of 08e96f4... Fixed Touch
+        tempSpace = -1;
     }
 
     public void act()
@@ -30,15 +26,15 @@ public class Head extends Actor {
         {
             nextY = -20;
             nextX = 0;
-            spaceY = -tempSpace;
-            spaceX = 0;
+            spaceY = tempSpace;
+            spaceX = tempSpace;
         }
         if(mayflower.wasKeyDown(31)||mayflower.wasKeyDown(208))
         {
             nextY = 20;
             nextX = 0;
             spaceY = tempSpace;
-            spaceX = 0;
+            spaceX = tempSpace;
         }
 //East - West
         if(mayflower.wasKeyDown(32)||mayflower.wasKeyDown(205))
@@ -46,18 +42,18 @@ public class Head extends Actor {
             nextX = 20;
             nextY = 0;
             spaceX = tempSpace;
-            spaceY = 0;
+            spaceY = tempSpace;
         }
         if(mayflower.wasKeyDown(30)||mayflower.wasKeyDown(203))
         {
             nextX = -20;
             nextY = 0;
-            spaceX = -tempSpace;
-            spaceY = 0;
+            spaceX = tempSpace;
+            spaceY = tempSpace;
         }
         if(isTouching(Body.class))
         {
-            System.out.println("TOUCH" + Body.class.toString());
+            System.out.println("TOUCH");
         }
 
     }
@@ -70,8 +66,11 @@ public class Head extends Actor {
         return nextY;
     }
 
+    public int getSpaceX() {
+        return spaceX;
+    }
 
-    public int getSpace() {
-        return Space;
+    public int getSpaceY() {
+        return spaceY;
     }
 }

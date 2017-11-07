@@ -23,7 +23,7 @@ public class MyWorld extends World {
         collect = new Collectable(this);
         order = new ArrayList<>();
 
-        time = new Timer(75);
+        time = new Timer(300);
         setPaintOrder(Body.class, Collectable.class, Head.class);
 
     }
