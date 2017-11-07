@@ -14,7 +14,7 @@ public class Runner extends Mayflower{
     public void init()
     {
        setWorld(new MyWorld());
-        showBounds(true);
+       // showBounds(true);
 
     }
     public static void main(String args[])
