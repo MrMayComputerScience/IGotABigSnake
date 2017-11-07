@@ -29,13 +29,8 @@
           <file leaf-file-name="MyWorld.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/MyWorld.java">
               <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-                <state relative-caret-position="323">
-                  <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-=======
                 <state relative-caret-position="221">
                   <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
->>>>>>> parent of 08e96f4... Fixed Touch
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -58,13 +53,8 @@
           <file leaf-file-name="Body.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Body.java">
               <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-                <state relative-caret-position="170">
-                  <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-=======
                 <state relative-caret-position="323">
                   <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
->>>>>>> parent of 08e96f4... Fixed Touch
                   <folding />
                 </state>
               </provider>
@@ -77,13 +67,8 @@
           <file leaf-file-name="Head.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Head.java">
               <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-                <state relative-caret-position="199">
-                  <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-=======
                 <state relative-caret-position="272">
                   <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
->>>>>>> parent of 08e96f4... Fixed Touch
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -123,8 +108,6 @@
       <find>bounds</find>
       <find>set</find>
       <find>setSize</find>
-      <find>show</find>
-      <find>touch</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -142,19 +125,11 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.554/studentchartmaker-edgley-s-slaves-master/src/sample/HelloDragAndDrop.java" />
         <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/Head.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/Runner.java" />
-=======
->>>>>>> parent of 08e96f4... Fixed Touch
         <option value="$PROJECT_DIR$/src/MyWorld.java" />
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds" extendedState="6">
-=======
   <component name="ProjectFrameBounds">
->>>>>>> parent of 08e96f4... Fixed Touch
     <option name="x" value="778" />
     <option name="width" value="1142" />
     <option name="height" value="1040" />
@@ -241,9 +216,6 @@
         <subPane>
           <expand>
             <path>
-<<<<<<< HEAD
-              <item name="IGotABigSnake" type="b2602c69:ProjectViewProjectNode" />
-=======
               <item name="Snake" type="b2602c69:ProjectViewProjectNode" />
               <item name="Snake" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -254,7 +226,6 @@
             </path>
             <path>
               <item name="Snake" type="b2602c69:ProjectViewProjectNode" />
->>>>>>> parent of 08e96f4... Fixed Touch
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -271,11 +242,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mayflower2.1.jar!/" />
-=======
-    <property name="last_opened_file_path" value="H:/mayflower2.1.jar!/" />
->>>>>>> parent of 08e96f4... Fixed Touch
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/IGotABigSnake" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -431,11 +398,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -461,13 +423,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
->>>>>>> parent of 08e96f4... Fixed Touch
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -590,33 +547,13 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.554/studentchartmaker-edgley-s-slaves-master/src/sample/HelloDragAndDrop.java" />
     <entry file="file://$PROJECT_DIR$/test.fxml" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.320/studentchartmaker-edgley-s-slaves-master/src/sample/Main.java" />
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Collectable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-=======
     <entry file="file://$PROJECT_DIR$/src/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
->>>>>>> parent of 08e96f4... Fixed Touch
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-=======
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
->>>>>>> parent of 08e96f4... Fixed Touch
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,21 +565,21 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Head.java">
+    <entry file="file://$PROJECT_DIR$/src/Collectable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        <state relative-caret-position="442">
+          <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-=======
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Body.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding />
->>>>>>> parent of 08e96f4... Fixed Touch
         </state>
       </provider>
     </entry>
@@ -658,13 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-=======
         <state relative-caret-position="221">
           <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
->>>>>>> parent of 08e96f4... Fixed Touch
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
