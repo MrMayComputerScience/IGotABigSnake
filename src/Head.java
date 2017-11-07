@@ -9,14 +9,14 @@ public class Head extends Actor {
     private int nextY;
     private int spaceX;
     private int spaceY;
-    private int tempSpace;
+    private int Space;
     public Head()
     {
         //BLUE
         setImage("head.png");
         nextX = 0;
         nextY = 0;
-        tempSpace = -1;
+        Space = -1;
     }
 
     public void act()
@@ -66,11 +66,8 @@ public class Head extends Actor {
         return nextY;
     }
 
-    public int getSpaceX() {
-        return spaceX;
-    }
 
-    public int getSpaceY() {
-        return spaceY;
+    public int getSpace() {
+        return Space;
     }
 }
