@@ -51,9 +51,9 @@ public class Head extends Actor {
             spaceX = tempSpace;
             spaceY = tempSpace;
         }
-        if(isTouching(Body.class))
+        if(isTouching(Body.class)||isTouching(Wall.class))
         {
-            System.out.println("TOUCH");
+            System.out.println("GAMEOVER");
         }
 
     }

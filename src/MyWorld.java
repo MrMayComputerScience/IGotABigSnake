@@ -25,6 +25,13 @@ public class MyWorld extends World {
 
         time = new Timer(300);
         setPaintOrder(Body.class, Collectable.class, Head.class);
+        addObject(new Wall("left"),389,200);
+        addObject(new Wall("right"),-392,200);
+        addObject(new Wall("top"),0,1);
+        addObject(new Wall("bottom"),0,582);
+
+
+
 
     }
 
