@@ -53,7 +53,7 @@ public class Head extends Actor {
         }
         if(isTouching(Body.class))
         {
-            System.out.println("TOUCH");
+            System.out.println("TOUCH" + Body.class.toString());
         }
 
     }
