@@ -16,7 +16,7 @@ public class Head extends Actor {
         setImage("head.png");
         nextX = 0;
         nextY = 0;
-        tempSpace = 0;
+        tempSpace = -1;
     }
 
     public void act()
@@ -26,30 +26,30 @@ public class Head extends Actor {
         {
             nextY = -20;
             nextX = 0;
-            spaceY = -tempSpace;
-            spaceX = 0;
+            spaceY = -1;
+            spaceX = -1;
         }
         if(mayflower.wasKeyDown(31)||mayflower.wasKeyDown(208))
         {
             nextY = 20;
             nextX = 0;
-            spaceY = tempSpace;
-            spaceX = 0;
+            spaceY = -1;
+            spaceX = -1;
         }
 //East - West
         if(mayflower.wasKeyDown(32)||mayflower.wasKeyDown(205))
         {
             nextX = 20;
             nextY = 0;
-            spaceX = tempSpace;
-            spaceY = 0;
+            spaceX = -1;
+            spaceY = -1;
         }
         if(mayflower.wasKeyDown(30)||mayflower.wasKeyDown(203))
         {
             nextX = -20;
             nextY = 0;
-            spaceX = -tempSpace;
-            spaceY = 0;
+            spaceX = -1;
+            spaceY = -1;
         }
         if(isTouching(Body.class))
         {
