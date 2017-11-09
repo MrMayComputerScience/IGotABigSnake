@@ -23,12 +23,12 @@ public class MyWorld extends World {
         collect = new Collectable(this);
         order = new ArrayList<>();
 
-        time = new Timer(300);
+        time = new Timer(150);
         setPaintOrder(Body.class, Collectable.class, Head.class);
         addObject(new Wall("left"),389,200);
         addObject(new Wall("right"),-392,200);
-        addObject(new Wall("top"),0,1);
-        addObject(new Wall("bottom"),0,582);
+        addObject(new Wall("top"),0,0);
+        addObject(new Wall("bottom"),0,581);
 
 
 
