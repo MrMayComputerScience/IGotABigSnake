@@ -18,8 +18,10 @@ public class Head extends Actor {
     private int spaceX;
     private int spaceY;
     private int tempSpace;
+    private boolean gameOver;
     public Head()
     {
+        gameOver = false;
         //BLUE
 
 //        try {
@@ -75,9 +77,17 @@ public class Head extends Actor {
         }
         if(isTouching(Body.class)||isTouching(Wall.class))
         {
-            exit();
+            new Application() {
+                @Override
+                public void start(Stage stage) throws Exception {
+                    Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
+                    Scene scene = new Scene(root, 300, 300);
+                    stage.setTitle("Snake");
+                    stage.setScene(scene);
+                    stage.show();
 
-
+                }
+            };
         }
 
     }
@@ -97,6 +107,7 @@ public class Head extends Actor {
     public int getSpaceY() {
         return spaceY;
     }
+
 
 
 }

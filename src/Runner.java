@@ -10,6 +10,7 @@ import mayflower.World;
 
 public class Runner extends Application{
 
+    private Head head;
     @Override
     public void start(Stage stage) throws Exception
     {
@@ -20,6 +21,7 @@ public class Runner extends Application{
         stage.setTitle("Snake");
         stage.setScene(scene);
         stage.show();
+
 
     }
     public void singlePlayer()
