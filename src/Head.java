@@ -9,6 +9,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 
 import static mayflower.Mayflower.exit;
+import static mayflower.Mayflower.stop;
 
 public class Head extends Actor {
     private Mayflower mayflower;
@@ -19,6 +20,7 @@ public class Head extends Actor {
     private int spaceY;
     private int tempSpace;
     private boolean gameOver;
+    private boolean Stop;
     public Head()
     {
         gameOver = false;
@@ -75,21 +77,22 @@ public class Head extends Actor {
             spaceX = tempSpace;
             spaceY = tempSpace;
         }
-        if(isTouching(Body.class)||isTouching(Wall.class))
+        if((isTouching(Body.class)||isTouching(Wall.class)) && !gameOver)
         {
             System.out.println("touch wall");
+            //exit();
+
+
 
             Application Gameover = new  Application() {
                 @Override
                 public void start(Stage stage) throws Exception {
-                    System.out.println("trun");
+                    //System.out.println("trun");
                     Parent root = FXMLLoader.load(getClass().getResource("gameover.fxml"));
-                    Scene scene = new Scene(root, 300, 300);
+                    Scene scene = new Scene(root, 400, 300);
                     stage.setTitle("Snake");
                     stage.setScene(scene);
                     stage.show();
-
-
                 }
 
             };
@@ -99,11 +102,15 @@ public class Head extends Actor {
             }
             catch(Exception E)
             {
-                
+
             }
+            gameOver=true;
+            Stop = true;
 
 
         }
+        if(Stop)stop();
+
 
     }
 
