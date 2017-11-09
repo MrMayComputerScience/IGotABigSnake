@@ -28,7 +28,7 @@ public class Runner extends Application{
             @Override
             public void init() {
                 setWorld(new MyWorld());
-                showBounds(true);
+                //showBounds(true);
 
             }
         };
