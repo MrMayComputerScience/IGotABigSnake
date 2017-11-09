@@ -77,17 +77,32 @@ public class Head extends Actor {
         }
         if(isTouching(Body.class)||isTouching(Wall.class))
         {
-            new Application() {
+            System.out.println("touch wall");
+
+            Application Gameover = new  Application() {
                 @Override
                 public void start(Stage stage) throws Exception {
-                    Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
+                    System.out.println("trun");
+                    Parent root = FXMLLoader.load(getClass().getResource("gameover.fxml"));
                     Scene scene = new Scene(root, 300, 300);
                     stage.setTitle("Snake");
                     stage.setScene(scene);
                     stage.show();
 
+
                 }
+
             };
+            try {
+                Stage stage = new Stage();
+                Gameover.start(stage);
+            }
+            catch(Exception E)
+            {
+                
+            }
+
+
         }
 
     }
