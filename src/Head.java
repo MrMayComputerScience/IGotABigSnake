@@ -1,6 +1,14 @@
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 import mayflower.Actor;
+
 import mayflower.Mayflower;
-import mayflower.Timer;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+
+import static mayflower.Mayflower.exit;
 
 public class Head extends Actor {
     private Mayflower mayflower;
@@ -13,7 +21,21 @@ public class Head extends Actor {
     public Head()
     {
         //BLUE
+
+//        try {
+//            BufferedImage img = ImageIO.read(new File("head.png"));
+//            Graphics g = img.createGraphics();
+//            g.drawRect(0,0,20,20);
+//            setImage("head.png");
+//        } catch (IOException e) {
+//            setImage("head.png");
+//            e.printStackTrace();
+//        }
+//        for(int x =0; x<=20;x++)
+//            for(int y =0; y<=20;y++)
+//            head.setColorAt(x,y, Color.BLACK);
         setImage("head.png");
+
         nextX = 0;
         nextY = 0;
         tempSpace = -1;
@@ -51,9 +73,11 @@ public class Head extends Actor {
             spaceX = tempSpace;
             spaceY = tempSpace;
         }
-        if(isTouching(Body.class))
+        if(isTouching(Body.class)||isTouching(Wall.class))
         {
-            System.out.println("TOUCH");
+            //exit();
+
+
         }
 
     }
@@ -73,4 +97,6 @@ public class Head extends Actor {
     public int getSpaceY() {
         return spaceY;
     }
+
+
 }

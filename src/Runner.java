@@ -1,31 +1,36 @@
 
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
 import mayflower.Mayflower;
 import mayflower.World;
 
-public class Runner extends Mayflower{
+public class Runner extends Application{
 
-    private World world;
-    public Runner()
+    @Override
+    public void start(Stage stage) throws Exception
     {
-        super("Snake",800,600);
 
+        //http://www.oracle.com/technetwork/java/javafxscenebuilder-1x-archive-2199384.html
+        Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
+        Scene scene = new Scene(root, 300, 300);
+        stage.setTitle("Snake");
+        stage.setScene(scene);
+        stage.show();
 
     }
-    public void init()
+    public void singlePlayer()
     {
-       setWorld(new MyWorld());
-        showBounds(true);
+        new Mayflower("Snake", 800, 600) {
+            @Override
+            public void init() {
+                setWorld(new MyWorld());
+                showBounds(true);
 
+            }
+        };
     }
-    public static void main(String args[])
-    {
-        new Runner();
-        //setWorld(new MyWorld());
-    }
-//    public void update(org.newdawn.slick.GameContainer arg0, int arg1)
-//    {
-//        //setWorld(new MyWorld());
-//
-//    }
-
 }

@@ -18,16 +18,18 @@ public class Collectable extends Actor {
         scale(.9);
 
 
-        world.addObject(this,241,241);
+        world.addObject(this,19*20+1,14*20+1);
     }
     public void act()
     {
         if(isTouching(Head.class))
         {
-            X = mayflower.getRandomNumber(40);
-            Y = mayflower.getRandomNumber(30);
+            X = mayflower.getRandomNumber(38);
+            Y = mayflower.getRandomNumber(28);
             //System.out.println("TOUCH: COLLECT");
             setLocation(X*20+1,Y*20+1);
+            world.addTail();
+            world.addTail();
             world.addTail();
 
         }
