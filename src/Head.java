@@ -75,7 +75,7 @@ public class Head extends Actor {
         }
         if(isTouching(Body.class)||isTouching(Wall.class))
         {
-            //exit();
+            exit();
 
 
         }
