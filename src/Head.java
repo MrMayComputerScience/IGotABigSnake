@@ -13,6 +13,7 @@ import static mayflower.Mayflower.stop;
 
 public class Head extends Actor {
     private Mayflower mayflower;
+    private MyWorld world;
 
     private int nextX;
     private int nextY;
@@ -21,57 +22,56 @@ public class Head extends Actor {
     private int tempSpace;
     private boolean gameOver;
     private boolean Stop;
+
+    private String direction;
+
+
     public Head()
     {
         gameOver = false;
-        //BLUE
 
-//        try {
-//            BufferedImage img = ImageIO.read(new File("head.png"));
-//            Graphics g = img.createGraphics();
-//            g.drawRect(0,0,20,20);
-//            setImage("head.png");
-//        } catch (IOException e) {
-//            setImage("head.png");
-//            e.printStackTrace();
-//        }
-//        for(int x =0; x<=20;x++)
-//            for(int y =0; y<=20;y++)
-//            head.setColorAt(x,y, Color.BLACK);
         setImage("head.png");
+
 
         nextX = 0;
         nextY = 0;
         tempSpace = -1;
+        direction ="";
+
     }
 
     public void act()
     {
 //North - South
-        if(mayflower.wasKeyDown(17)||mayflower.wasKeyDown(200))
+        if((mayflower.wasKeyDown(17)||mayflower.wasKeyDown(200))&&(!direction.equals("South")||world.getObjects(Body.class).isEmpty()))
         {
+            direction = "North";
+
             nextY = -20;
             nextX = 0;
             spaceY = tempSpace;
             spaceX = tempSpace;
         }
-        if(mayflower.wasKeyDown(31)||mayflower.wasKeyDown(208))
+        if((mayflower.wasKeyDown(31)||mayflower.wasKeyDown(208))&&!direction.equals("North"))
         {
+            direction = "South";
             nextY = 20;
             nextX = 0;
             spaceY = tempSpace;
             spaceX = tempSpace;
         }
 //East - West
-        if(mayflower.wasKeyDown(32)||mayflower.wasKeyDown(205))
+        if(mayflower.wasKeyDown(32)||mayflower.wasKeyDown(205)&&!direction.equals("West"))
         {
+            direction = "East";
             nextX = 20;
             nextY = 0;
             spaceX = tempSpace;
             spaceY = tempSpace;
         }
-        if(mayflower.wasKeyDown(30)||mayflower.wasKeyDown(203))
+        if(mayflower.wasKeyDown(30)||mayflower.wasKeyDown(203)&&!direction.equals("East"))
         {
+            direction = "West";
             nextX = -20;
             nextY = 0;
             spaceX = tempSpace;

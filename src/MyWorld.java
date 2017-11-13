@@ -1,6 +1,4 @@
-import mayflower.Mayflower;
-import mayflower.Timer;
-import mayflower.World;
+import mayflower.*;
 
 import java.util.ArrayList;
 
@@ -13,6 +11,8 @@ public class MyWorld extends World {
 
     private Collectable collect;
     private ArrayList<Body> order;
+
+    private Label score;
     public MyWorld()
     {
         setBackground("Grid.png");
@@ -20,15 +20,21 @@ public class MyWorld extends World {
         head = new Head();
         addObject(head,100,100);
 
+
+
         collect = new Collectable(this);
         order = new ArrayList<>();
 
-        time = new Timer(150);
+        time = new Timer(75);
         setPaintOrder(Body.class, Collectable.class, Head.class);
         addObject(new Wall("left"),389,200);
         addObject(new Wall("right"),-392,200);
         addObject(new Wall("top"),0,0);
         addObject(new Wall("bottom"),0,581);
+
+        score = new Label("Score: 0",20, Color.BLUE);
+
+        addObject(score, 0,  -5);
 
 
 
@@ -43,7 +49,8 @@ public class MyWorld extends World {
             move();
             time.reset();
         }
-        if(mayflower.isKeyPressed(78)) addTail();
+        score.setText("Score: "+collect.getScoreNum());
+        //if(mayflower.isKeyPressed(78)) addTail();
     }
 
     public void move()
