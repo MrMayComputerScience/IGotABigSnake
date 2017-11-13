@@ -24,15 +24,23 @@ public class Collectable extends Actor {
     {
         if(isTouching(Head.class))
         {
-            X = mayflower.getRandomNumber(37)+1;
-            Y = mayflower.getRandomNumber(27)+1;
-            //System.out.println("TOUCH: COLLECT");
-            setLocation(X*20+1,Y*20+1);
+           placement();
+
             world.addTail();
             world.addTail();
             world.addTail();
 
         }
+
+    }
+    public void placement()
+    {
+        X = mayflower.getRandomNumber(37)+1;
+        Y = mayflower.getRandomNumber(27)+1;
+        //System.out.println("TOUCH: COLLECT");
+        if(world.getObjectsAt(X,Y).isEmpty())
+            setLocation(X*20+1,Y*20+1);
+        else placement();
 
     }
 
