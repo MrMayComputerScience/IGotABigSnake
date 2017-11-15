@@ -55,7 +55,7 @@ public class Collectable extends Actor {
 
     }
 
-    public int getScoreNum() {
+    public int getScore() {
         return scoreNum;
     }
 }

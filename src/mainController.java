@@ -8,6 +8,7 @@ import mayflower.Mayflower;
 import java.io.IOException;
 
 public class mainController {
+    private MyWorld world;
     @FXML
     public Button Exit;
 
@@ -18,6 +19,7 @@ public class mainController {
     @FXML
     public void singlePlayer()
     {
+
         new Mayflower("Snake", 800, 600) {
             @Override
             public void init() {
@@ -27,6 +29,7 @@ public class mainController {
             }
         };
     }
+
     @FXML
     public void close(ActionEvent event) throws IOException
     {

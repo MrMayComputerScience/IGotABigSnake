@@ -21,9 +21,12 @@ public class Head extends Actor {
     private boolean gameOver;
     private MyWorld world;
     private String dir;
+
+    private int score;
     public Head(MyWorld world)
     {
         this.world = world;
+        score = 0;
         gameOver = false;
         dir = "";
         //BLUE
@@ -83,8 +86,10 @@ public class Head extends Actor {
             spaceY = tempSpace;
             dir = "West";
         }
+        if(isTouching(Collectable.class))score+=3;
         if(isTouching(Body.class)||isTouching(Wall.class))
         {
+
             world.removeObjects(world.getObjects(Body.class));
             setLocation(100,100);
             nextX = 0;
@@ -139,6 +144,7 @@ public class Head extends Actor {
         return spaceY;
     }
 
-
-
+    public int getScore() {
+        return score;
+    }
 }

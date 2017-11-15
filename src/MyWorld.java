@@ -74,6 +74,7 @@ public class MyWorld extends World {
         addObject(head,100,100);
 
         collect = new Collectable(this);
+
         order = new ArrayList<>();
 
         time = new Timer(75);
@@ -102,11 +103,14 @@ public class MyWorld extends World {
             time.reset();
             //System.out.println("score: "+collect.getScore());
 
-            //score = collect.getScore();
-            //label.setText("Score: "+collect.getScore());
+            score = head.getScore();
+
+            label.setText("Score: "+head.getScore());
+
             repaint();
             //System.out.println(head.getX() - head.getNextX()-head.getSpaceX());
             // System.out.println(score);
+            System.out.println(score);
         }
         if(mayflower.isKeyPressed(57)) pause=!pause;
 
@@ -195,8 +199,8 @@ public class MyWorld extends World {
     public void saveScore() throws IOException
     {
         String name =textField.getText();
-        //score = collect.getScore();
-        System.out.println(score);
+        //score = head.getScore();
+        System.out.println("SCORE"+score);
 
 
 
