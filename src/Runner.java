@@ -17,7 +17,7 @@ public class Runner extends Application{
 
         //http://www.oracle.com/technetwork/java/javafxscenebuilder-1x-archive-2199384.html
         Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
-        Scene scene = new Scene(root, 300, 300);
+        Scene scene = new Scene(root, 600, 400);
         stage.setTitle("Snake");
         stage.setScene(scene);
         stage.show();
