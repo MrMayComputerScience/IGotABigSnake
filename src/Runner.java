@@ -24,15 +24,5 @@ public class Runner extends Application{
 
 
     }
-    public void singlePlayer()
-    {
-        new Mayflower("Snake", 800, 600) {
-            @Override
-            public void init() {
-                setWorld(new MyWorld());
-                //showBounds(true);
 
-            }
-        };
-    }
 }
