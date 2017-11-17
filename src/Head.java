@@ -1,5 +1,6 @@
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 import mayflower.Actor;
 
@@ -19,10 +20,10 @@ public class Head extends Actor {
     private int spaceY;
     private int tempSpace;
     private boolean gameOver;
-    private MyWorld world;
+    private static MyWorld world;
     private String dir;
 
-    private int score;
+    public int score;
     public Head(MyWorld world)
     {
         this.world = world;
@@ -91,6 +92,7 @@ public class Head extends Actor {
         {
 
             world.removeObjects(world.getObjects(Body.class));
+
             setLocation(100,100);
             nextX = 0;
             nextY = 0;
@@ -102,11 +104,24 @@ public class Head extends Actor {
                 @Override
                 public void start(Stage stage) throws Exception {
                     //System.out.println("trun");
-                    Parent root = FXMLLoader.load(getClass().getResource("over.fxml"));
+                    //gameoverController controller = new gameoverController(world);
+                    FXMLLoader loader = new FXMLLoader(getClass().getResource("over.fxml"));
+
+                    //loader.setController(controller);
+                    Parent root = (Parent)loader.load();
+                    //loader.load();
+
+
+                    //Parent root = FXMLLoader.load(getClass().getResource("over.fxml"));
+                    //loader.setController(controller);
+                    //GridPane root = loader.load();
                     Scene scene = new Scene(root, 600, 400);
+                    gameoverController.loadWorld(world);
+
                     stage.setTitle("Snake");
                     stage.setScene(scene);
                     stage.show();
+                    //launch();
                 }
 
             };
@@ -121,6 +136,7 @@ public class Head extends Actor {
             {
 
             }
+            world.removeBody();
 
 
 
