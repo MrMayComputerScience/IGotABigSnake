@@ -7,6 +7,7 @@ import mayflower.Mayflower;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import mayflower.World;
 
 import static mayflower.Mayflower.exit;
 
@@ -19,10 +20,15 @@ public class Head extends Actor {
     private int spaceY;
     private int tempSpace;
     private boolean gameOver;
-    private MyWorld world;
+    private World world;
     private String dir;
 
     private int score;
+
+    int up, down, left, right;
+
+
+
     public Head(MyWorld world)
     {
         this.world = world;
@@ -30,30 +36,40 @@ public class Head extends Actor {
         gameOver = false;
         dir = "";
         //BLUE
+        setImage("head.png");
 
-//        try {
-//            BufferedImage img = ImageIO.read(new File("head.png"));
-//            Graphics g = img.createGraphics();
-//            g.drawRect(0,0,20,20);
-//            setImage("head.png");
-//        } catch (IOException e) {
-//            setImage("head.png");
-//            e.printStackTrace();
-//        }
-//        for(int x =0; x<=20;x++)
-//            for(int y =0; y<=20;y++)
-//            head.setColorAt(x,y, Color.BLACK);
+        nextX = 0;
+        nextY = 0;
+        tempSpace = -1;
+
+        this.up = 17;
+        this.down = 31;
+        this.left = 30;
+        this.right = 32;
+
+    }
+    public Head(LocalMultiplayer world, int up, int down, int left, int right)
+    {
+        this.up = up;
+        this.down = down;
+        this.left = left;
+        this.right = right;
+        this.world = world;
+        score = 0;
+        gameOver = false;
+        dir = "";
+        //BLUE
         setImage("head.png");
 
         nextX = 0;
         nextY = 0;
         tempSpace = -1;
     }
-
     public void act()
     {
 //North - South
-        if(mayflower.wasKeyDown(17)||mayflower.wasKeyDown(200)&&!dir.equals("South"))
+        //17
+        if(mayflower.wasKeyDown(up)&&!dir.equals("South"))
         {
             nextY = -20;
             nextX = 0;
@@ -61,27 +77,34 @@ public class Head extends Actor {
             spaceX = tempSpace;
             dir = "North";
         }
-        if(mayflower.wasKeyDown(31)||mayflower.wasKeyDown(208)&&!dir.equals("North"))
+
+        //31
+        if(mayflower.wasKeyDown(down)&&!dir.equals("North"))
         {
             nextY = 20;
             nextX = 0;
+
             spaceY = tempSpace;
             spaceX = tempSpace;
             dir = "South";
         }
 //East - West
-        if(mayflower.wasKeyDown(32)||mayflower.wasKeyDown(205)&&!dir.equals("West"))
+        //32
+        if(mayflower.wasKeyDown(right)&&!dir.equals("West"))
         {
             nextX = 20;
             nextY = 0;
+
             spaceX = tempSpace;
             spaceY = tempSpace;
             dir = "East";
         }
-        if(mayflower.wasKeyDown(30)||mayflower.wasKeyDown(203)&&!dir.equals("East"))
+        //30
+        if(mayflower.wasKeyDown(left)&&!dir.equals("East"))
         {
             nextX = -20;
             nextY = 0;
+
             spaceX = tempSpace;
             spaceY = tempSpace;
             dir = "West";

@@ -9,10 +9,10 @@ public class Collectable extends Actor {
 
     private int scoreNum;
 
-    public Collectable(MyWorld world)
+    public Collectable(World world)
     {
 
-        this.world = world;
+        this.world = (MyWorld) world;
         img = new MayflowerImage("collectable.png");
         setImage(img);
         scale(.9);
