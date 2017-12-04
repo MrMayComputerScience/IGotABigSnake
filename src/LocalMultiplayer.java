@@ -61,15 +61,32 @@ public class LocalMultiplayer extends World {
 
     @FXML private static int S;
 
-    public LocalMultiplayer()
+    public LocalMultiplayer(int players)
     {
         //score = 0;
         highscore = new ArrayList<String>();
 
         setBackground("Grid.png");
 
-        head = new Head(this);
-        addObject(head,100,100);
+        //get key codes
+
+
+        if(players==1) {
+            head = new Head(this, 17, 31, 30, 32);
+            addObject(head, 100, 100);
+        }
+        if(players==2) {
+            head = new Head(this, 17, 31, 30, 32);
+            addObject(head, 100, 100);
+        }
+        if(players==3) {
+            head = new Head(this, 17, 31, 30, 32);
+            addObject(head, 100, 100);
+        }
+        if(players==4) {
+            head = new Head(this, 17, 31, 30, 32);
+            addObject(head, 100, 100);
+        }
 
         collect = new Collectable(this);
 

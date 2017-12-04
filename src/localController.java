@@ -1,4 +1,3 @@
-import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -7,7 +6,7 @@ import mayflower.Mayflower;
 
 import java.io.IOException;
 
-public class mainController {
+public class localController {
     private MyWorld world;
     @FXML
     public Button Exit;
@@ -36,7 +35,7 @@ public class mainController {
         new Mayflower("Snake", 800, 600) {
             @Override
             public void init() {
-                setWorld(new LocalMultiplayer());
+                setWorld(new LocalMultiplayer(1));
                 //showBounds(true);
 
             }
