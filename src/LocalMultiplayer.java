@@ -43,12 +43,19 @@ public class LocalMultiplayer extends World {
     private static ArrayList<String> highscore;
 
 
-    private Head head;
+    private Head head1;
+    private Head head2;
+    private Head head3;
+    private Head head4;
+
     private Mayflower mayflower;
     private Timer time;
 
     private static Collectable collect;
-    private static ArrayList<Body> order;
+    private static ArrayList<Body> order1;
+    private static ArrayList<Body> order2;
+    private static ArrayList<Body> order3;
+    private static ArrayList<Body> order4;
     @FXML
     private static Label label;
 
@@ -61,8 +68,11 @@ public class LocalMultiplayer extends World {
 
     @FXML private static int S;
 
+    private int players;
+
     public LocalMultiplayer(int players)
     {
+        this.players = players;
         //score = 0;
         highscore = new ArrayList<String>();
 
@@ -72,25 +82,31 @@ public class LocalMultiplayer extends World {
 
 
         if(players==1) {
-            head = new Head(this, 17, 31, 30, 32);
-            addObject(head, 100, 100);
+            head1 = new Head(this, 17, 31, 30, 32);
+            addObject(head1, 100, 100);
         }
         if(players==2) {
-            head = new Head(this, 17, 31, 30, 32);
-            addObject(head, 100, 100);
+            //yhgj
+            head2 = new Head(this, 21, 35, 34, 36);
+            addObject(head2, 120, 100);
         }
         if(players==3) {
-            head = new Head(this, 17, 31, 30, 32);
-            addObject(head, 100, 100);
+            //p;l'
+            head3 = new Head(this, 25, 39, 34, 40);
+            addObject(head3, 140, 100);
         }
         if(players==4) {
-            head = new Head(this, 17, 31, 30, 32);
-            addObject(head, 100, 100);
+            head4 = new Head(this, 200, 208, 203, 205);
+            addObject(head4, 160, 100);
         }
 
         collect = new Collectable(this);
 
-        order = new ArrayList<>();
+        order1 = new ArrayList<>();
+        order2 = new ArrayList<>();
+        order3 = new ArrayList<>();
+        order4 = new ArrayList<>();
+
 
         time = new Timer(75);
         setPaintOrder( Wall.class ,Label.class, Body.class, Collectable.class, Head.class);
@@ -113,12 +129,33 @@ public class LocalMultiplayer extends World {
     {
         if(time.isDone()&&!pause)
         {
-            head.setLocation(head.getX()+head.getNextX(),head.getY()+head.getNextY());
-            move();
-            time.reset();
-            score = head.getScore();
-            label.setText("Score: "+head.getScore());
+            if(players==1) {
+                head1.setLocation(head1.getX()+head1.getNextX(),head1.getY()+head1.getNextY());
+                move(order1,head1);
+            }
+            if(players==2) {
+                head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
+                move(order2,head2);
+            }
+            if(players==3) {
+                head3.setLocation(head3.getX()+head3.getNextX(),head3.getY()+head3.getNextY());
+                move(order3,head3);
+            }
+            if(players==4) {
+                head4.setLocation(head4.getX()+head4.getNextX(),head4.getY()+head4.getNextY());
+                move(order4,head4);
+            }
+
+
+
+
+
+
+            //score = head.getScore();
+            //label.setText("Score: "+head.getScore());
             repaint();
+
+            time.reset();
         }
         //if(mayflower.isKeyPressed(57)) pause=!pause;
 
@@ -127,7 +164,7 @@ public class LocalMultiplayer extends World {
         //if(mayflower.isKeyPressed(78)) addTail();
     }
 
-    public void move()
+    public void move(ArrayList<Body> order, Head head)
     {
 
 
@@ -147,7 +184,7 @@ public class LocalMultiplayer extends World {
 
         }
     }
-    public void addTail()
+    public void addTail(ArrayList<Body> order, Head head)
     {
         System.out.print(order.size());
 
@@ -167,7 +204,7 @@ public class LocalMultiplayer extends World {
 
 
     }
-    @FXML
+    /*@FXML
     public void again()
     {
         for (Body body : order) {
@@ -183,7 +220,7 @@ public class LocalMultiplayer extends World {
         Stage stage = (Stage) Exit.getScene().getWindow();
         stage.close();
     }
-    @FXML
+*/    @FXML
     public void close(ActionEvent event) throws IOException
     {
         try {
