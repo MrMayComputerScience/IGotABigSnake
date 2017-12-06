@@ -65,6 +65,7 @@ public class MyWorld extends World {
 
     public MyWorld()
     {
+        System.out.println("Running myworld");
         //score = 0;
         highscore = new ArrayList<String>();
 
@@ -112,6 +113,16 @@ public class MyWorld extends World {
             // System.out.println(score);
             System.out.println(score);
         }
+        for (Head head:collect.getIntersectingHead(Head.class))
+        {
+            addTail(head);
+            addTail(head);
+            addTail(head);
+
+            collect.placement();
+            //collect.scoreNum +=3;
+
+        }
         if(mayflower.isKeyPressed(57)) pause=!pause;
 
 
@@ -139,7 +150,7 @@ public class MyWorld extends World {
 
         }
     }
-    public void addTail()
+    public void addTail(Head head)
     {
         System.out.print(order.size());
 

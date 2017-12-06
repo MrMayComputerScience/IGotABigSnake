@@ -9,8 +9,6 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import mayflower.World;
 
-import static mayflower.Mayflower.exit;
-
 public class Head extends Actor {
     private Mayflower mayflower;
 
@@ -48,7 +46,7 @@ public class Head extends Actor {
         this.right = 32;
 
     }
-    public Head(LocalMultiplayer world, int up, int down, int left, int right)
+    public Head(LocalMultiplayerWorld world, int up, int down, int left, int right)
     {
         this.up = up;
         this.down = down;

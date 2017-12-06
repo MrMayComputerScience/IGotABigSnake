@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class LocalMultiplayer extends World {
+public class LocalMultiplayerWorld extends World {
     @FXML
     public Button Exit;
 
@@ -70,34 +70,50 @@ public class LocalMultiplayer extends World {
 
     private int players;
 
-    public LocalMultiplayer(int players)
+    public LocalMultiplayerWorld(int players)
     {
+        System.out.print("THIS WORKDSSDFNIJSKD");
         this.players = players;
         //score = 0;
         highscore = new ArrayList<String>();
 
         setBackground("Grid.png");
 
+
         //get key codes
+        //this.players = 4;
 
 
-        if(players==1) {
+        if(this.players==1) {
             head1 = new Head(this, 17, 31, 30, 32);
             addObject(head1, 100, 100);
+
         }
-        if(players==2) {
+        if(this.players==2) {
             //yhgj
             head2 = new Head(this, 21, 35, 34, 36);
             addObject(head2, 120, 100);
+            head1 = new Head(this, 17, 31, 30, 32);
+            addObject(head1, 100, 100);
         }
-        if(players==3) {
+        if(this.players==3) {
             //p;l'
             head3 = new Head(this, 25, 39, 34, 40);
             addObject(head3, 140, 100);
+            head2 = new Head(this, 21, 35, 34, 36);
+            addObject(head2, 120, 100);
+            head1 = new Head(this, 17, 31, 30, 32);
+            addObject(head1, 100, 100);
         }
-        if(players==4) {
+        if(this.players==4) {
             head4 = new Head(this, 200, 208, 203, 205);
-            addObject(head4, 160, 100);
+            addObject(head4, 400, 400);
+            head3 = new Head(this, 25, 39, 34, 40);
+            addObject(head3, 140, 100);
+            head2 = new Head(this, 21, 35, 34, 36);
+            addObject(head2, 120, 100);
+            head1 = new Head(this, 17, 31, 30, 32);
+            addObject(head1, 100, 100);
         }
 
         collect = new Collectable(this);
@@ -118,11 +134,6 @@ public class LocalMultiplayer extends World {
         addObject(new Wall("bottom"),0,581);
         pause = false;
         repaint();
-
-
-
-
-
     }
 
     public void act()
@@ -136,32 +147,79 @@ public class LocalMultiplayer extends World {
             if(players==2) {
                 head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
                 move(order2,head2);
+                head1.setLocation(head1.getX()+head1.getNextX(),head1.getY()+head1.getNextY());
+                move(order1,head1);
             }
             if(players==3) {
                 head3.setLocation(head3.getX()+head3.getNextX(),head3.getY()+head3.getNextY());
                 move(order3,head3);
+                head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
+                move(order2,head2);
+                head1.setLocation(head1.getX()+head1.getNextX(),head1.getY()+head1.getNextY());
+                move(order1,head1);
             }
             if(players==4) {
                 head4.setLocation(head4.getX()+head4.getNextX(),head4.getY()+head4.getNextY());
                 move(order4,head4);
+                head3.setLocation(head3.getX()+head3.getNextX(),head3.getY()+head3.getNextY());
+                move(order3,head3);
+                head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
+                move(order2,head2);
+                head1.setLocation(head1.getX()+head1.getNextX(),head1.getY()+head1.getNextY());
+                move(order1,head1);
             }
 
-
-
-
-
-
-            //score = head.getScore();
-            //label.setText("Score: "+head.getScore());
             repaint();
 
             time.reset();
+        }
+        for (Head head:collect.getIntersectingHead(Head.class))
+        {
+            if(head.equals(head1))
+            {
+                addTail(order1, head);
+                addTail(order1, head);
+                addTail(order1, head);
+            }
+            if(head.equals(head2))
+            {
+                addTail(order2, head);
+                addTail(order2, head);
+                addTail(order2, head);
+            }
+            if(head.equals(head3))
+            {
+                addTail(order3, head);
+                addTail(order3, head);
+                addTail(order3, head);
+            }
+            if(head.equals(head4))
+            {
+                addTail(order4, head);
+                addTail(order4, head);
+                addTail(order4, head);
+            }
+
+
+            placement();
+            //collect.scoreNum +=3;
+
         }
         //if(mayflower.isKeyPressed(57)) pause=!pause;
 
 
 
         //if(mayflower.isKeyPressed(78)) addTail();
+    }
+    public void placement()
+    {
+        int X = mayflower.getRandomNumber(37)+1;
+        int Y = mayflower.getRandomNumber(27)+1;
+        //System.out.println("TOUCH: COLLECT");
+        if(getObjectsAt(X*20+1,Y*20+1).isEmpty())
+            collect.setLocation(X*20+1,Y*20+1);
+        else placement();
+
     }
 
     public void move(ArrayList<Body> order, Head head)
@@ -204,23 +262,7 @@ public class LocalMultiplayer extends World {
 
 
     }
-    /*@FXML
-    public void again()
-    {
-        for (Body body : order) {
-            order.remove(body);
-        }
-        removeObjects(getObjects(Body.class));
-
-        //collect.resetScore();
-        score =0;
-        //head.setGameOver(false);
-        head.setLocation(100,100);
-
-        Stage stage = (Stage) Exit.getScene().getWindow();
-        stage.close();
-    }
-*/    @FXML
+    @FXML
     public void close(ActionEvent event) throws IOException
     {
         try {

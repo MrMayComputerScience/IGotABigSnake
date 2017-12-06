@@ -51,7 +51,9 @@ public class localSelectController {
         new Mayflower("Snake", 800, 600) {
             @Override
             public void init() {
-                setWorld(new LocalMultiplayer(4));
+                System.out.println("running");
+                setWorld(new LocalMultiplayerWorld(4));
+                System.out.println("running2");
                 //showBounds(true);
 
             }
