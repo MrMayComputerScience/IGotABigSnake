@@ -20,6 +20,7 @@ public class Head extends Actor {
     private boolean gameOver;
     private World world;
     private String dir;
+    private boolean multi;
 
     private int score;
 
@@ -110,9 +111,12 @@ public class Head extends Actor {
         if(isTouching(Collectable.class))score+=3;
         if(isTouching(Body.class)||isTouching(Wall.class))
         {
+//            if(multi)
+//            world.removeObject(this);
+
 
             world.removeObjects(world.getObjects(Body.class));
-            setLocation(100,100);
+            //setLocation(100,100);
             nextX = 0;
             nextY = 0;
             dir = "";

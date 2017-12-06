@@ -205,6 +205,13 @@ public class LocalMultiplayerWorld extends World {
             //collect.scoreNum +=3;
 
         }
+
+
+
+
+            //collect.scoreNum +=3;
+
+
         //if(mayflower.isKeyPressed(57)) pause=!pause;
 
 
