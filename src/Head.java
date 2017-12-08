@@ -20,7 +20,7 @@ public class Head extends Actor {
     private int spaceY;
     private int tempSpace;
     private boolean gameOver;
-    private MyWorld world;
+    private World world;
     private String dir;
     private boolean multi;
 

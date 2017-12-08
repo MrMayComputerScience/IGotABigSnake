@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class LocalMultiplayerWorld extends MyWorld {
+public class LocalMultiplayerWorld extends World {
     @FXML
     public Button Exit;
 
