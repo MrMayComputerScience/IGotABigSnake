@@ -9,6 +9,8 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import mayflower.World;
 
+import java.util.List;
+
 public class Head extends Actor {
     private Mayflower mayflower;
 
@@ -18,7 +20,7 @@ public class Head extends Actor {
     private int spaceY;
     private int tempSpace;
     private boolean gameOver;
-    private World world;
+    private MyWorld world;
     private String dir;
     private boolean multi;
 
@@ -111,44 +113,34 @@ public class Head extends Actor {
         if(isTouching(Collectable.class))score+=3;
         if(isTouching(Body.class)||isTouching(Wall.class))
         {
-//            if(multi)
-//            world.removeObject(this);
-
-
-            world.removeObjects(world.getObjects(Body.class));
-            //setLocation(100,100);
             nextX = 0;
             nextY = 0;
             dir = "";
 
+         /*Application Gameover = new  Application() {
+        @Override
+        public void start(Stage stage) throws Exception {
+            //System.out.println("trun");
+            Parent root = FXMLLoader.load(getClass().getResource("over.fxml"));
+            Scene scene = new Scene(root, 600, 400);
+            stage.setTitle("Snake");
+            stage.setScene(scene);
+            stage.show();
+               }
+
+    };
+    try {
+        Stage stage = new Stage();
+        Gameover.start(stage);
+        System.out.println("touch wall");
 
 
-            Application Gameover = new  Application() {
-                @Override
-                public void start(Stage stage) throws Exception {
-                    //System.out.println("trun");
-                    Parent root = FXMLLoader.load(getClass().getResource("over.fxml"));
-                    Scene scene = new Scene(root, 600, 400);
-                    stage.setTitle("Snake");
-                    stage.setScene(scene);
-                    stage.show();
-                }
+    }
+    catch(Exception E)
+    {
 
-            };
-            try {
-                Stage stage = new Stage();
-                Gameover.start(stage);
-                System.out.println("touch wall");
-
-
-            }
-            catch(Exception E)
-            {
-
-            }
-
-
-
+    }
+    */
         }
 
     }
@@ -171,5 +163,9 @@ public class Head extends Actor {
 
     public int getScore() {
         return score;
+    }
+    public List<Body> getIntersectingBody()
+    {
+        return getIntersectingObjects(Body.class);
     }
 }

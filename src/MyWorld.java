@@ -54,6 +54,8 @@ public class MyWorld extends World {
     @FXML
     private static Label label;
 
+    private int heads;
+
 
 
     private boolean pause;
@@ -65,6 +67,7 @@ public class MyWorld extends World {
 
     public MyWorld()
     {
+        heads = 1;
         System.out.println("Running myworld");
         //score = 0;
         highscore = new ArrayList<String>();
@@ -121,7 +124,6 @@ public class MyWorld extends World {
 
             collect.placement();
             //collect.scoreNum +=3;
-
         }
         if(mayflower.isKeyPressed(57)) pause=!pause;
 
@@ -182,6 +184,7 @@ public class MyWorld extends World {
         score =0;
         //head.setGameOver(false);
         head.setLocation(100,100);
+        heads =1;
 
         Stage stage = (Stage) Exit.getScene().getWindow();
         stage.close();
@@ -293,14 +296,13 @@ public class MyWorld extends World {
 
         System.out.print(highscore);
 
-
     }
+    public void subtractHead()
+{
+    heads--;
+}
 
-
-
-
-
-
-
-
+    public int getHeads() {
+        return heads;
+    }
 }

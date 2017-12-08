@@ -1,9 +1,12 @@
+import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableSet;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
@@ -16,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class LocalMultiplayerWorld extends World {
+public class LocalMultiplayerWorld extends MyWorld {
     @FXML
     public Button Exit;
 
@@ -205,13 +208,42 @@ public class LocalMultiplayerWorld extends World {
             //collect.scoreNum +=3;
 
         }
+        for (Head tempHead :getObjects(Head.class))
+        {
+            if(getObjects(Head.class).size()>1) {
+                if (!tempHead.getIntersectingBody().isEmpty()) {
+                    removeObject(tempHead);
+
+                }
+            }
+            else
+            {
+                Application Gameover = new  Application() {
+                    @Override
+                    public void start(Stage stage) throws Exception {
+                        //System.out.println("trun");
+                        Parent root = FXMLLoader.load(getClass().getResource("over.fxml"));
+                        Scene scene = new Scene(root, 600, 400);
+                        stage.setTitle("Snake");
+                        stage.setScene(scene);
+                        stage.show();
+                    }
+
+                };
+                try {
+                    Stage stage = new Stage();
+                    Gameover.start(stage);
+                    System.out.println("touch wall");
 
 
+                }
+                catch(Exception E)
+                {
 
+                }
+            }
 
-            //collect.scoreNum +=3;
-
-
+        }
         //if(mayflower.isKeyPressed(57)) pause=!pause;
 
 

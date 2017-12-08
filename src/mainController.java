@@ -2,6 +2,7 @@ import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
@@ -21,7 +22,7 @@ public class mainController {
 
     }
     @FXML
-    public void singlePlayer()
+    public void singlePlayer(ActionEvent actionEvent) throws IOException
     {
 
         new Mayflower("Snake", 800, 600) {
@@ -32,6 +33,9 @@ public class mainController {
 
             }
         };
+        Node source = (Node)  actionEvent.getSource();
+        Stage stage  = (Stage) source.getScene().getWindow();
+        stage.close();
     }
     @FXML
     public void localMulti(ActionEvent event) throws IOException
@@ -55,6 +59,14 @@ public class mainController {
         {
 
         }
+
+    }
+    @FXML
+    public void options(ActionEvent event) throws IOException
+    {
+        GridPane pane = FXMLLoader.load(getClass().getResource("local.fxml"));
+        rootPane.getChildren().setAll(pane);
+
 
     }
 

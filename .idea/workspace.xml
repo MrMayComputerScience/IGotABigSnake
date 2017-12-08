@@ -11,75 +11,123 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocalMultiplayerWorld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="231" column="54" lean-forward="true" selection-start-line="231" selection-start-column="54" selection-end-line="231" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6049#6095#0" expanded="false" />
-                <element signature="method#placement#0;class#LocalMultiplayerWorld#0" expanded="false" />
-                <element signature="method#move#0;class#LocalMultiplayerWorld#0" expanded="false" />
-                <element signature="method#addTail#0;class#LocalMultiplayerWorld#0" expanded="false" />
-                <element signature="method#close#0;class#LocalMultiplayerWorld#0" expanded="false" />
-                <element signature="method#mainLoad#0;class#LocalMultiplayerWorld#0" expanded="false" />
-                <element signature="method#saveScore#0;class#LocalMultiplayerWorld#0" expanded="false" />
-                <element signature="method#addScore#0;class#LocalMultiplayerWorld#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Head.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Head.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="117" column="62" lean-forward="true" selection-start-line="117" selection-start-column="62" selection-end-line="117" selection-end-column="62" />
-              <folding>
-                <element signature="method#Head#0;class#Head#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="localSelectController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyWorld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-528">
-              <caret line="153" column="5" lean-forward="true" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collectable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Collectable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="52" column="47" lean-forward="true" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#act#0;class#Collectable#0" expanded="false" />
-                <element signature="e#1315#1316#0" expanded="true" />
-                <element signature="e#1367#1368#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.47108367">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="MyWorld.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/MyWorld.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="237" column="9" lean-forward="true" selection-start-line="237" selection-start-column="9" selection-end-line="237" selection-end-column="9" />
+                  <folding>
+                    <element signature="method#addScore#0;class#MyWorld#0" expanded="false" />
+                    <element signature="e#7519#7520#0" expanded="true" />
+                    <element signature="e#7534#7535#0" expanded="true" />
+                    <element signature="e#7563#7564#0" expanded="true" />
+                    <element signature="e#7591#7592#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mainController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mainController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="localController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/localController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="71" column="8" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="72" selection-end-column="45" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#backBtn#0;class#localController#0" expanded="false" />
+                    <element signature="method#one#0;class#localController#0" expanded="false" />
+                    <element signature="method#three#0;class#localController#0" expanded="false" />
+                    <element signature="method#four#0;class#localController#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="localSelectController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="318">
+                  <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Head.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Head.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="471">
+                  <caret line="142" column="6" lean-forward="false" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="LocalMultiplayerWorld.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2341">
+                  <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#placement#0;class#LocalMultiplayerWorld#0" expanded="false" />
+                    <element signature="method#move#0;class#LocalMultiplayerWorld#0" expanded="false" />
+                    <element signature="method#addTail#0;class#LocalMultiplayerWorld#0" expanded="false" />
+                    <element signature="method#close#0;class#LocalMultiplayerWorld#0" expanded="false" />
+                    <element signature="method#mainLoad#0;class#LocalMultiplayerWorld#0" expanded="false" />
+                    <element signature="method#saveScore#0;class#LocalMultiplayerWorld#0" expanded="false" />
+                    <element signature="method#addScore#0;class#LocalMultiplayerWorld#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Collectable.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Collectable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="658">
+                  <caret line="66" column="5" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Body.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Body.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#407#408#0" expanded="true" />
+                    <element signature="e#459#460#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,14 +151,14 @@
       <find>addT</find>
       <find>true</find>
       <find>one</find>
-      <find>static</find>
       <find>Myworld</find>
       <find>(My)</find>
-      <find>world</find>
       <find>add</find>
       <find>(MyWorld</find>
       <find>collec</find>
       <find>Head</find>
+      <find>static</find>
+      <find>world</find>
       <find>head</find>
     </findStrings>
     <replaceStrings>
@@ -122,6 +170,8 @@
       <replace>head2</replace>
       <replace>head3</replace>
       <replace>head4</replace>
+      <replace>tempBody\</replace>
+      <replace>tempBody</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -136,25 +186,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Actor2.java" />
-        <option value="$PROJECT_DIR$/src/Body.java" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.554/studentchartmaker-edgley-s-slaves-master/src/sample/HelloDragAndDrop.java" />
         <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/mayflower2.12.jar!/mayflower/World.class" />
         <option value="$PROJECT_DIR$/src/Runner.java" />
-        <option value="$PROJECT_DIR$/src/mainController.java" />
         <option value="$PROJECT_DIR$/src/localController.java" />
         <option value="$PROJECT_DIR$/src/Collectable.java" />
         <option value="$PROJECT_DIR$/src/LocalMultiplayer.java" />
-        <option value="$PROJECT_DIR$/src/MyWorld.java" />
         <option value="$PROJECT_DIR$/src/localSelectController.java" />
+        <option value="$PROJECT_DIR$/src/mainController.java" />
+        <option value="$PROJECT_DIR$/src/MyWorld.java" />
+        <option value="$PROJECT_DIR$/src/Body.java" />
         <option value="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
         <option value="$PROJECT_DIR$/src/Head.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="675" />
+    <option name="y" value="-15" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -236,7 +286,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,6 +300,17 @@
             </path>
             <path>
               <item name="IGotABigSnake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IGotABigSnake" type="462c0819:PsiDirectoryNode" />
+              <item name="mayflower2.12.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="IGotABigSnake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IGotABigSnake" type="462c0819:PsiDirectoryNode" />
+              <item name="mayflower2.12.jar" type="ab9368bb:PsiFileNode" />
+              <item name="mayflower" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IGotABigSnake" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -259,6 +319,7 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,26 +516,47 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40572035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16207626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33512932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07239583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33474576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40572035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33512932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -510,12 +592,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://H:/mayflower2.10.jar!/mayflower/World.class" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.755/mayflower/Picture.class" />
     <entry file="file://$PROJECT_DIR$/src/Actor2.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.240/mayflower/Picture.class" />
@@ -539,9 +620,6 @@
           <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#act#0;class#Collectable#0" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -566,7 +644,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="method#addScore#0;class#MyWorld#0" expanded="false" />
+            <element signature="e#7519#7520#0" expanded="true" />
+            <element signature="e#7534#7535#0" expanded="true" />
+            <element signature="e#7563#7564#0" expanded="true" />
+            <element signature="e#7591#7592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -584,9 +668,6 @@
           <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#act#0;class#Collectable#0" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -603,7 +684,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="method#addScore#0;class#MyWorld#0" expanded="false" />
+            <element signature="e#7519#7520#0" expanded="true" />
+            <element signature="e#7534#7535#0" expanded="true" />
+            <element signature="e#7563#7564#0" expanded="true" />
+            <element signature="e#7591#7592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -628,7 +715,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="method#addScore#0;class#MyWorld#0" expanded="false" />
+            <element signature="e#7519#7520#0" expanded="true" />
+            <element signature="e#7534#7535#0" expanded="true" />
+            <element signature="e#7563#7564#0" expanded="true" />
+            <element signature="e#7591#7592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,9 +739,6 @@
           <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#act#0;class#Collectable#0" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,14 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Body.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Wall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -708,18 +790,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/mayflower2.12.jar!/mayflower/Mayflower.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="method#update#0;class#Mayflower#0" expanded="false" />
+            <element signature="e#7865#7866#0" expanded="true" />
+            <element signature="e#7902#7903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/localController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2247">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="280">
+          <caret line="71" column="8" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="72" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#backBtn#0;class#localController#0" expanded="false" />
+            <element signature="method#one#0;class#localController#0" expanded="false" />
+            <element signature="method#three#0;class#localController#0" expanded="false" />
+            <element signature="method#four#0;class#localController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -727,47 +827,61 @@
     <entry file="file://$PROJECT_DIR$/src/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="153" column="5" lean-forward="true" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="561">
+          <caret line="237" column="9" lean-forward="true" selection-start-line="237" selection-start-column="9" selection-end-line="237" selection-end-column="9" />
+          <folding>
+            <element signature="method#addScore#0;class#MyWorld#0" expanded="false" />
+            <element signature="e#7519#7520#0" expanded="true" />
+            <element signature="e#7534#7535#0" expanded="true" />
+            <element signature="e#7563#7564#0" expanded="true" />
+            <element signature="e#7591#7592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Collectable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="52" column="47" lean-forward="true" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+        <state relative-caret-position="658">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#act#0;class#Collectable#0" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Body.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Head.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="142" column="6" lean-forward="false" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="231" column="54" lean-forward="true" selection-start-line="231" selection-start-column="54" selection-end-line="231" selection-end-column="54" />
+        <state relative-caret-position="2341">
+          <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6049#6095#0" expanded="false" />
             <element signature="method#placement#0;class#LocalMultiplayerWorld#0" expanded="false" />
             <element signature="method#move#0;class#LocalMultiplayerWorld#0" expanded="false" />
             <element signature="method#addTail#0;class#LocalMultiplayerWorld#0" expanded="false" />
@@ -779,13 +893,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Head.java">
+    <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="117" column="62" lean-forward="true" selection-start-line="117" selection-start-column="62" selection-end-line="117" selection-end-column="62" />
-          <folding>
-            <element signature="method#Head#0;class#Head#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="318">
+          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
