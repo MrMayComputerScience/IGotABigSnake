@@ -438,6 +438,48 @@ public class LocalMultiplayerWorld extends World {
 
 
     }
+    @FXML
+    public void again()
+    {
+
+        removeObjects(getObjects(Body.class));
+
+        //collect.resetScore();
+        score =0;
+        //head.setGameOver(false);
+        if(players==1) {
+            head1.setLocation(100,100);
+
+        }
+        if(players==2) {
+            head2.setLocation(700,100);
+
+            head1.setLocation(100,100);
+
+        }
+        if(players==3) {
+            head3.setLocation(100,500);
+
+            head2.setLocation(700,100);
+
+            head1.setLocation(100,100);
+
+        }
+        if(players==4) {
+            head4.setLocation(700,500);
+
+            head3.setLocation(100,500);
+
+            head2.setLocation(700,100);
+
+            head1.setLocation(100,100);
+
+        }
+
+
+        Stage stage = (Stage) Exit.getScene().getWindow();
+        stage.close();
+    }
 
 
 

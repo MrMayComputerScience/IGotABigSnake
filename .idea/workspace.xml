@@ -15,19 +15,17 @@
       <file leaf-file-name="LocalMultiplayerWorld.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2393">
-              <caret line="270" column="27" lean-forward="false" selection-start-line="270" selection-start-column="27" selection-end-line="270" selection-end-column="27" />
+            <state relative-caret-position="772">
+              <caret line="471" column="0" lean-forward="true" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7235#7741#0" expanded="true" />
-                <element signature="e#7740#7741#0" expanded="true" />
-                <marker date="1512762161480" expanded="false" signature="8202:8480" ph="{...}" />
-                <marker date="1512762161480" expanded="false" signature="8541:9271" ph="{...}" />
-                <marker date="1512762161480" expanded="false" signature="9334:9962" ph="{...}" />
-                <marker date="1512762161480" expanded="false" signature="10037:10237" ph="{...}" />
-                <marker date="1512762161480" expanded="false" signature="10315:10445" ph="{...}" />
-                <marker date="1512762161480" expanded="false" signature="10507:11088" ph="{...}" />
-                <marker date="1512762161480" expanded="false" signature="11149:12793" ph="{...}" />
+                <marker date="1512765027968" expanded="false" signature="8202:8480" ph="{...}" />
+                <marker date="1512765027968" expanded="false" signature="8541:9271" ph="{...}" />
+                <marker date="1512765027968" expanded="false" signature="9334:9962" ph="{...}" />
+                <marker date="1512765027968" expanded="false" signature="10037:10237" ph="{...}" />
+                <marker date="1512765027968" expanded="false" signature="10315:10445" ph="{...}" />
+                <marker date="1512765027968" expanded="false" signature="10507:11088" ph="{...}" />
+                <marker date="1512765027968" expanded="false" signature="11149:12793" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,8 +93,8 @@
       <file leaf-file-name="MyWorld.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="155" column="5" lean-forward="false" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="190" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -575,7 +573,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.755/mayflower/Picture.class" />
     <entry file="file://$PROJECT_DIR$/src/Actor2.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.240/mayflower/Picture.class" />
     <entry file="jar://H:/mayflower2.10.jar!/mayflower/Actor.class" />
@@ -885,29 +882,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/over.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="155" column="5" lean-forward="false" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="190" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2393">
-          <caret line="270" column="27" lean-forward="false" selection-start-line="270" selection-start-column="27" selection-end-line="270" selection-end-column="27" />
+        <state relative-caret-position="772">
+          <caret line="471" column="0" lean-forward="true" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7235#7741#0" expanded="true" />
-            <element signature="e#7740#7741#0" expanded="true" />
-            <marker date="1512762161480" expanded="false" signature="8202:8480" ph="{...}" />
-            <marker date="1512762161480" expanded="false" signature="8541:9271" ph="{...}" />
-            <marker date="1512762161480" expanded="false" signature="9334:9962" ph="{...}" />
-            <marker date="1512762161480" expanded="false" signature="10037:10237" ph="{...}" />
-            <marker date="1512762161480" expanded="false" signature="10315:10445" ph="{...}" />
-            <marker date="1512762161480" expanded="false" signature="10507:11088" ph="{...}" />
-            <marker date="1512762161480" expanded="false" signature="11149:12793" ph="{...}" />
+            <marker date="1512765027968" expanded="false" signature="8202:8480" ph="{...}" />
+            <marker date="1512765027968" expanded="false" signature="8541:9271" ph="{...}" />
+            <marker date="1512765027968" expanded="false" signature="9334:9962" ph="{...}" />
+            <marker date="1512765027968" expanded="false" signature="10037:10237" ph="{...}" />
+            <marker date="1512765027968" expanded="false" signature="10315:10445" ph="{...}" />
+            <marker date="1512765027968" expanded="false" signature="10507:11088" ph="{...}" />
+            <marker date="1512765027968" expanded="false" signature="11149:12793" ph="{...}" />
           </folding>
         </state>
       </provider>
