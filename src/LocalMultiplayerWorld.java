@@ -65,6 +65,7 @@ public class LocalMultiplayerWorld extends World {
 
 
     private boolean pause;
+    private boolean end;
 
     @FXML
     int score;
@@ -75,6 +76,7 @@ public class LocalMultiplayerWorld extends World {
 
     public LocalMultiplayerWorld(int players)
     {
+        end = false;
         System.out.print("THIS WORKDSSDFNIJSKD");
         this.players = players;
         //score = 0;
@@ -208,15 +210,40 @@ public class LocalMultiplayerWorld extends World {
             //collect.scoreNum +=3;
 
         }
+
         for (Head tempHead :getObjects(Head.class))
         {
+            System.out.println("size of head:"+getObjects(Head.class).size());
             if(getObjects(Head.class).size()>1) {
-                if (!tempHead.getIntersectingBody().isEmpty()) {
+                if ((!tempHead.getIntersectingBody().isEmpty())||(!(tempHead.getX()>5&&tempHead.getX()<795))||(!(tempHead.getY()>5&&tempHead.getY()<565))) {
                     removeObject(tempHead);
 
+                    if(tempHead.equals(head1))
+                    {
+                     removeObjects(order1);
+                    }
+                    if(tempHead.equals(head2))
+                    {
+                        removeObjects(order2);
+
+                    }
+                    if(tempHead.equals(head3))
+                    {
+                        removeObjects(order3);
+
+                    }
+                    if(tempHead.equals(head4))
+                    {
+                        removeObjects(order4);
+
+                    }
+
+
+
                 }
+
             }
-            else
+            if(getObjects(Head.class).size()<2&&end ==false)
             {
                 Application Gameover = new  Application() {
                     @Override
@@ -241,6 +268,7 @@ public class LocalMultiplayerWorld extends World {
                 {
 
                 }
+                end = true;
             }
 
         }

@@ -18,9 +18,9 @@ public class localController {
     @FXML private Button Exit;
 
     @FXML private  ToggleButton one;
-    @FXML private  TextField oneup;
-    @FXML private  TextField onedown;
-    @FXML private  TextField oneleft;
+    @FXML private   TextField oneup;
+    @FXML private   TextField onedown;
+    @FXML private   TextField oneleft;
     @FXML private  TextField oneright;
 
     @FXML private  ToggleButton two;
@@ -75,7 +75,7 @@ public class localController {
 
     }
 
-    public void one(ActionEvent event) throws IOException
+    public  void one(ActionEvent event) throws IOException
     {
       if (one.isSelected())
       {
