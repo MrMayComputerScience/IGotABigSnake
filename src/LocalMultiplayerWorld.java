@@ -74,11 +74,18 @@ public class LocalMultiplayerWorld extends World {
 
     private int players;
 
-    public LocalMultiplayerWorld(int players)
+    public LocalMultiplayerWorld(boolean one, boolean two, boolean three, boolean four)
     {
         end = false;
-        System.out.print("THIS WORKDSSDFNIJSKD");
-        this.players = players;
+        System.out.print("one"+one);
+        System.out.print("two"+two);
+        System.out.print("three"+three);
+        System.out.print("four"+four);
+        if(one)this.players++;
+        if(two)this.players++;
+        if(three)this.players++;
+        if(four)this.players++;
+
         //score = 0;
         highscore = new ArrayList<String>();
 
@@ -87,38 +94,86 @@ public class LocalMultiplayerWorld extends World {
 
         //get key codes
         //this.players = 4;
+        head4 = new Head(this, 200, 208, 203, 205);
+        head3 = new Head(this, 25, 39, 34, 40);
+        head2 = new Head(this, 21, 35, 34, 36);
+        head1 = new Head(this, 17, 31, 30, 32);
 
 
         if(this.players==1) {
-            head1 = new Head(this, 17, 31, 30, 32);
-            addObject(head1, 100, 100);
+            if(four) {
+
+                addObject(head4, 680, 480);
+            }
+            if(three) {
+
+                addObject(head3, 100, 480);
+            }
+            if(two) {
+
+                addObject(head2, 680, 100);
+            }
+            if(one) {
+
+                addObject(head1, 100, 100);
+            }
 
         }
         if(this.players==2) {
             //yhgj
-            head2 = new Head(this, 21, 35, 34, 36);
-            addObject(head2, 680, 480);
-            head1 = new Head(this, 17, 31, 30, 32);
-            addObject(head1, 100, 100);
+            if(four) {
+
+                addObject(head4, 680, 480);
+            }
+            if(three) {
+
+                addObject(head3, 100, 480);
+            }
+            if(two) {
+
+                addObject(head2, 680, 100);
+            }
+            if(one) {
+
+                addObject(head1, 100, 100);
+            }
         }
         if(this.players==3) {
             //p;l'
-            head3 = new Head(this, 25, 39, 34, 40);
-            addObject(head3, 680, 480);
-            head2 = new Head(this, 21, 35, 34, 36);
-            addObject(head2, 680, 100);
-            head1 = new Head(this, 17, 31, 30, 32);
-            addObject(head1, 100, 100);
+            if(four) {
+
+                addObject(head4, 680, 480);
+            }
+            if(three) {
+
+                addObject(head3, 100, 480);
+            }
+            if(two) {
+
+                addObject(head2, 680, 100);
+            }
+            if(one) {
+
+                addObject(head1, 100, 100);
+            }
         }
         if(this.players==4) {
-            head4 = new Head(this, 200, 208, 203, 205);
-            addObject(head4, 680, 480);
-            head3 = new Head(this, 25, 39, 34, 40);
-            addObject(head3, 100, 480);
-            head2 = new Head(this, 21, 35, 34, 36);
-            addObject(head2, 680, 100);
-            head1 = new Head(this, 17, 31, 30, 32);
-            addObject(head1, 100, 100);
+            if(four) {
+
+                addObject(head4, 680, 480);
+            }
+            if(three) {
+
+                addObject(head3, 100, 480);
+            }
+            if(two) {
+
+                addObject(head2, 680, 100);
+            }
+            if(one) {
+
+                addObject(head1, 100, 100);
+            }
         }
 
         collect = new Collectable(this);
@@ -146,16 +201,28 @@ public class LocalMultiplayerWorld extends World {
         if(time.isDone()&&!pause)
         {
             if(players==1) {
+                head4.setLocation(head4.getX()+head4.getNextX(),head4.getY()+head4.getNextY());
+                move(order4,head4);
+                head3.setLocation(head3.getX()+head3.getNextX(),head3.getY()+head3.getNextY());
+                move(order3,head3);
+                head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
+                move(order2,head2);
                 head1.setLocation(head1.getX()+head1.getNextX(),head1.getY()+head1.getNextY());
                 move(order1,head1);
             }
             if(players==2) {
+                head4.setLocation(head4.getX()+head4.getNextX(),head4.getY()+head4.getNextY());
+                move(order4,head4);
+                head3.setLocation(head3.getX()+head3.getNextX(),head3.getY()+head3.getNextY());
+                move(order3,head3);
                 head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
                 move(order2,head2);
                 head1.setLocation(head1.getX()+head1.getNextX(),head1.getY()+head1.getNextY());
                 move(order1,head1);
             }
             if(players==3) {
+                head4.setLocation(head4.getX()+head4.getNextX(),head4.getY()+head4.getNextY());
+                move(order4,head4);
                 head3.setLocation(head3.getX()+head3.getNextX(),head3.getY()+head3.getNextY());
                 move(order3,head3);
                 head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
@@ -213,7 +280,7 @@ public class LocalMultiplayerWorld extends World {
 
         for (Head tempHead :getObjects(Head.class))
         {
-            System.out.println("size of head:"+getObjects(Head.class).size());
+            //System.out.println("size of head:"+getObjects(Head.class).size());
             if(getObjects(Head.class).size()>1) {
                 if ((!tempHead.getIntersectingBody().isEmpty())||(!(tempHead.getX()>5&&tempHead.getX()<780))||(!(tempHead.getY()>5&&tempHead.getY()<565))) {
                     removeObject(tempHead);

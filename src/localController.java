@@ -86,7 +86,7 @@ public class localController {
 
         }
         localSelectController local = loader.getController();
-        local.setPlayers(one.isSelected(),two.isSelected(),three.isSelected(),four.isSelected());
+        local.setPlayers(oneup.isVisible(),twoup.isVisible(),threeup.isVisible(),fourup.isVisible());
 
 
 

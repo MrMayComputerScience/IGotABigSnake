@@ -59,7 +59,7 @@ public class localSelectController {
             @Override
             public void init() {
                 System.out.println("running");
-                setWorld(new LocalMultiplayerWorld(players));
+                setWorld(new LocalMultiplayerWorld(playerone,playertwo,playerthree,playerfour));
                 System.out.println("running2");
                 //showBounds(true);
 
@@ -84,11 +84,11 @@ public class localSelectController {
     @FXML
     public void setPlayers(boolean one, boolean two, boolean three, boolean four) throws IOException
     {
-        players=0;
-        if(one)players++;
-        if(two)players++;
-        if(three)players++;
-        if(four)players++;
+        //players=0;
+        this.playerone=one;
+        this.playertwo=two;
+        this.playerthree=three;
+        this.playerfour=four;
 
 
 
