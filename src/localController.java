@@ -1,16 +1,22 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
+
+
 import mayflower.Keyboard;
 import mayflower.Mayflower;
 
 import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class localController {
 
@@ -69,8 +75,27 @@ public class localController {
     //@FXML
     public void continueBtn(ActionEvent event) throws IOException
     {
-        GridPane pane = FXMLLoader.load(getClass().getResource("localSelect.fxml"));
-        localPane.getChildren().setAll(pane);
+
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("localSelect.fxml"));
+        try{
+            loader.load();
+        } catch (IOException ex)
+        {
+            Logger.getLogger(localController.class.getName()).log(Level.SEVERE, null, ex);
+
+        }
+        localSelectController local = loader.getController();
+        local.setPlayers(one.isSelected(),two.isSelected(),three.isSelected(),four.isSelected());
+
+
+
+        Parent p = loader.getRoot();
+        localPane.getChildren().setAll(p);
+
+
+
+
 
 
     }

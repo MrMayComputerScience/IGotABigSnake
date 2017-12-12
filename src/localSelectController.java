@@ -1,5 +1,6 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
@@ -7,6 +8,8 @@ import javafx.stage.Stage;
 import mayflower.Mayflower;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
 public class localSelectController {
 
@@ -37,22 +40,26 @@ public class localSelectController {
     @FXML private static TextField fourleft;
     @FXML private static TextField fourright;
 
+    @FXML private localController local;
+
+    @FXML private boolean playerone, playertwo, playerthree, playerfour;
+
+    @FXML private int players;
 
 
-    @FXML
-    public void initialize() {
 
-    }
+
 
     @FXML
     public void localMulti(ActionEvent event) throws IOException
     {
 
+
         new Mayflower("Snake", 800, 600) {
             @Override
             public void init() {
                 System.out.println("running");
-                setWorld(new LocalMultiplayerWorld(4));
+                setWorld(new LocalMultiplayerWorld(players));
                 System.out.println("running2");
                 //showBounds(true);
 
@@ -72,6 +79,18 @@ public class localSelectController {
         {
 
         }
+
+    }
+    @FXML
+    public void setPlayers(boolean one, boolean two, boolean three, boolean four) throws IOException
+    {
+        players=0;
+        if(one)players++;
+        if(two)players++;
+        if(three)players++;
+        if(four)players++;
+
+
 
     }
 

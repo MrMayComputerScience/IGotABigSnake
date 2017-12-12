@@ -97,26 +97,26 @@ public class LocalMultiplayerWorld extends World {
         if(this.players==2) {
             //yhgj
             head2 = new Head(this, 21, 35, 34, 36);
-            addObject(head2, 120, 100);
+            addObject(head2, 680, 480);
             head1 = new Head(this, 17, 31, 30, 32);
             addObject(head1, 100, 100);
         }
         if(this.players==3) {
             //p;l'
             head3 = new Head(this, 25, 39, 34, 40);
-            addObject(head3, 140, 100);
+            addObject(head3, 680, 480);
             head2 = new Head(this, 21, 35, 34, 36);
-            addObject(head2, 120, 100);
+            addObject(head2, 680, 100);
             head1 = new Head(this, 17, 31, 30, 32);
             addObject(head1, 100, 100);
         }
         if(this.players==4) {
             head4 = new Head(this, 200, 208, 203, 205);
-            addObject(head4, 400, 400);
+            addObject(head4, 680, 480);
             head3 = new Head(this, 25, 39, 34, 40);
-            addObject(head3, 140, 100);
+            addObject(head3, 100, 480);
             head2 = new Head(this, 21, 35, 34, 36);
-            addObject(head2, 120, 100);
+            addObject(head2, 680, 100);
             head1 = new Head(this, 17, 31, 30, 32);
             addObject(head1, 100, 100);
         }
@@ -215,7 +215,7 @@ public class LocalMultiplayerWorld extends World {
         {
             System.out.println("size of head:"+getObjects(Head.class).size());
             if(getObjects(Head.class).size()>1) {
-                if ((!tempHead.getIntersectingBody().isEmpty())||(!(tempHead.getX()>5&&tempHead.getX()<795))||(!(tempHead.getY()>5&&tempHead.getY()<565))) {
+                if ((!tempHead.getIntersectingBody().isEmpty())||(!(tempHead.getX()>5&&tempHead.getX()<780))||(!(tempHead.getY()>5&&tempHead.getY()<565))) {
                     removeObject(tempHead);
 
                     if(tempHead.equals(head1))
