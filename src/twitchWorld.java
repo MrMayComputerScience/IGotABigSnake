@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class LocalMultiplayerWorld extends World {
+public class twitchWorld extends World {
     @FXML
     public Button Exit;
 
@@ -74,7 +74,7 @@ public class LocalMultiplayerWorld extends World {
 
     private int players;
 
-    public LocalMultiplayerWorld(boolean one, boolean two, boolean three, boolean four)
+    public twitchWorld(boolean one, boolean two, boolean three, boolean four)
     {
         end = false;
         System.out.print("one"+one);
@@ -94,10 +94,7 @@ public class LocalMultiplayerWorld extends World {
 
         //get key codes
         //this.players = 4;
-        head4 = new Head(this, 200, 208, 203, 205);
-        head3 = new Head(this, 25, 39, 38, 40);
-        head2 = new Head(this, 21, 35, 34, 36);
-        head1 = new Head(this, 17, 31, 30, 32);
+        twitchHead head = new twitchHead(this, one,two,three,four);
 
 
         if(this.players==1) {

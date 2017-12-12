@@ -5,6 +5,7 @@ import java.util.List;
 public class Collectable extends Actor {
     private MyWorld Myworld;
     private LocalMultiplayerWorld localWorld;
+    private twitchWorld TwitchWorld;
 
     private Mayflower mayflower;
     private int X;
@@ -31,6 +32,20 @@ public class Collectable extends Actor {
     {
 
         this.localWorld = world;
+        img = new MayflowerImage("collectable.png");
+        setImage(img);
+        scale(.9);
+        scoreNum =0;
+
+
+        world.addObject(this,19*20+1,14*20+1);
+
+
+    }
+    public Collectable(twitchWorld world)
+    {
+
+        this.TwitchWorld = world;
         img = new MayflowerImage("collectable.png");
         setImage(img);
         scale(.9);
