@@ -66,6 +66,23 @@ public class Head extends Actor {
         nextY = 0;
         tempSpace = -1;
     }
+    public Head(miceWorld world)
+    {
+        this.up = 200;
+        this.down = 208;
+        this.left = 203;
+        this.right = 205;
+        this.world = world;
+        score = 0;
+        gameOver = false;
+        dir = "";
+        //BLUE
+        setImage("head.png");
+
+        nextX = 0;
+        nextY = 0;
+        tempSpace = -1;
+    }
     public void act()
     {
 //North - South
@@ -116,32 +133,10 @@ public class Head extends Actor {
             nextX = 0;
             nextY = 0;
             dir = "";
-
-         /*Application Gameover = new  Application() {
-        @Override
-        public void start(Stage stage) throws Exception {
-            //System.out.println("trun");
-            Parent root = FXMLLoader.load(getClass().getResource("over.fxml"));
-            Scene scene = new Scene(root, 600, 400);
-            stage.setTitle("Snake");
-            stage.setScene(scene);
-            stage.show();
-               }
-
-    };
-    try {
-        Stage stage = new Stage();
-        Gameover.start(stage);
-        System.out.println("touch wall");
-
-
-    }
-    catch(Exception E)
-    {
-
-    }
-    */
         }
+
+
+
 
     }
 
