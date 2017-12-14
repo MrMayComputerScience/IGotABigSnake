@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .idea/libraries/mayflower2_1.xml
 *.xml
@@ -18,4 +19,10 @@
 *.xml
 *.xml
 *.xml
+=======
+<<<<<<< HEAD
+*.xml
+=======
+>>>>>>> 3d127da341b008186b2f2b752a9b30192a5b26b6
+>>>>>>> 40529ebdb912eb9a5769da6a4276144c1263c02b
 *.xml
