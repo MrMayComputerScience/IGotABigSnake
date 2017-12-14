@@ -82,6 +82,22 @@ public class localSelectController {
             }
         };
     }
+    @FXML
+    public void playMice(ActionEvent event) throws IOException
+    {
+
+
+        new Mayflower("Snake", 800, 600) {
+            @Override
+            public void init() {
+                //System.out.println("running");
+                setWorld(new miceWorld(playerone,playertwo,playerthree,playerfour));
+                //System.out.println("running2");
+                //showBounds(true);
+
+            }
+        };
+    }
 
     @FXML
     public void backBtn(ActionEvent event) throws IOException
