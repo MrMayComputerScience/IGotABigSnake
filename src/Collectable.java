@@ -66,7 +66,7 @@ public class Collectable extends Actor {
         X = mayflower.getRandomNumber(37)+1;
         Y = mayflower.getRandomNumber(27)+1;
         //System.out.println("TOUCH: COLLECT");
-        if(Myworld.getObjectsAt(X*20+1,Y*20+1).isEmpty()||localWorld.getObjectsAt(X*20+1,Y*20+1).isEmpty())
+        if(Myworld.getObjectsAt(X*20+1,Y*20+1).isEmpty()||localWorld.getObjectsAt(X*20+1,Y*20+1).isEmpty()||TwitchWorld.getObjectsAt(X*20+1,Y*20+1).isEmpty())
             setLocation(X*20+1,Y*20+1);
         else placement();
 
@@ -77,6 +77,10 @@ public class Collectable extends Actor {
     }
 
     public List<Head> getIntersectingHead(Class Class)
+    {
+        return getIntersectingObjects(Class);
+    }
+    public List<twitchHead> getIntersectingTwitchHead(Class Class)
     {
         return getIntersectingObjects(Class);
     }

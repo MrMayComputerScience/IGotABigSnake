@@ -13,7 +13,7 @@ public class twitchHead extends Actor {
     private int spaceY;
     private int tempSpace;
     private boolean gameOver;
-    private World world;
+    private twitchWorld world;
     private String dir;
     private boolean multi;
 
@@ -56,6 +56,7 @@ public class twitchHead extends Actor {
         this.four = four;
 
         this.world = world;
+        setLocation(200,200);
         score = 0;
         gameOver = false;
         dir = "";
@@ -65,6 +66,7 @@ public class twitchHead extends Actor {
         nextX = 0;
         nextY = 0;
         tempSpace = -1;
+
 
         if(one)this.players++;
         if(two)this.players++;
@@ -174,12 +176,13 @@ public class twitchHead extends Actor {
 
 
 
+
     }
     public void act()
     {
 //North - South
         //17
-        
+
 
         if((mayflower.wasKeyDown(up1))&&(mayflower.wasKeyDown(up2))&&(mayflower.wasKeyDown(up3))&&(mayflower.wasKeyDown(up4))&&!dir.equals("South"))
         {
@@ -230,6 +233,7 @@ public class twitchHead extends Actor {
 
 
         }
+
 
     }
 

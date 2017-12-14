@@ -46,19 +46,15 @@ public class twitchWorld extends World {
     private static ArrayList<String> highscore;
 
 
-    private Head head1;
-    private Head head2;
-    private Head head3;
-    private Head head4;
+    private twitchHead head;
+
 
     private Mayflower mayflower;
     private Timer time;
 
     private static Collectable collect;
-    private static ArrayList<Body> order1;
-    private static ArrayList<Body> order2;
-    private static ArrayList<Body> order3;
-    private static ArrayList<Body> order4;
+    private static ArrayList<Body> order;
+
     @FXML
     private static Label label;
 
@@ -94,91 +90,18 @@ public class twitchWorld extends World {
 
         //get key codes
         //this.players = 4;
-        twitchHead head = new twitchHead(this, one,two,three,four);
+        //head = new twitchHead(this, one,two,three,four);
+        head = new twitchHead(this, one,two,three,four);
+        addObject(head,100,100);
 
 
-        if(this.players==1) {
-            if(four) {
 
-                addObject(head4, 680, 480);
-            }
-            if(three) {
 
-                addObject(head3, 100, 480);
-            }
-            if(two) {
-
-                addObject(head2, 680, 100);
-            }
-            if(one) {
-
-                addObject(head1, 100, 100);
-            }
-
-        }
-        if(this.players==2) {
-            //yhgj
-            if(four) {
-
-                addObject(head4, 680, 480);
-            }
-            if(three) {
-
-                addObject(head3, 100, 480);
-            }
-            if(two) {
-
-                addObject(head2, 680, 100);
-            }
-            if(one) {
-
-                addObject(head1, 100, 100);
-            }
-        }
-        if(this.players==3) {
-            //p;l'
-            if(four) {
-
-                addObject(head4, 680, 480);
-            }
-            if(three) {
-
-                addObject(head3, 100, 480);
-            }
-            if(two) {
-
-                addObject(head2, 680, 100);
-            }
-            if(one) {
-
-                addObject(head1, 100, 100);
-            }
-        }
-        if(this.players==4) {
-            if(four) {
-
-                addObject(head4, 680, 480);
-            }
-            if(three) {
-
-                addObject(head3, 100, 480);
-            }
-            if(two) {
-
-                addObject(head2, 680, 100);
-            }
-            if(one) {
-
-                addObject(head1, 100, 100);
-            }
-        }
 
         collect = new Collectable(this);
 
-        order1 = new ArrayList<>();
-        order2 = new ArrayList<>();
-        order3 = new ArrayList<>();
-        order4 = new ArrayList<>();
+        order = new ArrayList<>();
+
 
 
         time = new Timer(75);
@@ -197,77 +120,26 @@ public class twitchWorld extends World {
     {
         if(time.isDone()&&!pause)
         {
-            if(players==1) {
-                head4.setLocation(head4.getX()+head4.getNextX(),head4.getY()+head4.getNextY());
-                move(order4,head4);
-                head3.setLocation(head3.getX()+head3.getNextX(),head3.getY()+head3.getNextY());
-                move(order3,head3);
-                head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
-                move(order2,head2);
-                head1.setLocation(head1.getX()+head1.getNextX(),head1.getY()+head1.getNextY());
-                move(order1,head1);
-            }
-            if(players==2) {
-                head4.setLocation(head4.getX()+head4.getNextX(),head4.getY()+head4.getNextY());
-                move(order4,head4);
-                head3.setLocation(head3.getX()+head3.getNextX(),head3.getY()+head3.getNextY());
-                move(order3,head3);
-                head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
-                move(order2,head2);
-                head1.setLocation(head1.getX()+head1.getNextX(),head1.getY()+head1.getNextY());
-                move(order1,head1);
-            }
-            if(players==3) {
-                head4.setLocation(head4.getX()+head4.getNextX(),head4.getY()+head4.getNextY());
-                move(order4,head4);
-                head3.setLocation(head3.getX()+head3.getNextX(),head3.getY()+head3.getNextY());
-                move(order3,head3);
-                head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
-                move(order2,head2);
-                head1.setLocation(head1.getX()+head1.getNextX(),head1.getY()+head1.getNextY());
-                move(order1,head1);
-            }
-            if(players==4) {
-                head4.setLocation(head4.getX()+head4.getNextX(),head4.getY()+head4.getNextY());
-                move(order4,head4);
-                head3.setLocation(head3.getX()+head3.getNextX(),head3.getY()+head3.getNextY());
-                move(order3,head3);
-                head2.setLocation(head2.getX()+head2.getNextX(),head2.getY()+head2.getNextY());
-                move(order2,head2);
-                head1.setLocation(head1.getX()+head1.getNextX(),head1.getY()+head1.getNextY());
-                move(order1,head1);
-            }
+            System.out.println("size of head:"+getObjects(twitchHead.class).size());
+
+                head.setLocation(head.getX()+head.getNextX(),head.getY()+head.getNextY());
+                move(order,head);
+
+
+
 
             repaint();
 
             time.reset();
         }
-        for (Head head:collect.getIntersectingHead(Head.class))
+        for ( twitchHead head:collect.getIntersectingTwitchHead(twitchHead.class))
         {
-            if(head.equals(head1))
-            {
-                addTail(order1, head);
-                addTail(order1, head);
-                addTail(order1, head);
-            }
-            if(head.equals(head2))
-            {
-                addTail(order2, head);
-                addTail(order2, head);
-                addTail(order2, head);
-            }
-            if(head.equals(head3))
-            {
-                addTail(order3, head);
-                addTail(order3, head);
-                addTail(order3, head);
-            }
-            if(head.equals(head4))
-            {
-                addTail(order4, head);
-                addTail(order4, head);
-                addTail(order4, head);
-            }
+
+                addTail(order, this.head);
+                addTail(order, this.head);
+                addTail(order, this.head);
+            
+
 
 
             placement();
@@ -275,67 +147,49 @@ public class twitchWorld extends World {
 
         }
 
-        for (Head tempHead :getObjects(Head.class))
-        {
-            //System.out.println("size of head:"+getObjects(Head.class).size());
-            if(getObjects(Head.class).size()>1) {
-                if ((!tempHead.getIntersectingBody().isEmpty())||(!(tempHead.getX()>5&&tempHead.getX()<780))||(!(tempHead.getY()>5&&tempHead.getY()<565))) {
-                    removeObject(tempHead);
-
-                    if(tempHead.equals(head1))
-                    {
-                     removeObjects(order1);
-                    }
-                    if(tempHead.equals(head2))
-                    {
-                        removeObjects(order2);
-
-                    }
-                    if(tempHead.equals(head3))
-                    {
-                        removeObjects(order3);
-
-                    }
-                    if(tempHead.equals(head4))
-                    {
-                        removeObjects(order4);
-
-                    }
 
 
 
-                }
+                if ((!head.getIntersectingBody().isEmpty())||(!(head.getX()>5&&head.getX()<780))||(!(head.getY()>5&&head.getY()<565))) {
+                    removeObject(head);
 
-            }
-            if(getObjects(Head.class).size()<2&&end ==false)
-            {
-                Application Gameover = new  Application() {
-                    @Override
-                    public void start(Stage stage) throws Exception {
-                        //System.out.println("trun");
-                        Parent root = FXMLLoader.load(getClass().getResource("over.fxml"));
-                        Scene scene = new Scene(root, 600, 400);
-                        stage.setTitle("Snake");
-                        stage.setScene(scene);
-                        stage.show();
-                    }
 
-                };
-                try {
-                    Stage stage = new Stage();
-                    Gameover.start(stage);
-                    System.out.println("touch wall");
+                     removeObjects(order);
 
+                     if(end==false)
+                     {
+                         Application Gameover = new  Application() {
+                             @Override
+                             public void start(Stage stage) throws Exception {
+                                 //System.out.println("trun");
+                                 Parent root = FXMLLoader.load(getClass().getResource("over.fxml"));
+                                 Scene scene = new Scene(root, 600, 400);
+                                 stage.setTitle("Snake");
+                                 stage.setScene(scene);
+                                 stage.show();
+                             }
+
+                         };
+                         try {
+                             Stage stage = new Stage();
+                             Gameover.start(stage);
+                             System.out.println("touch wall");
+
+
+                         }
+                         catch(Exception E)
+                         {
+
+                         }
+                         end = true;
+                     }
 
                 }
-                catch(Exception E)
-                {
 
-                }
-                end = true;
-            }
 
-        }
+
+
+
         //if(mayflower.isKeyPressed(57)) pause=!pause;
 
 
@@ -353,7 +207,7 @@ public class twitchWorld extends World {
 
     }
 
-    public void move(ArrayList<Body> order, Head head)
+    public void move(ArrayList<Body> order, twitchHead head)
     {
 
 
@@ -373,7 +227,7 @@ public class twitchWorld extends World {
 
         }
     }
-    public void addTail(ArrayList<Body> order, Head head)
+    public void addTail(ArrayList<Body> order, twitchHead head)
     {
         System.out.print(order.size());
 
@@ -511,34 +365,10 @@ public class twitchWorld extends World {
         //collect.resetScore();
         score =0;
         //head.setGameOver(false);
-        if(players==1) {
-            head1.setLocation(100,100);
 
-        }
-        if(players==2) {
-            head2.setLocation(700,100);
+            head.setLocation(100,100);
 
-            head1.setLocation(100,100);
 
-        }
-        if(players==3) {
-            head3.setLocation(100,500);
-
-            head2.setLocation(700,100);
-
-            head1.setLocation(100,100);
-
-        }
-        if(players==4) {
-            head4.setLocation(700,500);
-
-            head3.setLocation(100,500);
-
-            head2.setLocation(700,100);
-
-            head1.setLocation(100,100);
-
-        }
 
 
         Stage stage = (Stage) Exit.getScene().getWindow();

@@ -30,7 +30,7 @@
             <Insets bottom="2.0" top="2.0" />
          </GridPane.margin>
       </ToggleButton>
-      <ToggleButton fx:id="twitch" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" text="Twitch Plays" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+      <ToggleButton fx:id="twitch" contentDisplay="CENTER" mnemonicParsing="false" onAction="#playTwitch" prefHeight="80.0" prefWidth="200.0" text="Twitch Plays" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
          <font>
             <Font name="Agency FB Bold" size="30.0" />
          </font>

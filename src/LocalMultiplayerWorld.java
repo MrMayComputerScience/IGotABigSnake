@@ -95,6 +95,7 @@ public class LocalMultiplayerWorld extends World {
         //get key codes
         //this.players = 4;
         head4 = new Head(this, 200, 208, 203, 205);
+
         head3 = new Head(this, 25, 39, 38, 40);
         head2 = new Head(this, 21, 35, 34, 36);
         head1 = new Head(this, 17, 31, 30, 32);
