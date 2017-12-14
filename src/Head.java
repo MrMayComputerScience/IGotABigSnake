@@ -11,7 +11,7 @@ import mayflower.World;
 
 public class Head extends Actor {
     private Mayflower mayflower;
-
+    public int gameover;
     private int nextX;
     private int nextY;
     private int spaceX;
@@ -57,6 +57,7 @@ public class Head extends Actor {
         score = 0;
         gameOver = false;
         dir = "";
+        gameover = 0;
         //BLUE
         setImage("head.png");
 
@@ -113,10 +114,10 @@ public class Head extends Actor {
         {
 //            if(multi)
 //            world.removeObject(this);
-
+            gameover =1;
 
             world.removeObjects(world.getObjects(Body.class));
-            //setLocation(100,100);
+            setLocation(100,100);
             nextX = 0;
             nextY = 0;
             dir = "";
@@ -136,11 +137,12 @@ public class Head extends Actor {
 
             };
             try {
-                Stage stage = new Stage();
-                Gameover.start(stage);
-                System.out.println("touch wall");
-
-
+                if(gameover == 1) {
+                    Stage stage = new Stage();
+                    Gameover.start(stage);
+                    System.out.println("touch wall");
+                    gameover = 0;
+                }
             }
             catch(Exception E)
             {
