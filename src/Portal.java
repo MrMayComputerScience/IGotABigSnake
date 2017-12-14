@@ -17,7 +17,11 @@ import java.util.Collections;
 import java.util.Scanner;
 
 
+<<<<<<< HEAD
 public class Portal extends MyWorld {
+=======
+public class Portal extends World {
+>>>>>>> 3d127da341b008186b2f2b752a9b30192a5b26b6
 
     @FXML
     public Button Exit;
