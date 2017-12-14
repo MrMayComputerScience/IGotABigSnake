@@ -14,11 +14,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
           <file leaf-file-name="Head.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Head.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
                   <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+=======
+          <file leaf-file-name="Head.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Head.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="463">
+                  <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
                   <folding />
                 </state>
               </provider>
@@ -37,24 +45,51 @@
           <file leaf-file-name="localSelectController.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="1326">
                   <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
                   <folding>
                     <marker date="1513276590000" expanded="true" signature="2872:3072" ph="{...}" />
                   </folding>
+=======
+                <state relative-caret-position="233">
+                  <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+                  <folding />
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
+=======
+          <file leaf-file-name="miceWorld.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/miceWorld.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="193">
+                  <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
           <file leaf-file-name="LocalMultiplayerWorld.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="293">
                   <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+=======
+          <file leaf-file-name="LocalMultiplayerWorld.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="293">
+                  <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -62,6 +97,7 @@
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="twitchWorld.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/twitchWorld.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -81,6 +117,24 @@
                     <marker date="1513276592000" expanded="true" signature="9077:9229" ph="//..." />
                     <marker date="1513276592000" expanded="true" signature="9387:9654" ph="{...}" />
                   </folding>
+=======
+          <file leaf-file-name="movableCollectable.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/movableCollectable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="twitchWorld.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/twitchWorld.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="200" column="8" lean-forward="true" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="48" />
+                  <folding />
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
                 </state>
               </provider>
             </entry>
@@ -172,6 +226,10 @@
         <option value="$PROJECT_DIR$/src/MyWorld.java" />
         <option value="$PROJECT_DIR$/src/Body.java" />
         <option value="$PROJECT_DIR$/src/localController.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
         <option value="$PROJECT_DIR$/src/twitchHead.java" />
         <option value="$PROJECT_DIR$/src/twitchWorld.java" />
         <option value="$PROJECT_DIR$/src/Collectable.java" />
@@ -179,7 +237,10 @@
         <option value="$PROJECT_DIR$/src/localSelectController.java" />
         <option value="$PROJECT_DIR$/src/movableCollectable.java" />
         <option value="$PROJECT_DIR$/src/miceWorld.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
+=======
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
       </list>
     </option>
   </component>
@@ -744,7 +805,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="225" column="9" lean-forward="false" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+            <marker date="1513278676964" expanded="false" signature="5235:5246" ph=" { " />
+            <marker date="1513278676964" expanded="false" signature="5259:5265" ph=" }" />
+            <marker date="1513278676964" expanded="false" signature="5292:5303" ph=" { " />
+            <marker date="1513278676964" expanded="false" signature="5316:5322" ph=" }" />
+            <marker date="1513278676964" expanded="false" signature="5350:5361" ph=" { " />
+            <marker date="1513278676964" expanded="false" signature="5375:5381" ph=" }" />
+            <marker date="1513278676964" expanded="false" signature="5409:5420" ph=" { " />
+            <marker date="1513278676964" expanded="false" signature="5434:5440" ph=" }" />
+            <marker date="1513278676964" expanded="false" signature="5467:5478" ph=" { " />
+            <marker date="1513278676964" expanded="false" signature="5491:5497" ph=" }" />
+          </folding>
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
         </state>
       </provider>
     </entry>
@@ -760,6 +836,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyWorld.java">
+<<<<<<< HEAD
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1101">
           <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
@@ -769,6 +847,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/twitchWorld.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="200" column="8" lean-forward="true" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8852#9358#0" expanded="true" />
+            <element signature="e#9357#9358#0" expanded="true" />
+            <marker date="1513278676961" expanded="false" signature="9819:10097" ph="{...}" />
+            <marker date="1513278676961" expanded="false" signature="10158:10888" ph="{...}" />
+            <marker date="1513278676961" expanded="false" signature="10951:11579" ph="{...}" />
+            <marker date="1513278676961" expanded="false" signature="11654:11854" ph="{...}" />
+            <marker date="1513278676961" expanded="false" signature="11932:12062" ph="{...}" />
+            <marker date="1513278676961" expanded="false" signature="12124:12705" ph="{...}" />
+            <marker date="1513278676961" expanded="false" signature="12766:14410" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twitchWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3077">
           <caret line="200" column="8" lean-forward="false" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="48" />
           <folding>
@@ -785,11 +900,17 @@
             <marker date="1513276592000" expanded="true" signature="9077:9229" ph="//..." />
             <marker date="1513276592000" expanded="true" signature="9387:9654" ph="{...}" />
           </folding>
+=======
+        <state relative-caret-position="463">
+          <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding />
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="293">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
@@ -805,13 +926,23 @@
           <folding>
             <marker date="1513276590000" expanded="true" signature="2872:3072" ph="{...}" />
           </folding>
+=======
+        <state relative-caret-position="193">
+          <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+          <folding />
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Head.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="323">
           <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+=======
+        <state relative-caret-position="220">
+          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+>>>>>>> 12966e1fa43092823f2cbe43581a1a80f61295c4
           <folding />
         </state>
       </provider>
