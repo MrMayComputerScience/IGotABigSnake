@@ -39,7 +39,7 @@
          </GridPane.margin>
       </ToggleButton>
       <TextField alignment="CENTER" blendMode="MULTIPLY" cacheHint="SPEED" cacheShape="false" centerShape="false" depthTest="DISABLE" editable="false" focusTraversable="false" promptText="Select Gamemode" scaleShape="false" text="Select Gamemode" />
-      <ToggleButton fx:id="threeMice" contentDisplay="CENTER" mnemonicParsing="false" onAction="#playTwitch" prefHeight="80.0" prefWidth="200.0" text="3 Mice" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+      <ToggleButton fx:id="threeMice" contentDisplay="CENTER" mnemonicParsing="false" onAction="#playMice" prefHeight="80.0" prefWidth="200.0" text="3 Mice" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4">
          <font>
             <Font name="Agency FB Bold" size="30.0" />
          </font>

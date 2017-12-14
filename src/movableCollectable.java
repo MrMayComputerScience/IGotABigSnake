@@ -40,10 +40,10 @@ public class movableCollectable extends Actor {
 
         time = new Timer(75);
 
-        this.up = 200;
-        this.down = 208;
-        this.left = 203;
-        this.right = 205;
+        this.up = up;
+        this.down = down;
+        this.left = left;
+        this.right = right;
         //this.world = world;
         /*score = 0;
         gameOver = false;
@@ -60,23 +60,8 @@ public class movableCollectable extends Actor {
     }
     public void act()
     {
-        if(time.isDone())
-        {
-            setLocation(getX()+getNextX(),getY()+getNextY());
-            //move();
-            time.reset();
-            //System.out.println("score: "+collect.getScore());
 
-            //score = head.getScore();
-
-            //label.setText("Score: "+head.getScore());
-
-            //repaint();
-            //System.out.println(head.getX() - head.getNextX()-head.getSpaceX());
-            // System.out.println(score);
-            //System.out.println(score);
-        }
-        if(mayflower.wasKeyDown(up)&&!dir.equals("South"))
+        if(mayflower.wasKeyDown(up))
         {
             nextY = -20;
             nextX = 0;
@@ -86,7 +71,7 @@ public class movableCollectable extends Actor {
         }
 
         //31
-        if(mayflower.wasKeyDown(down)&&!dir.equals("North"))
+        if(mayflower.wasKeyDown(down))
         {
             nextY = 20;
             nextX = 0;
@@ -97,7 +82,7 @@ public class movableCollectable extends Actor {
         }
 //East - West
         //32
-        if(mayflower.wasKeyDown(right)&&!dir.equals("West"))
+        if(mayflower.wasKeyDown(right))
         {
             nextX = 20;
             nextY = 0;
@@ -107,7 +92,7 @@ public class movableCollectable extends Actor {
             dir = "East";
         }
         //30
-        if(mayflower.wasKeyDown(left)&&!dir.equals("East"))
+        if(mayflower.wasKeyDown(left))
         {
             nextX = -20;
             nextY = 0;

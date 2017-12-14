@@ -66,12 +66,13 @@ public class Head extends Actor {
         nextY = 0;
         tempSpace = -1;
     }
-    public Head(miceWorld world)
+    public Head(miceWorld world, int up, int down, int left, int right)
     {
-        this.up = 200;
-        this.down = 208;
-        this.left = 203;
-        this.right = 205;
+        this.up = up;
+        this.down = down;
+        this.left = left;
+        this.right = right;
+        //this.world = world;
         this.world = world;
         score = 0;
         gameOver = false;
@@ -162,5 +163,9 @@ public class Head extends Actor {
     public List<Body> getIntersectingBody()
     {
         return getIntersectingObjects(Body.class);
+    }
+    public List<movableCollectable> getIntersectingMovable()
+    {
+        return getIntersectingObjects(movableCollectable.class);
     }
 }
