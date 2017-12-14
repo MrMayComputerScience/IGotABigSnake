@@ -52,7 +52,7 @@ public class miceWorld extends World {
     private Mayflower mayflower;
     private Timer time;
 
-    private static Collectable collect;
+    private static movableCollectable collect1, collect2, collect3, collect4;
     private static ArrayList<Body> order;
 
     @FXML
@@ -70,8 +70,14 @@ public class miceWorld extends World {
 
     private int players;
 
+    private boolean one, two, three, four;
+
     public miceWorld(boolean one, boolean two, boolean three, boolean four)
     {
+        this.one = one;
+        this.two = two;
+        this.three = three;
+        this.four = four;
         end = false;
         System.out.print("one"+one);
         System.out.print("two"+two);
@@ -91,14 +97,19 @@ public class miceWorld extends World {
         //get key codes
         //this.players = 4;
         //head = new twitchHead(this, one,two,three,four);
-        head = new Head(this);
-        addObject(head,100,100);
+
+        //addObject(head,100,100);
+
+        movableCollectable collect1 = new movableCollectable(this, 17, 31, 30, 32);
+        movableCollectable collect2 = new movableCollectable(this, 21, 35, 34, 36);
+        movableCollectable collect3 = new movableCollectable(this, 25, 39, 38, 40);
+        movableCollectable collect4 = new movableCollectable(this, 200, 208, 203, 205);
 
 
 
 
 
-        collect = new Collectable(this);
+        //collect = new Collectable(this);
 
         order = new ArrayList<>();
 
@@ -114,6 +125,133 @@ public class miceWorld extends World {
         addObject(new Wall("bottom"),0,581);
         pause = false;
         repaint();
+        int X = mayflower.getRandomNumber(3);
+
+
+        if(this.players==1) {
+
+            if(four) {
+                if(X==3) {
+                    head = new Head(this, 200, 208, 203, 205);
+                    addObject(head, 680,480);
+                }
+                else addObject(collect4, 680, 480);
+            }
+            if(three) {
+                if(X==2) {
+                    head = new Head(this, 25, 39, 38, 40);
+                    addObject(head, 100,480);
+                }
+                else addObject(collect3, 100, 480);
+            }
+            if(two) {
+                if(X==1) {
+                    head = new Head(this, 21, 35, 34, 36);
+                    addObject(head, 680,100);
+                }
+                else addObject(collect2, 680, 100);
+            }
+            if(one) {
+                if(X==0) {
+                    head = new Head( this, 17, 31, 30, 32);
+                    addObject(head, 100,100);
+                }
+                else addObject(collect1, 100, 100);
+            }
+
+        }
+        if(this.players==2) {
+            //yhgj
+            if(four) {
+                if(X==3) {
+                    head = new Head(this, 200, 208, 203, 205);
+                    addObject(head, 680,480);
+                }
+                else addObject(collect4, 680, 480);
+            }
+            if(three) {
+                if(X==2) {
+                    head = new Head(this, 25, 39, 38, 40);
+                    addObject(head, 100,480);
+                }
+                else addObject(collect3, 100, 480);
+            }
+            if(two) {
+                if(X==1) {
+                    head = new Head(this, 21, 35, 34, 36);
+                    addObject(head, 680,100);
+                }
+                else addObject(collect2, 680, 100);
+            }
+            if(one) {
+                if(X==0) {
+                    head = new Head( this, 17, 31, 30, 32);
+                    addObject(head, 100,100);
+                }
+                else addObject(collect1, 100, 100);
+            }
+        }
+        if(this.players==3) {
+            //p;l'
+            if(four) {
+                if(X==3) {
+                    head = new Head(this, 200, 208, 203, 205);
+                    addObject(head, 680,480);
+                }
+                else addObject(collect4, 680, 480);
+            }
+            if(three) {
+                if(X==2) {
+                    head = new Head(this, 25, 39, 38, 40);
+                    addObject(head, 100,480);
+                }
+                else addObject(collect3, 100, 480);
+            }
+            if(two) {
+                if(X==1) {
+                    head = new Head(this, 21, 35, 34, 36);
+                    addObject(head, 680,100);
+                }
+                else addObject(collect2, 680, 100);
+            }
+            if(one) {
+                if(X==0) {
+                    head = new Head( this, 17, 31, 30, 32);
+                    addObject(head, 100,100);
+                }
+                else addObject(collect1, 100, 100);
+            }
+        }
+        if(this.players==4) {
+            if(four) {
+                if(X==3) {
+                    head = new Head(this, 200, 208, 203, 205);
+                    addObject(head, 680,480);
+                }
+                else addObject(collect4, 680, 480);
+            }
+            if(three) {
+                if(X==2) {
+                    head = new Head(this, 25, 39, 38, 40);
+                    addObject(head, 100,480);
+                }
+                else addObject(collect3, 100, 480);
+            }
+            if(two) {
+                if(X==1) {
+                    head = new Head(this, 21, 35, 34, 36);
+                    addObject(head, 680,100);
+                }
+                else addObject(collect2, 680, 100);
+            }
+            if(one) {
+                if(X==0) {
+                    head = new Head( this, 17, 31, 30, 32);
+                    addObject(head, 100,100);
+                }
+                else addObject(collect1, 100, 100);
+            }
+        }
     }
 
     public void act()
@@ -123,33 +261,25 @@ public class miceWorld extends World {
             System.out.println("size of head:"+getObjects(Head.class).size());
 
                 head.setLocation(head.getX()+head.getNextX(),head.getY()+head.getNextY());
+            if(one) collect1.setLocation(collect1.getX()+collect1.getNextX(),collect1.getY()+collect1.getNextY());
+            if(two) collect2.setLocation(collect2.getX()+collect2.getNextX(),collect2.getY()+collect2.getNextY());
+            if(three) collect3.setLocation(collect3.getX()+collect3.getNextX(),collect3.getY()+collect3.getNextY());
+                if(four) collect4.setLocation(collect4.getX()+collect4.getNextX(),collect4.getY()+collect4.getNextY());
                 move(order,head);
-
-
-
-
             repaint();
-
             time.reset();
         }
-        for ( Head head:collect.getIntersectingHead(Head.class))
+        for (  movableCollectable collectable:head.getIntersectingMovable())
         {
+            removeObject(collectable);
 
                 addTail(order, this.head);
                 addTail(order, this.head);
                 addTail(order, this.head);
-            
-
-
-
-            placement();
+            //placement();
             //collect.scoreNum +=3;
 
         }
-
-
-
-
                 if ((!head.getIntersectingBody().isEmpty())||(!(head.getX()>5&&head.getX()<780))||(!(head.getY()>5&&head.getY()<565))) {
                     removeObject(head);
 
@@ -196,17 +326,6 @@ public class miceWorld extends World {
 
         //if(mayflower.isKeyPressed(78)) addTail();
     }
-    public void placement()
-    {
-        int X = mayflower.getRandomNumber(37)+1;
-        int Y = mayflower.getRandomNumber(27)+1;
-        //System.out.println("TOUCH: COLLECT");
-        if(getObjectsAt(X*20+1,Y*20+1).isEmpty())
-            collect.setLocation(X*20+1,Y*20+1);
-        else placement();
-
-    }
-
     public void move(ArrayList<Body> order, Head head)
     {
 
