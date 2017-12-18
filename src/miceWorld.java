@@ -131,7 +131,8 @@ public class miceWorld extends World {
         //head = new twitchHead(this, one,two,three,four);
 
         //addObject(head,100,100);
-
+    System.out.println(theme);
+    System.out.println(theme+"collectable.png");
          collect1 = new movableCollectable(this, 17, 31, 30, 32);
          collect1.setImage(theme+"collectable.png");
 

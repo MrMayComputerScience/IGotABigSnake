@@ -30,7 +30,7 @@ public class movableCollectable extends Actor {
     {
 
         this.world = world;
-        img = new MayflowerImage("collectable.png");
+        img = new MayflowerImage("Theme1/collectable.png");
         setImage(img);
         scale(.9);
         scoreNum =0;
