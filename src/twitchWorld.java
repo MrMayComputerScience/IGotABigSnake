@@ -70,8 +70,17 @@ public class twitchWorld extends World {
 
     private int players;
 
-    public twitchWorld(boolean one, boolean two, boolean three, boolean four)
+    private Portal portal;
+    private toPortal toportal;
+
+    private int overScreen;
+    private boolean isPortal;
+    private String theme;
+
+    public twitchWorld(String theme, boolean portal, boolean one, boolean two, boolean three, boolean four)
     {
+        this.theme = theme;
+        isPortal = portal;
         end = false;
         System.out.print("one"+one);
         System.out.print("two"+two);
@@ -91,14 +100,14 @@ public class twitchWorld extends World {
         //get key codes
         //this.players = 4;
         //head = new twitchHead(this, one,two,three,four);
-        head = new twitchHead(this, one,two,three,four);
+        head = new twitchHead(theme, this, one,two,three,four);
         addObject(head,100,100);
 
 
 
 
 
-        collect = new Collectable(this);
+        collect = new Collectable(theme, this);
 
         order = new ArrayList<>();
 
@@ -108,11 +117,33 @@ public class twitchWorld extends World {
         setPaintOrder( Wall.class ,Label.class, Body.class, Collectable.class, Head.class);
         label = new Label("Score: 0", 20, Color.BLUE);
         addObject(label, 10,-5);
-        addObject(new Wall("left"),390,200);
-        addObject(new Wall("right"),-392,200);
-        addObject(new Wall("top"),0,-1);
-        addObject(new Wall("bottom"),0,581);
+        Wall wallLeft= new Wall("left");
+        wallLeft.setImage(theme+"wall.png");
+
+        Wall wallRight = new Wall("right");
+        wallRight.setImage(theme+"wall.png");
+
+        Wall wallTop= new Wall("top");
+        wallTop.setImage(theme+"wall.png");
+
+        Wall wallBottom= new Wall("bottom");
+        wallBottom.setImage(theme+"wall.png");
+
+        addObject(wallLeft,390,200);
+        addObject(wallRight,-392,200);
+        addObject(wallTop,0,-1);
+        addObject(wallBottom,0,581);
+
         pause = false;
+        if(portal) {
+            this.portal = new Portal(theme, this);
+            this.toportal = new toPortal(theme);
+
+            addObject(this.portal, 20 * 20 + 1, 20 * 20 + 1);
+            addObject(this.toportal, 5 * 20 + 1, 5 * 20 + 1);
+            portalPlacement();
+            toportalPlacement();
+        }
         repaint();
     }
 
@@ -120,6 +151,8 @@ public class twitchWorld extends World {
     {
         if(time.isDone()&&!pause)
         {
+            if(isPortal)
+                portal.teleportTwitch(toportal.getX(),toportal.getY());
             System.out.println("size of head:"+getObjects(twitchHead.class).size());
 
                 head.setLocation(head.getX()+head.getNextX(),head.getY()+head.getNextY());
@@ -206,6 +239,26 @@ public class twitchWorld extends World {
         else placement();
 
     }
+    public void portalPlacement()
+    {
+        int X = mayflower.getRandomNumber(37)+1;
+        int Y = mayflower.getRandomNumber(27)+1;
+        //System.out.println("TOUCH: COLLECT");
+        if(getObjectsAt(X*20+1,Y*20+1).isEmpty())
+            portal.setLocation(X*20+1,Y*20+1);
+        else portalPlacement();
+
+    }
+    public void toportalPlacement()
+    {
+        int X = mayflower.getRandomNumber(37)+1;
+        int Y = mayflower.getRandomNumber(27)+1;
+        //System.out.println("TOUCH: COLLECT");
+        if(getObjectsAt(X*20+1,Y*20+1).isEmpty())
+            toportal.setLocation(X*20+1,Y*20+1);
+        else toportalPlacement();
+
+    }
 
     public void move(ArrayList<Body> order, twitchHead head)
     {
@@ -233,13 +286,13 @@ public class twitchWorld extends World {
 
         if(order.size()>0)
         {
-            order.add(new Body());
+            order.add(new Body(theme));
             addObject(order.get(order.size() - 1),order.get(order.size() - 2).getX(), order.get(order.size() - 2).getY());
             //System.out.println(order.get(order.size()-1).getX()+" , "+order.get(order.size()-1).getY());
         }
         if(order.isEmpty())
         {
-            order.add(new Body());
+            order.add(new Body(theme));
             addObject(order.get(0), head.getX() - head.getNextX()-head.getSpaceX(), head.getY()-head.getNextY()-head.getSpaceY());
             //System.out.println(head.getNextX());
 
@@ -361,12 +414,16 @@ public class twitchWorld extends World {
     {
 
         removeObjects(getObjects(Body.class));
+        removeObjects(getObjects(Head.class));
+        collect.setLocation(19*20+1,14*20+1);
+
 
         //collect.resetScore();
         score =0;
         //head.setGameOver(false);
+        addObject(head, 100,100);
 
-            head.setLocation(100,100);
+            //head.setLocation(100,100);
 
 
 

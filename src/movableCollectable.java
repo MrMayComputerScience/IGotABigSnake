@@ -6,7 +6,7 @@ import mayflower.Timer;
 import java.util.List;
 
 public class movableCollectable extends Actor {
-    private MyWorld Myworld;
+    //private MyWorld Myworld;
     private LocalMultiplayerWorld localWorld;
     private twitchWorld TwitchWorld;
     private miceWorld world;
@@ -36,7 +36,7 @@ public class movableCollectable extends Actor {
         scoreNum =0;
 
 
-        world.addObject(this,19*20+1,14*20+1);
+        //world.addObject(this,19*20+1,14*20+1);
 
         time = new Timer(75);
 
@@ -45,9 +45,7 @@ public class movableCollectable extends Actor {
         this.left = left;
         this.right = right;
         //this.world = world;
-        /*score = 0;
-        gameOver = false;
-        */
+
         dir = "";
         //BLUE
         //setImage("head.png");
@@ -58,11 +56,13 @@ public class movableCollectable extends Actor {
 
 
     }
+
     public void act()
     {
 
         if(mayflower.wasKeyDown(up))
         {
+            //System.out.print(":::::::::::");
             nextY = -20;
             nextX = 0;
             spaceY = tempSpace;
@@ -123,6 +123,7 @@ public class movableCollectable extends Actor {
 
     }
     */
+
     public int getNextX() {
         return nextX;
     }
@@ -151,4 +152,5 @@ public class movableCollectable extends Actor {
     {
         return getIntersectingObjects(Class);
     }
+
 }

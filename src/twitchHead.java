@@ -47,7 +47,7 @@ public class twitchHead extends Actor {
 
 
 
-    public twitchHead(twitchWorld world, boolean one, boolean two, boolean three, boolean four)
+    public twitchHead(String theme, twitchWorld world, boolean one, boolean two, boolean three, boolean four)
     {
         players=0;
         this.one = one;
@@ -61,7 +61,7 @@ public class twitchHead extends Actor {
         gameOver = false;
         dir = "";
         //BLUE
-        setImage("head.png");
+        setImage(theme+"head.png");
 
         nextX = 0;
         nextY = 0;

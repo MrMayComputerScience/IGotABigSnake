@@ -1,19 +1,23 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
 import javafx.stage.Stage;
 import mayflower.Mayflower;
+import mayflower.World;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
-public class localSelectController {
+public class localSelectController{
 
-    private MyWorld world;
+    //private MyWorld world;
     @FXML private Button Exit;
 
     @FXML private static ToggleButton one;
@@ -45,22 +49,31 @@ public class localSelectController {
     @FXML private boolean playerone, playertwo, playerthree, playerfour;
 
     @FXML private int players;
+    @FXML private ToggleButton threeMice, twitch, portal;
+    @FXML private String theme;
+
+    private Mayflower main;
 
 
 
+    @FXML
+    public void portal(ActionEvent event) throws IOException
+    {
 
+
+    }
 
     @FXML
     public void localMulti(ActionEvent event) throws IOException
     {
 
 
-        new Mayflower("Snake", 800, 600) {
+        main = new Mayflower("Snake", 800, 600) {
             @Override
             public void init() {
-                System.out.println("running");
-                setWorld(new LocalMultiplayerWorld(playerone,playertwo,playerthree,playerfour));
-                System.out.println("running2");
+               // System.out.println("running");
+                setWorld(new LocalMultiplayerWorld(theme, portal.isSelected(), playerone,playertwo,playerthree,playerfour));
+                //System.out.println("running2");
                 //showBounds(true);
 
             }
@@ -71,11 +84,11 @@ public class localSelectController {
     {
 
 
-        new Mayflower("Snake", 800, 600) {
+        main =  new Mayflower("Snake", 800, 600) {
             @Override
             public void init() {
                 //System.out.println("running");
-                setWorld(new twitchWorld(playerone,playertwo,playerthree,playerfour));
+                setWorld(new twitchWorld(theme, portal.isSelected(), playerone,playertwo,playerthree,playerfour));
                 //System.out.println("running2");
                 //showBounds(true);
 
@@ -87,16 +100,38 @@ public class localSelectController {
     {
 
 
-        new Mayflower("Snake", 800, 600) {
+
+
+
+        main =  new Mayflower("Snake", 800, 600) {
             @Override
             public void init() {
                 //System.out.println("running");
-                setWorld(new miceWorld(playerone,playertwo,playerthree,playerfour));
+                setWorld(new miceWorld(theme, portal.isSelected(), playerone,playertwo,playerthree,playerfour));
                 //System.out.println("running2");
                 //showBounds(true);
 
             }
         };
+    }
+    @FXML
+    public void playGrow(ActionEvent event) throws IOException
+    {
+
+
+        main = new Mayflower("Snake", 800, 600) {
+            @Override
+            public void init() {
+
+                setWorld(new growWorld(theme, portal.isSelected(), playerone,playertwo,playerthree,playerfour));
+
+
+            }
+        };
+
+
+        //main.setWorld(new growWorld(theme, portal.isSelected(), playerone,playertwo,playerthree,playerfour));
+        //main.init();
     }
 
     @FXML
@@ -117,11 +152,39 @@ public class localSelectController {
     public void setPlayers(boolean one, boolean two, boolean three, boolean four) throws IOException
     {
         //players=0;
+
         this.playerone=one;
         this.playertwo=two;
         this.playerthree=three;
         this.playerfour=four;
 
+        if(playerone)this.players++;
+        if(playertwo)this.players++;
+        if(playerthree)this.players++;
+        if(playerfour)this.players++;
+
+        if(this.players>1) {
+            threeMice.setVisible(true);
+            twitch.setVisible(true);
+        }
+        else
+        {
+            threeMice.setVisible(false);
+            twitch.setVisible(false);
+        }
+
+
+
+    }
+    @FXML
+    public void setTheme(int theme) throws IOException
+    {
+
+        if(theme==1)this.theme =  "Theme1/";
+        if(theme==1)this.theme =  "Theme2/";
+        if(theme==3)this.theme =  "Theme3/";
+
+        //this.theme = theme;
 
 
     }

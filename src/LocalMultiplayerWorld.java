@@ -24,7 +24,7 @@ public class LocalMultiplayerWorld extends World {
     public Button Exit;
 
     @FXML
-    GridPane Over;
+    private GridPane Over;
 
     @FXML
     TextField textField;
@@ -74,8 +74,25 @@ public class LocalMultiplayerWorld extends World {
 
     private int players;
 
+    private Portal portal;
+    private toPortal toportal;
+
+    private int overScreen;
+    private boolean isPortal;
+
+    private boolean temp1, temp2, temp3,temp4;
+    private int tempPlayers;
+    private String theme;
+
+    private boolean one, two, three, four;
+
     public LocalMultiplayerWorld(boolean one, boolean two, boolean three, boolean four)
     {
+        this.one = one;
+        this.two = two;
+        this.three = three;
+        this.four = four;
+
         end = false;
         System.out.print("one"+one);
         System.out.print("two"+two);
@@ -94,11 +111,11 @@ public class LocalMultiplayerWorld extends World {
 
         //get key codes
         //this.players = 4;
-        head4 = new Head(this, 200, 208, 203, 205);
+        head4 = new Head(theme, this, 200, 208, 203, 205);
 
-        head3 = new Head(this, 25, 39, 38, 40);
-        head2 = new Head(this, 21, 35, 34, 36);
-        head1 = new Head(this, 17, 31, 30, 32);
+        head3 = new Head(theme, this, 25, 39, 38, 40);
+        head2 = new Head(theme, this, 21, 35, 34, 36);
+        head1 = new Head(theme, this, 17, 31, 30, 32);
 
 
         if(this.players==1) {
@@ -177,7 +194,7 @@ public class LocalMultiplayerWorld extends World {
             }
         }
 
-        collect = new Collectable(this);
+        collect = new Collectable(theme, this);
 
         order1 = new ArrayList<>();
         order2 = new ArrayList<>();
@@ -196,11 +213,180 @@ public class LocalMultiplayerWorld extends World {
         pause = false;
         repaint();
     }
+    public LocalMultiplayerWorld(String theme,boolean portal, boolean one, boolean two, boolean three, boolean four)
+    {
+        this.one = one;
+        this.two = two;
+        this.three = three;
+        this.four = four;
+
+        this.theme = theme;
+        tempPlayers = 0;
+        temp1 = true;
+        temp2 = true;
+        temp3 = true;
+        temp4 = true;
+
+        isPortal = portal;
+        end = false;
+        if(one)this.players++;
+        if(two)this.players++;
+        if(three)this.players++;
+        if(four)this.players++;
+
+        if(this.players==1)overScreen=0;
+        else overScreen = 1;
+
+        //score = 0;
+        highscore = new ArrayList<String>();
+
+        setBackground(theme+"Grid.png");
+
+
+        //get key codes
+        //this.players = 4;
+
+
+        head4 = new Head(theme, this, 200, 208, 203, 205);
+        //head4.setImage(theme+"head4.png");
+
+        head3 = new Head(theme, this, 25, 39, 38, 40);
+        //head3.setImage(theme+"head3.png");
+
+        head2 = new Head(theme, this, 21, 35, 34, 36);
+        //head2.setImage(theme+"head2.png");
+
+        head1 = new Head(theme, this, 17, 31, 30, 32);
+        //head1.setImage(theme+"head.png");
+
+
+        if(this.players==1) {
+            if(four) {
+
+                addObject(head4, 680, 480);
+            }
+            if(three) {
+
+                addObject(head3, 100, 480);
+            }
+            if(two) {
+
+                addObject(head2, 680, 100);
+            }
+            if(one) {
+
+                addObject(head1, 100, 100);
+            }
+
+        }
+        if(this.players==2) {
+            //yhgj
+            if(four) {
+
+                addObject(head4, 680, 480);
+            }
+            if(three) {
+
+                addObject(head3, 100, 480);
+            }
+            if(two) {
+
+                addObject(head2, 680, 100);
+            }
+            if(one) {
+
+                addObject(head1, 100, 100);
+            }
+        }
+        if(this.players==3) {
+            //p;l'
+            if(four) {
+
+                addObject(head4, 680, 480);
+            }
+            if(three) {
+
+                addObject(head3, 100, 480);
+            }
+            if(two) {
+
+                addObject(head2, 680, 100);
+            }
+            if(one) {
+
+                addObject(head1, 100, 100);
+            }
+        }
+        if(this.players==4) {
+            if(four) {
+
+                addObject(head4, 680, 480);
+            }
+            if(three) {
+
+                addObject(head3, 100, 480);
+            }
+            if(two) {
+
+                addObject(head2, 680, 100);
+            }
+            if(one) {
+
+                addObject(head1, 100, 100);
+            }
+        }
+
+        collect = new Collectable(theme, this);
+
+        order1 = new ArrayList<>();
+        order2 = new ArrayList<>();
+        order3 = new ArrayList<>();
+        order4 = new ArrayList<>();
+
+
+        time = new Timer(75);
+
+        label = new Label("Score: 0", 20, Color.BLUE);
+        addObject(label, 10,-5);
+
+        Wall wallLeft= new Wall("left");
+        wallLeft.setImage(theme+"wall.png");
+
+        Wall wallRight = new Wall("right");
+        wallRight.setImage(theme+"wall.png");
+
+        Wall wallTop= new Wall("top");
+        wallTop.setImage(theme+"wall.png");
+
+        Wall wallBottom= new Wall("bottom");
+        wallBottom.setImage(theme+"wall.png");
+
+        addObject(wallLeft,390,200);
+        addObject(wallRight,-392,200);
+        addObject(wallTop,0,-1);
+        addObject(wallBottom,0,581);
+
+        pause = false;
+        if(portal) {
+            this.portal = new Portal(theme, this);
+            this.toportal = new toPortal(theme);
+
+            addObject(this.portal, 20 * 20 + 1, 20 * 20 + 1);
+            addObject(this.toportal, 5 * 20 + 1, 5 * 20 + 1);
+            portalPlacement();
+            toportalPlacement();
+        }
+        setPaintOrder( Wall.class ,Label.class, Body.class, Collectable.class, toPortal.class, Portal.class,  Head.class);
+        repaint();
+    }
 
     public void act()
     {
+        if(tempPlayers>=players)
         if(time.isDone()&&!pause)
         {
+            if(isPortal)
+            portal.teleport(toportal.getX(),toportal.getY());
             if(players==1) {
                 head4.setLocation(head4.getX()+head4.getNextX(),head4.getY()+head4.getNextY());
                 move(order4,head4);
@@ -246,6 +432,10 @@ public class LocalMultiplayerWorld extends World {
 
             time.reset();
         }
+        if((mayflower.isKeyPressed(200)||mayflower.isKeyPressed(208)||mayflower.isKeyPressed(203)||mayflower.isKeyPressed(205))&&temp1) {tempPlayers++; temp1=false;}
+        if((mayflower.isKeyPressed(25)||mayflower.isKeyPressed(39)||mayflower.isKeyPressed(38)||mayflower.isKeyPressed(40))&&temp2) {tempPlayers++; temp2=false;}
+        if((mayflower.isKeyPressed(21)||mayflower.isKeyPressed(35)||mayflower.isKeyPressed(34)||mayflower.isKeyPressed(36))&&temp3) {tempPlayers++; temp3=false;}
+        if((mayflower.isKeyPressed(17)||mayflower.isKeyPressed(31)||mayflower.isKeyPressed(30)||mayflower.isKeyPressed(32))&&temp4) {tempPlayers++; temp4=false;}
         for (Head head:collect.getIntersectingHead(Head.class))
         {
             if(head.equals(head1))
@@ -282,9 +472,10 @@ public class LocalMultiplayerWorld extends World {
         for (Head tempHead :getObjects(Head.class))
         {
             //System.out.println("size of head:"+getObjects(Head.class).size());
-            if(getObjects(Head.class).size()>1) {
+            if(getObjects(Head.class).size()>overScreen) {
                 if ((!tempHead.getIntersectingBody().isEmpty())||(!(tempHead.getX()>5&&tempHead.getX()<780))||(!(tempHead.getY()>5&&tempHead.getY()<565))) {
                     removeObject(tempHead);
+                    System.out.println("touch wall");
 
                     if(tempHead.equals(head1))
                     {
@@ -311,13 +502,15 @@ public class LocalMultiplayerWorld extends World {
                 }
 
             }
-            if(getObjects(Head.class).size()<2&&end ==false)
+            //System.out.println(getObjects(Head.class).size()+"::"+overScreen+end);
+            if(getObjects(Head.class).size()==overScreen&&end ==false)
             {
+                //System.out.println(overScreen);
                 Application Gameover = new  Application() {
                     @Override
                     public void start(Stage stage) throws Exception {
-                        //System.out.println("trun");
-                        Parent root = FXMLLoader.load(getClass().getResource("over.fxml"));
+                        System.out.println("trun");
+                        Parent root = FXMLLoader.load(getClass().getResource("overV3.fxml"));
                         Scene scene = new Scene(root, 600, 400);
                         stage.setTitle("Snake");
                         stage.setScene(scene);
@@ -328,7 +521,7 @@ public class LocalMultiplayerWorld extends World {
                 try {
                     Stage stage = new Stage();
                     Gameover.start(stage);
-                    System.out.println("touch wall");
+
 
 
                 }
@@ -354,6 +547,26 @@ public class LocalMultiplayerWorld extends World {
         if(getObjectsAt(X*20+1,Y*20+1).isEmpty())
             collect.setLocation(X*20+1,Y*20+1);
         else placement();
+
+    }
+    public void portalPlacement()
+    {
+        int X = mayflower.getRandomNumber(37)+1;
+        int Y = mayflower.getRandomNumber(27)+1;
+        //System.out.println("TOUCH: COLLECT");
+        if(getObjectsAt(X*20+1,Y*20+1).isEmpty())
+            portal.setLocation(X*20+1,Y*20+1);
+        else portalPlacement();
+
+    }
+    public void toportalPlacement()
+    {
+        int X = mayflower.getRandomNumber(37)+1;
+        int Y = mayflower.getRandomNumber(27)+1;
+        //System.out.println("TOUCH: COLLECT");
+        if(getObjectsAt(X*20+1,Y*20+1).isEmpty())
+            toportal.setLocation(X*20+1,Y*20+1);
+        else toportalPlacement();
 
     }
 
@@ -383,13 +596,13 @@ public class LocalMultiplayerWorld extends World {
 
         if(order.size()>0)
         {
-            order.add(new Body());
+            order.add(new Body(theme));
             addObject(order.get(order.size() - 1),order.get(order.size() - 2).getX(), order.get(order.size() - 2).getY());
             //System.out.println(order.get(order.size()-1).getX()+" , "+order.get(order.size()-1).getY());
         }
         if(order.isEmpty())
         {
-            order.add(new Body());
+            order.add(new Body(theme));
             addObject(order.get(0), head.getX() - head.getNextX()-head.getSpaceX(), head.getY()-head.getNextY()-head.getSpaceY());
             //System.out.println(head.getNextX());
 
@@ -511,37 +724,25 @@ public class LocalMultiplayerWorld extends World {
     {
 
         removeObjects(getObjects(Body.class));
+        removeObjects(getObjects(Head.class));
+        collect.setLocation(19*20+1,14*20+1);
 
-        //collect.resetScore();
-        score =0;
-        //head.setGameOver(false);
-        if(players==1) {
-            head1.setLocation(100,100);
 
+        if(four) {
+
+            addObject(head4, 680, 480);
         }
-        if(players==2) {
-            head2.setLocation(700,100);
+        if(three) {
 
-            head1.setLocation(100,100);
-
+            addObject(head3, 100, 480);
         }
-        if(players==3) {
-            head3.setLocation(100,500);
+        if(two) {
 
-            head2.setLocation(700,100);
-
-            head1.setLocation(100,100);
-
+            addObject(head2, 680, 100);
         }
-        if(players==4) {
-            head4.setLocation(700,500);
+        if(one) {
 
-            head3.setLocation(100,500);
-
-            head2.setLocation(700,100);
-
-            head1.setLocation(100,100);
-
+            addObject(head1, 100, 100);
         }
 
 

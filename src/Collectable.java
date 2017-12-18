@@ -3,10 +3,11 @@ import mayflower.*;
 import java.util.List;
 
 public class Collectable extends Actor {
-    private MyWorld Myworld;
+    //private MyWorld Myworld;
     private LocalMultiplayerWorld localWorld;
     private twitchWorld TwitchWorld;
     private miceWorld MiceWorld;
+    private growWorld grow;
 
     private Mayflower mayflower;
     private int X;
@@ -15,11 +16,11 @@ public class Collectable extends Actor {
 
     private int scoreNum;
 
-    public Collectable(MyWorld world)
+    /*public Collectable(String theme, MyWorld world)
     {
 
         this.Myworld = world;
-        img = new MayflowerImage("collectable.png");
+        img = new MayflowerImage(theme+"collectable.png");
         setImage(img);
         scale(.9);
         scoreNum =0;
@@ -28,12 +29,12 @@ public class Collectable extends Actor {
         world.addObject(this,19*20+1,14*20+1);
 
 
-    }
-    public Collectable(LocalMultiplayerWorld world)
+    }*/
+    public Collectable(String theme, LocalMultiplayerWorld world)
     {
 
         this.localWorld = world;
-        img = new MayflowerImage("collectable.png");
+        img = new MayflowerImage(theme+"collectable.png");
         setImage(img);
         scale(.9);
         scoreNum =0;
@@ -43,25 +44,12 @@ public class Collectable extends Actor {
 
 
     }
-    public Collectable(twitchWorld world)
+
+    public Collectable(String theme, twitchWorld world)
     {
 
         this.TwitchWorld = world;
-        img = new MayflowerImage("collectable.png");
-        setImage(img);
-        scale(.9);
-        scoreNum =0;
-
-
-        world.addObject(this,19*20+1,14*20+1);
-
-
-    }
-    public Collectable(miceWorld world)
-    {
-
-        this.MiceWorld = world;
-        img = new MayflowerImage("collectable.png");
+        img = new MayflowerImage(theme+"collectable.png");
         setImage(img);
         scale(.9);
         scoreNum =0;
@@ -76,7 +64,7 @@ public class Collectable extends Actor {
 
 
     }
-    public void placement()
+    /*public void placement()
     {
         X = mayflower.getRandomNumber(37)+1;
         Y = mayflower.getRandomNumber(27)+1;
@@ -86,7 +74,7 @@ public class Collectable extends Actor {
         else placement();
 
     }
-
+*/
     public int getScore() {
         return scoreNum;
     }

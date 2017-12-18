@@ -8,14 +8,13 @@ public class Body extends Actor {
     private int nextY;
 
 
-    public Body()
+    public Body(String theme)
     {
-        setImage("body.png");
+        setImage(theme + "body.png");
 
 
     }
-    public void act()
-    {
+    public void act() {
     }
     public void setNextX(int next) {
         nextX = next;

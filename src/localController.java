@@ -20,7 +20,7 @@ import java.util.logging.Logger;
 
 public class localController {
 
-    private MyWorld world;
+    //private MyWorld world;
     @FXML private Button Exit;
 
     @FXML private  ToggleButton one;
@@ -49,6 +49,9 @@ public class localController {
 
     @FXML
     private GridPane localPane;
+    @FXML private int theme;
+
+    private themeSelectController themeSelect;
 
 
 
@@ -87,6 +90,7 @@ public class localController {
         }
         localSelectController local = loader.getController();
         local.setPlayers(oneup.isVisible(),twoup.isVisible(),threeup.isVisible(),fourup.isVisible());
+        local.setTheme(theme);
 
 
 
@@ -176,6 +180,13 @@ public class localController {
             fourleft.setVisible(false);
             fourright.setVisible(false);
         }
+
+    }
+    @FXML
+    public void setTheme(int theme) throws IOException
+    {
+        this.theme = theme;
+
 
     }
     /*public static int getPlayers()

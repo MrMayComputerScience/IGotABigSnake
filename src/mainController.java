@@ -11,7 +11,7 @@ import mayflower.Mayflower;
 import java.io.IOException;
 
 public class mainController {
-    private MyWorld world;
+    //private MyWorld world;
     @FXML
     public Button Exit;
     @FXML
@@ -24,6 +24,7 @@ public class mainController {
     @FXML
     public void singlePlayer(ActionEvent actionEvent) throws IOException
     {
+        /*
 
         new Mayflower("Snake", 800, 600) {
             @Override
@@ -36,11 +37,12 @@ public class mainController {
         Node source = (Node)  actionEvent.getSource();
         Stage stage  = (Stage) source.getScene().getWindow();
         stage.close();
+        */
     }
     @FXML
     public void localMulti(ActionEvent event) throws IOException
     {
-        GridPane pane = FXMLLoader.load(getClass().getResource("local.fxml"));
+        GridPane pane = FXMLLoader.load(getClass().getResource("themeSelect.fxml"));
         rootPane.getChildren().setAll(pane);
 
 

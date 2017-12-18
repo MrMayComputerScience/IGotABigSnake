@@ -6,7 +6,7 @@ public class Wall extends Actor {
 
     public Wall(String side)
     {
-        setImage("wall.png");
+        setImage("Theme1/wall.png");
         if(side.equals("left") || side.equals("right"))
             setRotation(90);
         if(side.equals("top") || side.equals("bottom"))

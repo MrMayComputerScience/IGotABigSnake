@@ -1,4 +1,6 @@
+/*
 import javafx.collections.FXCollections;
+
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableSet;
 import javafx.event.ActionEvent;
@@ -72,7 +74,7 @@ public class MyWorld extends World {
         //score = 0;
         highscore = new ArrayList<String>();
 
-        setBackground("Grid.png");
+        setBackground("Theme1/Grid.png");
 
         head = new Head(this);
         addObject(head,100,100);
@@ -306,3 +308,4 @@ public class MyWorld extends World {
         return heads;
     }
 }
+*/
