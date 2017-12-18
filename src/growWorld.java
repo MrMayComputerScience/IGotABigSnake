@@ -124,11 +124,13 @@ public class growWorld extends World {
         //get key codes
         //this.players = 4;
         head4 = new Head(theme, this, 200, 208, 203, 205);
-
+        head4.setImage(theme+"head4.png");
         head3 = new Head(theme, this, 25, 39, 38, 40);
+        head3.setImage(theme+"head3.png");
         head2 = new Head(theme, this, 21, 35, 34, 36);
+        head2.setImage(theme+"head2.png");
         head1 = new Head(theme, this, 17, 31, 30, 32);
-
+        head1.setImage(theme+"head.png");
 
         if(this.players==1) {
             if(four) {
@@ -367,7 +369,7 @@ public class growWorld extends World {
                     @Override
                     public void start(Stage stage) throws Exception {
                         //System.out.println("trun");
-                        Parent root = FXMLLoader.load(getClass().getResource("over.fxml"));
+                        Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
                         Scene scene = new Scene(root, 600, 400);
                         stage.setTitle("Snake");
                         stage.setScene(scene);
