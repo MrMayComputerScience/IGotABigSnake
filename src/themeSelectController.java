@@ -13,7 +13,7 @@ public class themeSelectController {
 
 
 
-    @FXML private ToggleButton oneTheme, twoTheme, threeTheme;
+    @FXML private ToggleButton oneTheme, twoTheme, threeTheme, fourTheme;
 
 
 
@@ -29,6 +29,7 @@ public class themeSelectController {
     {
         twoTheme.setSelected(false);
         threeTheme.setSelected(false);
+        fourTheme.setSelected(false);
         theme =1;
     }
     @FXML
@@ -36,6 +37,7 @@ public class themeSelectController {
     {
         oneTheme.setSelected(false);
         threeTheme.setSelected(false);
+        fourTheme.setSelected(false);
         theme =2;
     }
     @FXML
@@ -43,7 +45,17 @@ public class themeSelectController {
     {
         oneTheme.setSelected(false);
         twoTheme.setSelected(false);
+        fourTheme.setSelected(false);
         theme =3;
+    }
+    @FXML
+
+    public void fourThree(ActionEvent event) throws IOException
+    {
+        oneTheme.setSelected(false);
+        twoTheme.setSelected(false);
+        threeTheme.setSelected(false);
+        theme =4;
     }
     @FXML
     public void next(ActionEvent event) throws IOException
