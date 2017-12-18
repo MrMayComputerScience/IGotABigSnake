@@ -50,7 +50,7 @@ public class themeSelectController {
     }
     @FXML
 
-    public void fourThree(ActionEvent event) throws IOException
+    public void themeFour(ActionEvent event) throws IOException
     {
         oneTheme.setSelected(false);
         twoTheme.setSelected(false);
