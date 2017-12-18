@@ -510,7 +510,7 @@ public class LocalMultiplayerWorld extends World {
                     @Override
                     public void start(Stage stage) throws Exception {
                         System.out.println("trun");
-                        Parent root = FXMLLoader.load(getClass().getResource("overV3.fxml"));
+                        Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
                         Scene scene = new Scene(root, 600, 400);
                         stage.setTitle("Snake");
                         stage.setScene(scene);
