@@ -248,16 +248,16 @@ public class LocalMultiplayerWorld extends World {
 
 
         head4 = new Head(theme, this, 200, 208, 203, 205);
-        //head4.setImage(theme+"head4.png");
+        head4.setImage(theme+"head4.png");
 
         head3 = new Head(theme, this, 25, 39, 38, 40);
-        //head3.setImage(theme+"head3.png");
+        head3.setImage(theme+"head3.png");
 
         head2 = new Head(theme, this, 21, 35, 34, 36);
-        //head2.setImage(theme+"head2.png");
+        head2.setImage(theme+"head2.png");
 
         head1 = new Head(theme, this, 17, 31, 30, 32);
-        //head1.setImage(theme+"head.png");
+        head1.setImage(theme+"head.png");
 
 
         if(this.players==1) {

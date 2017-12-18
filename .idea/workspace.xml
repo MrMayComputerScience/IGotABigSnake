@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdc767c8-5a05-4115-870b-1c2cc8fb26b7" name="Default" comment="" />
+    <list default="true" id="bdc767c8-5a05-4115-870b-1c2cc8fb26b7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/LocalMultiplayerWorld.class" afterPath="$PROJECT_DIR$/out/production/Snake/LocalMultiplayerWorld.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme1/collectable2.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme1/collectable2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme1/collectable3.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme1/collectable3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme1/collectable4.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme1/collectable4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme1/head2.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme1/head2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme1/head3.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme1/head3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme1/head4.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme1/head4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/Grid.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/Grid.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/Wall.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/Wall.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/body.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/body.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/collectable.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/collectable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/collectable2.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/collectable2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/collectable3.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/collectable3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/collectable4.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/collectable4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/head.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/head.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/head2.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/head2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/head3.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/head3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme2/head4.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme2/head4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/Grid.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/Grid.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/Wall.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/Wall.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/body.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/body.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/collectable.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/collectable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/collectable2.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/collectable2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/collectable3.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/collectable3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/collectable4.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/collectable4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/head.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/head.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/head2.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/head2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/head3.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/head3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/Theme3/head4.png" afterPath="$PROJECT_DIR$/out/production/Snake/Theme3/head4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/growWorld.class" afterPath="$PROJECT_DIR$/out/production/Snake/growWorld.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/localController.class" afterPath="$PROJECT_DIR$/out/production/Snake/localController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/localSelectController.class" afterPath="$PROJECT_DIR$/out/production/Snake/localSelectController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/mainController.class" afterPath="$PROJECT_DIR$/out/production/Snake/mainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/miceWorld.class" afterPath="$PROJECT_DIR$/out/production/Snake/miceWorld.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/overController.class" afterPath="$PROJECT_DIR$/out/production/Snake/overController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Snake/twitchWorld.class" afterPath="$PROJECT_DIR$/out/production/Snake/twitchWorld.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme1/Thumbs.db" afterPath="$PROJECT_DIR$/src/Theme1/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme2/Thumbs.db" afterPath="$PROJECT_DIR$/src/Theme2/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/Grid.png" afterPath="$PROJECT_DIR$/src/Theme3/Grid.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/Thumbs.db" afterPath="$PROJECT_DIR$/src/Theme3/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/Wall.png" afterPath="$PROJECT_DIR$/src/Theme3/Wall.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/body.png" afterPath="$PROJECT_DIR$/src/Theme3/body.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/collectable.png" afterPath="$PROJECT_DIR$/src/Theme3/collectable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/collectable2.png" afterPath="$PROJECT_DIR$/src/Theme3/collectable2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/collectable3.png" afterPath="$PROJECT_DIR$/src/Theme3/collectable3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/collectable4.png" afterPath="$PROJECT_DIR$/src/Theme3/collectable4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/head.png" afterPath="$PROJECT_DIR$/src/Theme3/head.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/head2.png" afterPath="$PROJECT_DIR$/src/Theme3/head2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/head3.png" afterPath="$PROJECT_DIR$/src/Theme3/head3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/head4.png" afterPath="$PROJECT_DIR$/src/Theme3/head4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/Grid.png" afterPath="$PROJECT_DIR$/src/Theme4/Grid.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/Thumbs.db" afterPath="$PROJECT_DIR$/src/Theme4/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/Wall.png" afterPath="$PROJECT_DIR$/src/Theme4/Wall.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/body.png" afterPath="$PROJECT_DIR$/src/Theme4/body.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/collectable.png" afterPath="$PROJECT_DIR$/src/Theme4/collectable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/collectable2.png" afterPath="$PROJECT_DIR$/src/Theme4/collectable2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/collectable3.png" afterPath="$PROJECT_DIR$/src/Theme4/collectable3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/collectable4.png" afterPath="$PROJECT_DIR$/src/Theme4/collectable4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/head.png" afterPath="$PROJECT_DIR$/src/Theme4/head.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/head2.png" afterPath="$PROJECT_DIR$/src/Theme4/head2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/head3.png" afterPath="$PROJECT_DIR$/src/Theme4/head3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme4/head4.png" afterPath="$PROJECT_DIR$/src/Theme4/head4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" afterPath="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/localSelectController.java" afterPath="$PROJECT_DIR$/src/localSelectController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/twitchWorld.java" afterPath="$PROJECT_DIR$/src/twitchWorld.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,49 +84,55 @@
           <file leaf-file-name="Head.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Head.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="533">
+                <state relative-caret-position="680">
                   <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="miceWorld.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="miceWorld.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/miceWorld.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="208" column="21" lean-forward="true" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+                <state relative-caret-position="210">
+                  <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="37" />
                   <folding>
-                    <element signature="method#portalPlacement#0;class#miceWorld#0" expanded="false" />
-                    <element signature="method#toportalPlacement#0;class#miceWorld#0" expanded="false" />
-                    <element signature="method#move#0;class#miceWorld#0" expanded="false" />
-                    <element signature="method#addTail#0;class#miceWorld#0" expanded="false" />
-                    <element signature="method#close#0;class#miceWorld#0" expanded="false" />
-                    <element signature="method#mainLoad#0;class#miceWorld#0" expanded="false" />
-                    <element signature="method#saveScore#0;class#miceWorld#0" expanded="false" />
-                    <element signature="method#addScore#0;class#miceWorld#0" expanded="false" />
-                    <element signature="method#again#0;class#miceWorld#0" expanded="false" />
+                    <element signature="e#12414#12880#0" expanded="true" />
+                    <element signature="e#12879#12880#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="twitchWorld.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Portal.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Portal.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1207">
+                  <caret line="71" column="50" lean-forward="false" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="50" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#act#0;class#Portal#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="twitchWorld.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/twitchWorld.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="205">
-                  <caret line="416" column="8" lean-forward="true" selection-start-line="416" selection-start-column="8" selection-end-line="416" selection-end-column="46" />
-                  <folding>
-                    <element signature="method#placement#0;class#twitchWorld#0" expanded="false" />
-                    <element signature="method#portalPlacement#0;class#twitchWorld#0" expanded="false" />
-                    <element signature="method#toportalPlacement#0;class#twitchWorld#0" expanded="false" />
-                    <element signature="method#move#0;class#twitchWorld#0" expanded="false" />
-                    <element signature="method#addTail#0;class#twitchWorld#0" expanded="false" />
-                    <element signature="method#close#0;class#twitchWorld#0" expanded="false" />
-                    <element signature="method#mainLoad#0;class#twitchWorld#0" expanded="false" />
-                    <element signature="method#saveScore#0;class#twitchWorld#0" expanded="false" />
-                    <element signature="method#addScore#0;class#twitchWorld#0" expanded="false" />
-                  </folding>
+                <state relative-caret-position="210">
+                  <caret line="129" column="43" lean-forward="false" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="43" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="localSelectController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -71,15 +144,23 @@
           <file leaf-file-name="LocalMultiplayerWorld.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="723" column="4" lean-forward="false" selection-start-line="723" selection-start-column="4" selection-end-line="723" selection-end-column="4" />
+                <state relative-caret-position="6">
+                  <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#LocalMultiplayerWorld#0;class#LocalMultiplayerWorld#0" expanded="false" />
-                    <element signature="e#14246#14752#0" expanded="true" />
-                    <element signature="e#14751#14752#0" expanded="true" />
-                    <element signature="method#again#0;class#LocalMultiplayerWorld#0" expanded="false" />
+                    <element signature="e#14238#14744#0" expanded="true" />
+                    <element signature="e#14743#14744#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="themeSelectController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/themeSelectController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -87,34 +168,16 @@
           <file leaf-file-name="Collectable.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Collectable.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1109">
-                  <caret line="76" column="2" lean-forward="false" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+                <state relative-caret-position="1054">
+                  <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#act#0;class#Collectable#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="growWorld.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/growWorld.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="431">
-                  <caret line="594" column="4" lean-forward="false" selection-start-line="594" selection-start-column="4" selection-end-line="594" selection-end-column="4" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="method#addTail#0;class#growWorld#0" expanded="false" />
-                    <element signature="method#portalPlacement#0;class#growWorld#0" expanded="false" />
-                    <element signature="method#toportalPlacement#0;class#growWorld#0" expanded="false" />
-                    <element signature="method#again#0;class#growWorld#0" expanded="false" />
-                    <marker date="1513581334568" expanded="false" signature="10097:10217" ph="(stage) → {" />
-                    <marker date="1513581334568" expanded="false" signature="10579:10603" ph="}" />
-                    <marker date="1513581334568" expanded="false" signature="12183:12913" ph="{...}" />
-                    <marker date="1513581334568" expanded="false" signature="14341:14541" ph="{...}" />
-                    <marker date="1513581334568" expanded="false" signature="14619:14749" ph="{...}" />
-                    <marker date="1513581334568" expanded="false" signature="14811:15392" ph="{...}" />
-                    <marker date="1513581334568" expanded="false" signature="15453:17097" ph="{...}" />
+                    <marker date="1513623993896" expanded="false" signature="1697:1708" ph=" { " />
+                    <marker date="1513623993896" expanded="false" signature="1724:1730" ph=" }" />
+                    <marker date="1513623993896" expanded="false" signature="1786:1801" ph=" { " />
+                    <marker date="1513623993896" expanded="false" signature="1838:1844" ph=" }" />
+                    <marker date="1513623993896" expanded="false" signature="1911:1926" ph=" { " />
+                    <marker date="1513623993896" expanded="false" signature="1963:1969" ph=" }" />
                   </folding>
                 </state>
               </provider>
@@ -133,9 +196,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bounds</find>
-      <find>ActORder</find>
-      <find>addT</find>
       <find>Myworld</find>
       <find>(My)</find>
       <find>add</find>
@@ -143,7 +203,6 @@
       <find>collec</find>
       <find>Head</find>
       <find>world</find>
-      <find>head</find>
       <find>static</find>
       <find>siz</find>
       <find>up</find>
@@ -157,12 +216,16 @@
       <find>collect3</find>
       <find>Collectable</find>
       <find>pla</find>
-      <find>collectable</find>
       <find>, int x, int y, int toX, int toY</find>
       <find>touch wall</find>
       <find>&quot;Theme1/</find>
       <find>one</find>
       <find>collect</find>
+      <find>grid</find>
+      <find>collectable</find>
+      <find>collectable.png</find>
+      <find>head</find>
+      <find>.png</find>
     </findStrings>
     <replaceStrings>
       <replace>head1</replace>
@@ -220,11 +283,11 @@
         <option value="$PROJECT_DIR$/src/Daveflower.java" />
         <option value="$PROJECT_DIR$/src/themeSelectController.java" />
         <option value="$PROJECT_DIR$/src/overController.java" />
-        <option value="$PROJECT_DIR$/src/localSelectController.java" />
-        <option value="$PROJECT_DIR$/src/twitchWorld.java" />
-        <option value="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
         <option value="$PROJECT_DIR$/src/growWorld.java" />
         <option value="$PROJECT_DIR$/src/miceWorld.java" />
+        <option value="$PROJECT_DIR$/src/twitchWorld.java" />
+        <option value="$PROJECT_DIR$/src/localSelectController.java" />
+        <option value="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
       </list>
     </option>
   </component>
@@ -311,6 +374,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -327,20 +392,12 @@
             </path>
             <path>
               <item name="IGotABigSnake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IGotABigSnake" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Theme1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IGotABigSnake" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,7 +602,6 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13489583" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15783899" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -557,6 +613,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15783899" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -581,12 +638,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <marker date="1513573223112" expanded="false" signature="7529:7536" ph=" { " />
-            <marker date="1513573223112" expanded="false" signature="7544:7546" ph=" }" />
-            <marker date="1513573223112" expanded="false" signature="7573:7584" ph=" { " />
-            <marker date="1513573223112" expanded="false" signature="7597:7603" ph=" }" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +656,12 @@
           <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#act#0;class#Collectable#0" expanded="false" />
+            <marker date="1513623993896" expanded="false" signature="1697:1708" ph=" { " />
+            <marker date="1513623993896" expanded="false" signature="1724:1730" ph=" }" />
+            <marker date="1513623993896" expanded="false" signature="1786:1801" ph=" { " />
+            <marker date="1513623993896" expanded="false" signature="1838:1844" ph=" }" />
+            <marker date="1513623993896" expanded="false" signature="1911:1926" ph=" { " />
+            <marker date="1513623993896" expanded="false" signature="1963:1969" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -613,7 +670,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="method#act#0;class#Body#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,12 +680,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <marker date="1513573223112" expanded="false" signature="7529:7536" ph=" { " />
-            <marker date="1513573223112" expanded="false" signature="7544:7546" ph=" }" />
-            <marker date="1513573223112" expanded="false" signature="7573:7584" ph=" { " />
-            <marker date="1513573223112" expanded="false" signature="7597:7603" ph=" }" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -651,12 +705,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <marker date="1513573223112" expanded="false" signature="7529:7536" ph=" { " />
-            <marker date="1513573223112" expanded="false" signature="7544:7546" ph=" }" />
-            <marker date="1513573223112" expanded="false" signature="7573:7584" ph=" { " />
-            <marker date="1513573223112" expanded="false" signature="7597:7603" ph=" }" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +713,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#act#0;class#Body#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -674,7 +725,12 @@
           <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#act#0;class#Collectable#0" expanded="false" />
+            <marker date="1513623993896" expanded="false" signature="1697:1708" ph=" { " />
+            <marker date="1513623993896" expanded="false" signature="1724:1730" ph=" }" />
+            <marker date="1513623993896" expanded="false" signature="1786:1801" ph=" { " />
+            <marker date="1513623993896" expanded="false" signature="1838:1844" ph=" }" />
+            <marker date="1513623993896" expanded="false" signature="1911:1926" ph=" { " />
+            <marker date="1513623993896" expanded="false" signature="1963:1969" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -737,19 +793,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/javafx-src.zip!/javafx/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="304" column="25" lean-forward="false" selection-start-line="304" selection-start-column="25" selection-end-line="304" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/javafx-src.zip!/javafx/application/Application.java" />
     <entry file="jar://$PROJECT_DIR$/mayflower2.12.jar!/mayflower/World.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Head.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
+        <state relative-caret-position="680">
           <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
           <folding />
         </state>
@@ -795,42 +843,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Daveflower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/themeSelectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/overController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="130" column="8" lean-forward="false" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daveflower.java" />
+    <entry file="file://$PROJECT_DIR$/src/overController.java" />
     <entry file="file://$PROJECT_DIR$/src/localController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -841,11 +855,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Collectable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1109">
-          <caret line="76" column="2" lean-forward="false" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        <state relative-caret-position="1054">
+          <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#act#0;class#Collectable#0" expanded="false" />
+            <marker date="1513623993896" expanded="false" signature="1697:1708" ph=" { " />
+            <marker date="1513623993896" expanded="false" signature="1724:1730" ph=" }" />
+            <marker date="1513623993896" expanded="false" signature="1786:1801" ph=" { " />
+            <marker date="1513623993896" expanded="false" signature="1838:1844" ph=" }" />
+            <marker date="1513623993896" expanded="false" signature="1911:1926" ph=" { " />
+            <marker date="1513623993896" expanded="false" signature="1963:1969" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -854,25 +873,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="192" column="5" lean-forward="true" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
-          <folding>
-            <marker date="1513573223112" expanded="false" signature="7529:7536" ph=" { " />
-            <marker date="1513573223112" expanded="false" signature="7544:7546" ph=" }" />
-            <marker date="1513573223112" expanded="false" signature="7573:7584" ph=" { " />
-            <marker date="1513573223112" expanded="false" signature="7597:7603" ph=" }" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/toPortal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="method#act#0;class#toPortal#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/toPortal.java" />
     <entry file="file://$PROJECT_DIR$/src/mainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-155">
@@ -881,10 +886,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/growWorld.java" />
+    <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/themeSelectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miceWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="37" />
+          <folding>
+            <element signature="e#12414#12880#0" expanded="true" />
+            <element signature="e#12879#12880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Portal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="1207">
+          <caret line="71" column="50" lean-forward="false" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#act#0;class#Portal#0" expanded="false" />
@@ -892,73 +925,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/growWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/twitchWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="594" column="4" lean-forward="false" selection-start-line="594" selection-start-column="4" selection-end-line="594" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addTail#0;class#growWorld#0" expanded="false" />
-            <element signature="method#portalPlacement#0;class#growWorld#0" expanded="false" />
-            <element signature="method#toportalPlacement#0;class#growWorld#0" expanded="false" />
-            <element signature="method#again#0;class#growWorld#0" expanded="false" />
-            <marker date="1513581334568" expanded="false" signature="10097:10217" ph="(stage) → {" />
-            <marker date="1513581334568" expanded="false" signature="10579:10603" ph="}" />
-            <marker date="1513581334568" expanded="false" signature="12183:12913" ph="{...}" />
-            <marker date="1513581334568" expanded="false" signature="14341:14541" ph="{...}" />
-            <marker date="1513581334568" expanded="false" signature="14619:14749" ph="{...}" />
-            <marker date="1513581334568" expanded="false" signature="14811:15392" ph="{...}" />
-            <marker date="1513581334568" expanded="false" signature="15453:17097" ph="{...}" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="129" column="43" lean-forward="false" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="723" column="4" lean-forward="false" selection-start-line="723" selection-start-column="4" selection-end-line="723" selection-end-column="4" />
+        <state relative-caret-position="6">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#LocalMultiplayerWorld#0;class#LocalMultiplayerWorld#0" expanded="false" />
-            <element signature="e#14246#14752#0" expanded="true" />
-            <element signature="e#14751#14752#0" expanded="true" />
-            <element signature="method#again#0;class#LocalMultiplayerWorld#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/twitchWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="416" column="8" lean-forward="true" selection-start-line="416" selection-start-column="8" selection-end-line="416" selection-end-column="46" />
-          <folding>
-            <element signature="method#placement#0;class#twitchWorld#0" expanded="false" />
-            <element signature="method#portalPlacement#0;class#twitchWorld#0" expanded="false" />
-            <element signature="method#toportalPlacement#0;class#twitchWorld#0" expanded="false" />
-            <element signature="method#move#0;class#twitchWorld#0" expanded="false" />
-            <element signature="method#addTail#0;class#twitchWorld#0" expanded="false" />
-            <element signature="method#close#0;class#twitchWorld#0" expanded="false" />
-            <element signature="method#mainLoad#0;class#twitchWorld#0" expanded="false" />
-            <element signature="method#saveScore#0;class#twitchWorld#0" expanded="false" />
-            <element signature="method#addScore#0;class#twitchWorld#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/miceWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="208" column="21" lean-forward="true" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
-          <folding>
-            <element signature="method#portalPlacement#0;class#miceWorld#0" expanded="false" />
-            <element signature="method#toportalPlacement#0;class#miceWorld#0" expanded="false" />
-            <element signature="method#move#0;class#miceWorld#0" expanded="false" />
-            <element signature="method#addTail#0;class#miceWorld#0" expanded="false" />
-            <element signature="method#close#0;class#miceWorld#0" expanded="false" />
-            <element signature="method#mainLoad#0;class#miceWorld#0" expanded="false" />
-            <element signature="method#saveScore#0;class#miceWorld#0" expanded="false" />
-            <element signature="method#addScore#0;class#miceWorld#0" expanded="false" />
-            <element signature="method#again#0;class#miceWorld#0" expanded="false" />
+            <element signature="e#14238#14744#0" expanded="true" />
+            <element signature="e#14743#14744#0" expanded="true" />
           </folding>
         </state>
       </provider>

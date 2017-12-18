@@ -94,7 +94,7 @@ public class twitchWorld extends World {
         //score = 0;
         highscore = new ArrayList<String>();
 
-        setBackground("Grid.png");
+        setBackground(theme + "Grid.png");
 
 
         //get key codes
