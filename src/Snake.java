@@ -30,59 +30,8 @@ public class Snake extends Actor {
 
 
 
-    
-    public Head(String theme,LocalMultiplayerWorld world, int up, int down, int left, int right)
-    {
-        this.up = up;
-        this.down = down;
-        this.left = left;
-        this.right = right;
-        this.world = world;
-        score = 0;
-        gameOver = false;
-        dir = "";
-        //BLUE
-        setImage(theme+"head.png");
 
-        nextX = 0;
-        nextY = 0;
-        tempSpace = -1;
-    }
-    public Head(String theme,growWorld world, int up, int down, int left, int right)
-    {
-        this.up = up;
-        this.down = down;
-        this.left = left;
-        this.right = right;
-        this.world = world;
-        score = 0;
-        gameOver = false;
-        dir = "";
-        //BLUE
-        setImage(theme+"head.png");
-
-        nextX = 0;
-        nextY = 0;
-        tempSpace = -1;
-    }
-    public Head(String theme, miceWorld world, int up, int down, int left, int right)
-    {
-        this.up = up;
-        this.down = down;
-        this.left = left;
-        this.right = right;
-        //this.world = world;
-        this.world = world;
-        score = 0;
-        gameOver = false;
-        dir = "";
-        //BLUE
-        setImage(theme+"head.png");
-
-        nextX = 0;
-        nextY = 0;
-        tempSpace = -1;
-    }
+   
     public void act()
     {
 //North - South
