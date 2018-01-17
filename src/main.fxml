@@ -38,14 +38,34 @@
          </GridPane.margin>
       </Button>
       <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" text="Options" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
-         <font>
+
+          <font>
             <Font name="Agency FB Bold" size="30.0" />
          </font>
          <GridPane.margin>
             <Insets bottom="2.0" top="2.0" />
          </GridPane.margin>
       </Button>
-      <Button fx:id="Exit" alignment="CENTER" contentDisplay="CENTER" layoutX="210.0" layoutY="213.0" mnemonicParsing="false" onAction="#close" prefHeight="80.0" prefWidth="200.0" text="Exit" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+      <Button fx:id="Exit" alignment="CENTER" contentDisplay="CENTER" layoutX="210.0" layoutY="213.0" mnemonicParsing="false" onAction="#close" prefHeight="80.0" prefWidth="200.0" text="Exit" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+      </Button>
+       <Button fx:id="ServerPlayer" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#localMulti" prefHeight="80.0" prefWidth="200.0" text="Online" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+           <font>
+               <Font name="Agency FB Bold" size="30.0" />
+           </font>
+           <GridPane.margin>
+               <Insets bottom="2.0" top="2.0" />
+           </GridPane.margin>
+       </Button>
+       <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" text="Options" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+
+
+           <font>
+               <Font name="Agency FB Bold" size="30.0" />
+           </font>
+           <GridPane.margin>
+               <Insets bottom="2.0" top="2.0" />
+           </GridPane.margin>
+
          <font>
             <Font name="Agency FB Bold" size="30.0" />
          </font>
