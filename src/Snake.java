@@ -9,6 +9,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import mayflower.World;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Snake extends Actor {
@@ -26,10 +27,69 @@ public class Snake extends Actor {
 
     private int score;
 
+    private static ArrayList<Body> order;
+
     int up, down, left, right;
 
 
+    public Snake(String theme,LocalMultiplayerWorld world, int up, int down, int left, int right)
+    {
+        this.up = up;
+        this.down = down;
+        this.left = left;
+        this.right = right;
+        this.world = world;
+        score = 0;
+        gameOver = false;
+        dir = "";
+        //BLUE
+        setImage(theme+"head.png");
 
+        nextX = 0;
+        nextY = 0;
+        tempSpace = -1;
+
+        order = new ArrayList<>();
+    }
+    public Snake(String theme,growWorld world, int up, int down, int left, int right)
+    {
+        this.up = up;
+        this.down = down;
+        this.left = left;
+        this.right = right;
+        this.world = world;
+        score = 0;
+        gameOver = false;
+        dir = "";
+        //BLUE
+        setImage(theme+"head.png");
+
+        nextX = 0;
+        nextY = 0;
+        tempSpace = -1;
+
+        order = new ArrayList<>();
+    }
+    public Snake(String theme, miceWorld world, int up, int down, int left, int right)
+    {
+        this.up = up;
+        this.down = down;
+        this.left = left;
+        this.right = right;
+        //this.world = world;
+        this.world = world;
+        score = 0;
+        gameOver = false;
+        dir = "";
+        //BLUE
+        setImage(theme+"head.png");
+
+        nextX = 0;
+        nextY = 0;
+        tempSpace = -1;
+
+        order = new ArrayList<>();
+    }
 
    
     public void act()
@@ -38,22 +98,13 @@ public class Snake extends Actor {
         //17
         if(mayflower.wasKeyDown(up)&&!dir.equals("South"))
         {
-            nextY = -20;
-            nextX = 0;
-            spaceY = tempSpace;
-            spaceX = tempSpace;
-            dir = "North";
+
         }
 
         //31
         if(mayflower.wasKeyDown(down)&&!dir.equals("North"))
         {
-            nextY = 20;
-            nextX = 0;
 
-            spaceY = tempSpace;
-            spaceX = tempSpace;
-            dir = "South";
         }
 //East - West
         //32
@@ -116,4 +167,90 @@ public class Snake extends Actor {
     {
         return getIntersectingObjects(movableCollectable.class);
     }
+    public void goUp()
+    {
+        nextY = -20;
+        nextX = 0;
+        spaceY = tempSpace;
+        spaceX = tempSpace;
+        dir = "North";
+
+        setLocation(getX()+getNextX(),getY()+getNextY());
+        updateBody();
+    }
+    public void goDown()
+    {
+        nextY = 20;
+        nextX = 0;
+
+        spaceY = tempSpace;
+        spaceX = tempSpace;
+        dir = "South";
+        setLocation(getX()+getNextX(),getY()+getNextY());
+        updateBody();
+
+    }
+    public void goRight()
+    {
+        nextX = -20;
+        nextY = 0;
+
+        spaceX = tempSpace;
+        spaceY = tempSpace;
+        dir = "West";
+        setLocation(getX()+getNextX(),getY()+getNextY());
+        updateBody();
+    }
+    public void goLeft()
+    {
+        nextX = 20;
+        nextY = 0;
+
+        spaceX = tempSpace;
+        spaceY = tempSpace;
+        dir = "East";
+        setLocation(getX()+getNextX(),getY()+getNextY());
+        updateBody();
+    }
+
+
+    public void grow()
+    {
+        if(order.size()>0)
+        {
+            order.add(new Body("Theme1/"));
+            world.addObject(order.get(order.size() - 1),order.get(order.size() - 2).getX(), order.get(order.size() - 2).getY());
+            //System.out.println(order.get(order.size()-1).getX()+" , "+order.get(order.size()-1).getY());
+        }
+        if(order.isEmpty())
+        {
+            order.add(new Body("Theme1/"));
+            world.addObject(order.get(0), getX() - getNextX()-getSpaceX(), getY()-getNextY()-getSpaceY());
+            //System.out.println(head.getNextX());
+
+        }
+    }
+
+    public void updateBody(){
+
+        if(order.size()>1)
+            for(int i = order.size()-1;i>=1;i--) {
+                order.get(i).setNextY((getY() - getNextY())-order.get(i).getY());
+                order.get(i).setNextX((getX() - getNextX())-order.get(i).getX());
+                order.get(i).setLocation(order.get(i - 1).getX(), order.get(i - 1).getY());
+
+            }
+        if(order.size()>0) {
+            order.get(0).setNextY((getY() - getNextY())-order.get(0).getY());
+            order.get(0).setNextX((getX() - getNextX())-order.get(0).getX());
+            order.get(0).setLocation(getX() - getNextX()-getSpaceX(), getY() - getNextY()-getSpaceY());
+
+
+
+        }
+
+
+    }
+
+
 }
