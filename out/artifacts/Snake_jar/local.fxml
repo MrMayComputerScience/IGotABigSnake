@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="localPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" translateY="160.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="localController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <ToggleButton fx:id="one" contentDisplay="CENTER" mnemonicParsing="false" onAction="#one" prefHeight="80.0" prefWidth="200.0" text="Player 1" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="30.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="2.0" />
+         </GridPane.margin>
+      </ToggleButton>
+      <ToggleButton fx:id="two" contentDisplay="CENTER" mnemonicParsing="false" onAction="#two" prefHeight="80.0" prefWidth="200.0" text="Player 2" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="30.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="2.0" top="2.0" />
+         </GridPane.margin>
+      </ToggleButton>
+      <ToggleButton fx:id="three" contentDisplay="CENTER" mnemonicParsing="false" onAction="#three" prefHeight="80.0" prefWidth="200.0" text="Player 3" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="30.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="2.0" top="2.0" />
+         </GridPane.margin>
+      </ToggleButton>
+      <ToggleButton fx:id="four" contentDisplay="CENTER" mnemonicParsing="false" onAction="#four" prefHeight="80.0" prefWidth="200.0" text="Player 4" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="30.0" />
+         </font>
+         <GridPane.margin>
+            <Insets top="2.0" />
+         </GridPane.margin>
+      </ToggleButton>
+      <TextField fx:id="oneup" alignment="CENTER" editable="false" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="↑" text="W" translateY="1.0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="onedown" alignment="CENTER" editable="false" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="↓" text="S" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oneleft" alignment="CENTER" editable="false" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="←" text="A" translateX="100.0" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oneright" alignment="CENTER" editable="false" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="→ " text="D" translateX="170.0" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="twodown" alignment="CENTER" editable="false" layoutX="445.0" layoutY="77.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="↓" text="h" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="twoleft" alignment="CENTER" editable="false" layoutX="310.0" layoutY="77.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="←" text="g" translateX="100.0" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="twoup" alignment="CENTER" editable="false" layoutX="445.0" layoutY="77.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="↑" text="y" translateY="1.0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tworight" alignment="CENTER" editable="false" layoutX="310.0" layoutY="77.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="→ " text="j" translateX="170.0" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="threeup" alignment="CENTER" editable="false" layoutX="445.0" layoutY="144.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="↑" text="P" translateY="1.0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="threeright" alignment="CENTER" editable="false" layoutX="310.0" layoutY="144.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="→ " text="'" translateX="170.0" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="threeleft" alignment="CENTER" editable="false" layoutX="310.0" layoutY="144.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="←" text="L" translateX="100.0" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="threedown" alignment="CENTER" editable="false" layoutX="445.0" layoutY="144.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="↓" text=";" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fourdown" alignment="CENTER" editable="false" layoutX="445.0" layoutY="211.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="↓" text="↓" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fourup" alignment="CENTER" editable="false" layoutX="445.0" layoutY="211.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="↑" text="↑" translateY="1.0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fourleft" alignment="CENTER" editable="false" layoutX="310.0" layoutY="211.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="←" text="←" translateX="100.0" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fourright" alignment="CENTER" editable="false" layoutX="310.0" layoutY="211.0" maxWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" promptText="→ " text="→ " translateX="170.0" translateY="35.0" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.valignment="TOP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="gameModeBtn" mnemonicParsing="false" onAction="#continueBtn" text="Continue →" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+   </children>
+</GridPane>

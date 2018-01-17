@@ -62,6 +62,7 @@ public class Head extends Actor {
         dir = "";
         //BLUE
         setImage(theme+"head.png");
+
         nextX = 0;
         nextY = 0;
         tempSpace = -1;
