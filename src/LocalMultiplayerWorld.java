@@ -13,11 +13,10 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 import mayflower.*;
+import mayflower.Timer;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.*;
 
 public class LocalMultiplayerWorld extends World {
     @FXML
@@ -85,6 +84,10 @@ public class LocalMultiplayerWorld extends World {
     private String theme;
 
     private boolean one, two, three, four;
+    private Snake snake1;
+    private Snake snake2;
+    private Snake snake3;
+    private Snake snake4;
 
     public LocalMultiplayerWorld(boolean one, boolean two, boolean three, boolean four)
     {
@@ -103,6 +106,20 @@ public class LocalMultiplayerWorld extends World {
         if(three)this.players++;
         if(four)this.players++;
 
+        snake4 = new Snake(theme, this, 200, 208, 203, 205);
+        snake3 = new Snake(theme, this, 25, 39, 38, 40);
+        snake2 = new Snake(theme, this, 21, 35, 34, 36);
+        snake1 = new Snake(theme, this, 17, 31, 30, 32);
+         List<Snake> snakeList = new ArrayList<>();
+         snakeList.add(snake4);
+        snakeList.add(snake3);
+        snakeList.add(snake2);
+        snakeList.add(snake1);
+        //InputManagerClass(snakeList);
+
+
+
+
         //score = 0;
         highscore = new ArrayList<String>();
 
@@ -112,7 +129,6 @@ public class LocalMultiplayerWorld extends World {
         //get key codes
         //this.players = 4;
         head4 = new Head(theme, this, 200, 208, 203, 205);
-
         head3 = new Head(theme, this, 25, 39, 38, 40);
         head2 = new Head(theme, this, 21, 35, 34, 36);
         head1 = new Head(theme, this, 17, 31, 30, 32);
