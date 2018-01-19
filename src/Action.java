@@ -1,6 +1,6 @@
 public class Action {
 
-<<<<<<< HEAD
+
     private int player;
     private String action;
 
@@ -17,6 +17,5 @@ public class Action {
     public String getAction() {
         return action;
     }
-=======
->>>>>>> 035ae4f9b894d1e53a69dcfa6fbd751553d03313
+
 }
