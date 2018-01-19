@@ -36,8 +36,8 @@ public class InputManagerClass extends Actor {
             //iterate over key
             if(mayflower.wasKeyDown(key))
             {
-                String action = keys.get(key);
-                String Player Number action.substring(0,1);
+                Action action = keys.get(key);
+                game
             }
         }
         //mayflower.wasKeyDown();
