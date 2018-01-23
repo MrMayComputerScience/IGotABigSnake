@@ -125,9 +125,9 @@ public class LocalMultiplayerWorld extends World {
 
         setBackground("Grid.png");
 
-
+/*
         //get key codes
-        //this.players = 4;
+        this.players = 4;
         head4 = new Head(theme, this, 200, 208, 203, 205);
         head3 = new Head(theme, this, 25, 39, 38, 40);
         head2 = new Head(theme, this, 21, 35, 34, 36);
@@ -209,7 +209,7 @@ public class LocalMultiplayerWorld extends World {
                 addObject(head1, 100, 100);
             }
         }
-
+*/
         collect = new Collectable(theme, this);
 
         order1 = new ArrayList<>();

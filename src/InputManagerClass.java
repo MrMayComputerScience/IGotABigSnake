@@ -48,22 +48,22 @@ public class InputManagerClass extends Actor {
                 Action action = keys.get(key);
                 if(action.getPlayer()==1)
                 {
-                    SnakeManager(snake1, action.getAction());
+                    new SnakeManager(snake1, action.getAction());
                 }
-                Action action = keys.get(key);
+
                 if(action.getPlayer()==2)
                 {
-                    SnakeManager(snake2, action.getAction());
+                    new SnakeManager(snake2, action.getAction());
                 }
-                Action action = keys.get(key);
+
                 if(action.getPlayer()==3)
                 {
-                    SnakeManager(snake3, action.getAction());
+                    new SnakeManager(snake3, action.getAction());
                 }
-                Action action = keys.get(key);
+
                 if(action.getPlayer()==4)
                 {
-                    SnakeManager(snake4, action.getAction());
+                    new SnakeManager(snake4, action.getAction());
                 }
 
 

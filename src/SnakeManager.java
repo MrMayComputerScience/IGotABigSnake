@@ -8,6 +8,7 @@ public class SnakeManager {
         if(action.equals("goDown"))snake.goDown();
         if(action.equals("goLeft"))snake.goLeft();
         if(action.equals("goRight"))snake.goRight();
+        System.out.print("worked");
 
     }
     public SnakeManager(List<Snake> snakeList)
