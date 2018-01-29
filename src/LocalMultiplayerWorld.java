@@ -115,7 +115,8 @@ public class LocalMultiplayerWorld extends World {
         snakeList.add(snake3);
         snakeList.add(snake2);
         snakeList.add(snake1);
-        //InputManagerClass(snakeList);
+         new InputManagerClass(snakeList);
+        System.out.println("ran");
 
 
 
@@ -231,6 +232,23 @@ public class LocalMultiplayerWorld extends World {
     }
     public LocalMultiplayerWorld(String theme,boolean portal, boolean one, boolean two, boolean three, boolean four)
     {
+        snake4 = new Snake(theme, this, 200, 208, 203, 205);
+        snake4.setImage(theme+"head4.png");
+        snake3 = new Snake(theme, this, 25, 39, 38, 40);
+        snake3.setImage(theme+"head3.png");
+        snake2 = new Snake(theme, this, 21, 35, 34, 36);
+        snake2.setImage(theme+"head2.png");
+        snake1 = new Snake(theme, this, 17, 31, 30, 32);
+        snake1.setImage(theme+"head.png");
+        List<Snake> snakeList = new ArrayList<>();
+        snakeList.add(snake4);
+        snakeList.add(snake3);
+        snakeList.add(snake2);
+        snakeList.add(snake1);
+
+        InputManagerClass inputter = new InputManagerClass(snakeList);
+        this.addObject(inputter,0,0);
+        System.out.println("ran");
         this.one = one;
         this.two = two;
         this.three = three;
@@ -276,81 +294,31 @@ public class LocalMultiplayerWorld extends World {
         head1.setImage(theme+"head.png");
 
 
-        if(this.players==1) {
+
             if(four) {
 
                 addObject(head4, 680, 480);
+                addObject(snake4, 680, 480);
             }
             if(three) {
 
                 addObject(head3, 100, 480);
+                addObject(snake3, 100, 480);
             }
             if(two) {
 
                 addObject(head2, 680, 100);
+                addObject(snake2, 680, 100);
             }
             if(one) {
 
                 addObject(head1, 100, 100);
+                addObject(snake1, 100, 100);
             }
 
-        }
-        if(this.players==2) {
-            //yhgj
-            if(four) {
 
-                addObject(head4, 680, 480);
-            }
-            if(three) {
 
-                addObject(head3, 100, 480);
-            }
-            if(two) {
 
-                addObject(head2, 680, 100);
-            }
-            if(one) {
-
-                addObject(head1, 100, 100);
-            }
-        }
-        if(this.players==3) {
-            //p;l'
-            if(four) {
-
-                addObject(head4, 680, 480);
-            }
-            if(three) {
-
-                addObject(head3, 100, 480);
-            }
-            if(two) {
-
-                addObject(head2, 680, 100);
-            }
-            if(one) {
-
-                addObject(head1, 100, 100);
-            }
-        }
-        if(this.players==4) {
-            if(four) {
-
-                addObject(head4, 680, 480);
-            }
-            if(three) {
-
-                addObject(head3, 100, 480);
-            }
-            if(two) {
-
-                addObject(head2, 680, 100);
-            }
-            if(one) {
-
-                addObject(head1, 100, 100);
-            }
-        }
 
         collect = new Collectable(theme, this);
 

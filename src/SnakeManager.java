@@ -5,6 +5,7 @@ public class SnakeManager {
     public SnakeManager(Snake snake, String action)
     {
         if(action.equals("goUp"))snake.goUp();
+        System.out.println("ran");
         if(action.equals("goDown"))snake.goDown();
         if(action.equals("goLeft"))snake.goLeft();
         if(action.equals("goRight"))snake.goRight();
@@ -13,7 +14,7 @@ public class SnakeManager {
     }
     public SnakeManager(List<Snake> snakeList)
     {
-
+        System.out.print("running");
     }
 
     

@@ -2,8 +2,10 @@ import mayflower.Actor;
 
 import mayflower.Mayflower;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import mayflower.Timer;
 
 public class InputManagerClass extends Actor {
     private Mayflower mayflower;
@@ -21,8 +23,11 @@ public class InputManagerClass extends Actor {
     private Snake snake3;
     private Snake snake4;
     private List<Snake> snakeList;
+    private Timer time;
 
     public InputManagerClass(List<Snake> snakeList){
+        keys = new HashMap<>();
+        time = new Timer(75);
         this.snakeList = snakeList;
         if(snakeList.get(0)!=null)
         snake4 = snakeList.get(0);
@@ -32,43 +37,43 @@ public class InputManagerClass extends Actor {
         snake2 = snakeList.get(2);
         if(snakeList.get(3)!=null)
         snake1 = snakeList.get(3);
+        System.out.println("working");
 
     }
 
 
     public void act()
     {
-        keys.put(12, new Action(2,"up"));
+        keys.put(200, new Action(2,"goUp"));
+        keys.put(205, new Action(2,"goLeft"));
+        keys.put(203, new Action(2,"goRight"));
+        keys.put(208, new Action(2,"goDown"));
+        System.out.println("RUnning");
 
      //   Set<Integer> setOfKeys = keys.keySet();
-        for (Integer key : keys.keySet()){
+        for (Integer key : keys.keySet()) {
             //iterate over key
-            if(mayflower.wasKeyDown(key))
-            {
-                Action action = keys.get(key);
-                if(action.getPlayer()==1)
-                {
-                    new SnakeManager(snake1, action.getAction());
+            if (time.isDone()) {
+                if (mayflower.isKeyDown(key)) {
+                    Action action = keys.get(key);
+                    if (action.getPlayer() == 1) {
+                        new SnakeManager(snake1, action.getAction());
+                    }
+
+                    if (action.getPlayer() == 2) {
+                        new SnakeManager(snake2, action.getAction());
+                    }
+
+                    if (action.getPlayer() == 3) {
+                        new SnakeManager(snake3, action.getAction());
+                    }
+
+                    if (action.getPlayer() == 4) {
+                        new SnakeManager(snake4, action.getAction());
+                    }
+
+                time.reset();
                 }
-
-                if(action.getPlayer()==2)
-                {
-                    new SnakeManager(snake2, action.getAction());
-                }
-
-                if(action.getPlayer()==3)
-                {
-                    new SnakeManager(snake3, action.getAction());
-                }
-
-                if(action.getPlayer()==4)
-                {
-                    new SnakeManager(snake4, action.getAction());
-                }
-
-
-
-
             }
         }
         //mayflower.wasKeyDown();

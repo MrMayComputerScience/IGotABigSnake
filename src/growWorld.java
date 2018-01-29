@@ -115,7 +115,7 @@ public class growWorld extends World {
         if(three)this.players++;
         if(four)this.players++;
 
-        //score = 0;
+        //score = 0;z
         highscore = new ArrayList<String>();
 
         setBackground(theme+"Grid.png");
