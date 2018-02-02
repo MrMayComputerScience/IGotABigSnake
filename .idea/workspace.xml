@@ -6,7 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdc767c8-5a05-4115-870b-1c2cc8fb26b7" name="Default" comment="" />
+    <list default="true" id="bdc767c8-5a05-4115-870b-1c2cc8fb26b7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Snake_jar/Theme1/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Snake_jar/Theme2/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Snake_jar/Theme3/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Snake_jar/Theme4/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Theme2/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Theme3 - Copy/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Theme4/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Thumbs.db" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme1/Thumbs.db" afterPath="$PROJECT_DIR$/src/Theme1/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/Thumbs.db" afterPath="$PROJECT_DIR$/src/Theme3/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Collectable.java" afterPath="$PROJECT_DIR$/src/Collectable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InputManagerClass.java" afterPath="$PROJECT_DIR$/src/InputManagerClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" afterPath="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Snake.java" afterPath="$PROJECT_DIR$/src/Snake.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SnakeManager.java" afterPath="$PROJECT_DIR$/src/SnakeManager.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,73 +33,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40397352">
+    <splitter split-orientation="horizontal" split-proportion="0.43287176">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="miceWorld.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/miceWorld.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6426">
-                  <caret line="397" column="0" lean-forward="false" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Collectable.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Collectable.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
-                  <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="twitchWorld.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/twitchWorld.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3026">
-                  <caret line="197" column="91" lean-forward="false" selection-start-line="197" selection-start-column="91" selection-end-line="197" selection-end-column="91" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Snake.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Snake.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="178" column="21" lean-forward="false" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+                <state relative-caret-position="394">
+                  <caret line="274" column="30" lean-forward="false" selection-start-line="274" selection-start-column="30" selection-end-line="274" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="method#Snake#0;class#Snake#0" expanded="false" />
                     <element signature="method#Snake#1;class#Snake#0" expanded="false" />
                     <element signature="method#Snake#2;class#Snake#0" expanded="false" />
+                    <element signature="method#act#0;class#Snake#0" expanded="false" />
+                    <element signature="e#2079#2094#0" expanded="false" />
+                    <element signature="e#2284#2297#0" expanded="false" />
+                    <element signature="method#goUp#0;class#Snake#0" expanded="false" />
+                    <element signature="method#goDown#0;class#Snake#0" expanded="false" />
+                    <element signature="method#goRight#0;class#Snake#0" expanded="false" />
+                    <element signature="method#goLeft#0;class#Snake#0" expanded="false" />
+                    <element signature="e#6426#6427#0" expanded="true" />
+                    <element signature="e#6477#6478#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Body.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Body.java">
+          <file leaf-file-name="localSelectController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="1139">
+                  <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="twitchHead.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/twitchHead.java">
+          <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Action.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="816">
-                  <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+                <state relative-caret-position="255">
+                  <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding>
-                    <element signature="method#twitchHead#0;class#twitchHead#0" expanded="false" />
-                    <element signature="method#act#0;class#twitchHead#0" expanded="false" />
+                    <element signature="e#279#280#0" expanded="true" />
+                    <element signature="e#308#309#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -95,53 +92,53 @@
           <file leaf-file-name="LocalMultiplayerWorld.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6103">
-                  <caret line="377" column="46" lean-forward="false" selection-start-line="377" selection-start-column="46" selection-end-line="378" selection-end-column="0" />
+                <state relative-caret-position="-1000">
+                  <caret line="284" column="9" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="295" selection-end-column="2" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <marker date="1516909677017" expanded="true" signature="4765:5396" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="5518:9391" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="6130:6173" ph="//..." />
-                    <marker date="1516909677017" expanded="false" signature="9419:15635" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="14775:15260" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="14875:15241" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="15528:15629" ph="//..." />
-                    <marker date="1516909677017" expanded="true" signature="15668:15946" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="15985:16268" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="16309:16596" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="16657:17387" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="17450:18088" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="18163:18363" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="18441:18571" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="18633:19214" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="19275:20919" ph="{...}" />
-                    <marker date="1516909677017" expanded="true" signature="20648:20800" ph="//..." />
-                    <marker date="1516909677017" expanded="true" signature="20958:21471" ph="{...}" />
+                    <element signature="e#21370#21371#0" expanded="true" />
+                    <element signature="e#21400#21401#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MyWorld.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/MyWorld.java">
+          <file leaf-file-name="Head.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Head.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2720">
-                  <caret line="160" column="26" lean-forward="false" selection-start-line="160" selection-start-column="26" selection-end-line="160" selection-end-column="26" />
-                  <folding />
+                <state relative-caret-position="1378">
+                  <caret line="148" column="50" lean-forward="true" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="50" />
+                  <folding>
+                    <element signature="e#3763#3764#0" expanded="true" />
+                    <element signature="e#3820#3821#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Action.java">
+          <file leaf-file-name="InputManagerClass.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/InputManagerClass.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+                <state relative-caret-position="318">
+                  <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
                   <folding>
-                    <element signature="e#217#218#0" expanded="true" />
-                    <element signature="e#246#247#0" expanded="true" />
-                    <element signature="e#279#280#0" expanded="true" />
-                    <element signature="e#308#309#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2116#2155#0" expanded="false" />
+                    <element signature="e#2369#2408#0" expanded="false" />
+                    <element signature="e#2621#2660#0" expanded="false" />
+                    <element signature="e#2875#2913#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Collectable.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Collectable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="376">
+                  <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -150,69 +147,11 @@
           <file leaf-file-name="SnakeManager.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/SnakeManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SnakeClient.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/SnakeClient.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="growWorld.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/growWorld.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5950">
-                  <caret line="369" column="69" lean-forward="false" selection-start-line="369" selection-start-column="69" selection-end-line="369" selection-end-column="69" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="movableCollectable.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/movableCollectable.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="themeSelectController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/themeSelectController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="localSelectController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2431">
-                  <caret line="158" column="29" lean-forward="false" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Head.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Head.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1700">
-                  <caret line="111" column="22" lean-forward="false" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-                  <folding />
+                <state relative-caret-position="289">
+                  <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -230,15 +169,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add</find>
-      <find>(MyWorld</find>
-      <find>collec</find>
-      <find>Head</find>
-      <find>world</find>
-      <find>static</find>
-      <find>siz</find>
-      <find>up</find>
-      <find>2</find>
       <find>3</find>
       <find>4</find>
       <find>tempHead</find>
@@ -252,7 +182,6 @@
       <find>touch wall</find>
       <find>&quot;Theme1/</find>
       <find>one</find>
-      <find>collect</find>
       <find>grid</find>
       <find>collectable</find>
       <find>collectable.png</find>
@@ -260,6 +189,16 @@
       <find>.png</find>
       <find>head.</find>
       <find>turn</find>
+      <find>update</find>
+      <find>updateMovement</find>
+      <find>addTail</find>
+      <find>world</find>
+      <find>this</find>
+      <find>inpu</find>
+      <find>placement</find>
+      <find>placem</find>
+      <find>collect</find>
+      <find>Running</find>
     </findStrings>
     <replaceStrings>
       <replace>head1</replace>
@@ -312,7 +251,6 @@
         <option value="$PROJECT_DIR$/src/Portal.java" />
         <option value="$PROJECT_DIR$/src/mainController.java" />
         <option value="$PROJECT_DIR$/src/movableCollectable.java" />
-        <option value="$PROJECT_DIR$/src/Collectable.java" />
         <option value="$PROJECT_DIR$/src/localController.java" />
         <option value="$PROJECT_DIR$/src/Daveflower.java" />
         <option value="$PROJECT_DIR$/src/overController.java" />
@@ -320,13 +258,15 @@
         <option value="$PROJECT_DIR$/src/miceWorld.java" />
         <option value="$PROJECT_DIR$/src/twitchWorld.java" />
         <option value="$PROJECT_DIR$/src/localSelectController.java" />
-        <option value="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
         <option value="$PROJECT_DIR$/src/themeSelectController.java" />
         <option value="$PROJECT_DIR$/src/Head.java" />
-        <option value="$PROJECT_DIR$/src/Snake.java" />
-        <option value="$PROJECT_DIR$/src/InputManagerClass.java" />
         <option value="$PROJECT_DIR$/src/Action.java" />
         <option value="$PROJECT_DIR$/src/SnakeClient.java" />
+        <option value="$PROJECT_DIR$/src/Collectable.java" />
+        <option value="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
+        <option value="$PROJECT_DIR$/src/SnakeManager.java" />
+        <option value="$PROJECT_DIR$/src/InputManagerClass.java" />
+        <option value="$PROJECT_DIR$/src/Snake.java" />
       </list>
     </option>
   </component>
@@ -414,9 +354,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -437,7 +376,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -626,21 +566,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28072035" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24894068" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894068" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13489583" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15783899" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -670,7 +611,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13489583" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15783899" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
     </layout>
@@ -861,9 +801,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/localSelectController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="158" column="29" lean-forward="false" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="1139">
+          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -882,42 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6103">
-          <caret line="377" column="46" lean-forward="false" selection-start-line="377" selection-start-column="46" selection-end-line="378" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1516909677017" expanded="true" signature="4765:5396" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="5518:9391" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="6130:6173" ph="//..." />
-            <marker date="1516909677017" expanded="false" signature="9419:15635" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="14775:15260" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="14875:15241" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="15528:15629" ph="//..." />
-            <marker date="1516909677017" expanded="true" signature="15668:15946" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="15985:16268" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="16309:16596" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="16657:17387" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="17450:18088" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="18163:18363" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="18441:18571" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="18633:19214" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="19275:20919" ph="{...}" />
-            <marker date="1516909677017" expanded="true" signature="20648:20800" ph="//..." />
-            <marker date="1516909677017" expanded="true" signature="20958:21471" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Head.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="111" column="22" lean-forward="false" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -946,16 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collectable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/twitchWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3026">
@@ -972,35 +868,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Snake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="178" column="21" lean-forward="false" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Snake#1;class#Snake#0" expanded="false" />
-            <element signature="method#Snake#2;class#Snake#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InputManagerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
             <element signature="e#308#309#0" expanded="true" />
           </folding>
@@ -1013,21 +885,13 @@
           <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="false" />
+            <element signature="e#227#228#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+            <element signature="e#532#533#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SnakeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,6 +900,85 @@
         <state relative-caret-position="85">
           <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Head.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1378">
+          <caret line="148" column="50" lean-forward="true" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="50" />
+          <folding>
+            <element signature="e#3763#3764#0" expanded="true" />
+            <element signature="e#3820#3821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1000">
+          <caret line="284" column="9" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="295" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#21370#21371#0" expanded="true" />
+            <element signature="e#21400#21401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collectable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SnakeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Snake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="274" column="30" lean-forward="false" selection-start-line="274" selection-start-column="30" selection-end-line="274" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Snake#0;class#Snake#0" expanded="false" />
+            <element signature="method#Snake#1;class#Snake#0" expanded="false" />
+            <element signature="method#Snake#2;class#Snake#0" expanded="false" />
+            <element signature="method#act#0;class#Snake#0" expanded="false" />
+            <element signature="e#2079#2094#0" expanded="false" />
+            <element signature="e#2284#2297#0" expanded="false" />
+            <element signature="method#goUp#0;class#Snake#0" expanded="false" />
+            <element signature="method#goDown#0;class#Snake#0" expanded="false" />
+            <element signature="method#goRight#0;class#Snake#0" expanded="false" />
+            <element signature="method#goLeft#0;class#Snake#0" expanded="false" />
+            <element signature="e#6426#6427#0" expanded="true" />
+            <element signature="e#6477#6478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InputManagerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2116#2155#0" expanded="false" />
+            <element signature="e#2369#2408#0" expanded="false" />
+            <element signature="e#2621#2660#0" expanded="false" />
+            <element signature="e#2875#2913#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

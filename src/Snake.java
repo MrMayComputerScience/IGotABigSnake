@@ -230,6 +230,21 @@ public class Snake extends Actor {
 
         }
     }
+/*    public void addBody(){
+        System.out.print(order.size());
+
+        if (order.size() > 0) {
+            order.add(new Body(theme));
+            addObject(order.get(order.size() - 1), order.get(order.size() - 2).getX(), order.get(order.size() - 2).getY());
+            //System.out.println(order.get(order.size()-1).getX()+" , "+order.get(order.size()-1).getY());
+        }
+        if (order.isEmpty()) {
+            order.add(new Body(theme));
+            addObject(order.get(0), getX() - getNextX() - getSpaceX(), getY() -getNextY() - getSpaceY());
+            //System.out.println(head.getNextX());
+
+        }
+    }*/
 
     public void updateBody(){
 
@@ -249,6 +264,32 @@ public class Snake extends Actor {
 
         }
 
+
+    }
+    public Boolean isTouchingCollectable(){
+       return isTouching(Collectable.class);
+    }
+    public Boolean isDead(){
+
+        List<Actor> obj = getIntersectingObjects(Actor.class);
+        System.out.println(obj);
+        for(Actor actor : obj){
+
+            if(!(actor instanceof Collectable ))
+                return true;
+        }
+
+        return false;
+
+    }
+    public void placement(Collectable collect)
+    {
+        int X = mayflower.getRandomNumber(37)+1;
+        int Y = mayflower.getRandomNumber(27)+1;
+        //System.out.println("TOUCH: COLLECT");
+        if(world.getObjectsAt(X*20+1,Y*20+1).isEmpty())
+            collect.setLocation(X*20+1,Y*20+1);
+        else placement(collect);
 
     }
 

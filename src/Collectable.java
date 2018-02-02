@@ -44,6 +44,20 @@ public class Collectable extends Actor {
 
 
     }
+    public Collectable(String theme, World world)
+    {
+
+        //this.localWorld = world;
+        img = new MayflowerImage(theme+"collectable.png");
+        setImage(img);
+        scale(.9);
+        scoreNum =0;
+
+
+        world.addObject(this,19*20+1,14*20+1);
+
+
+    }
 
     public Collectable(String theme, twitchWorld world)
     {

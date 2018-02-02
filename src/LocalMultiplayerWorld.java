@@ -53,11 +53,12 @@ public class LocalMultiplayerWorld extends World {
     private Mayflower mayflower;
     private Timer time;
 
-    private static Collectable collect;
+
     private static ArrayList<Body> order1;
     private static ArrayList<Body> order2;
     private static ArrayList<Body> order3;
     private static ArrayList<Body> order4;
+    static Collectable collect;
     @FXML
     private static Label label;
 
@@ -115,7 +116,7 @@ public class LocalMultiplayerWorld extends World {
         snakeList.add(snake3);
         snakeList.add(snake2);
         snakeList.add(snake1);
-         new InputManagerClass(snakeList);
+         new InputManagerClass(snakeList, this, "Regular");
         System.out.println("ran");
 
 
@@ -245,8 +246,8 @@ public class LocalMultiplayerWorld extends World {
         snakeList.add(snake3);
         snakeList.add(snake2);
         snakeList.add(snake1);
-
-        InputManagerClass inputter = new InputManagerClass(snakeList);
+        collect = new Collectable(theme,this);
+        InputManagerClass inputter = new InputManagerClass(snakeList, this, "Regular");
         this.addObject(inputter,0,0);
         System.out.println("ran");
         this.one = one;
@@ -281,7 +282,7 @@ public class LocalMultiplayerWorld extends World {
         //this.players = 4;
 
 
-        head4 = new Head(theme, this, 200, 208, 203, 205);
+       /* head4 = new Head(theme, this, 200, 208, 203, 205);
         head4.setImage(theme+"head4.png");
 
         head3 = new Head(theme, this, 25, 39, 38, 40);
@@ -292,7 +293,7 @@ public class LocalMultiplayerWorld extends World {
 
         head1 = new Head(theme, this, 17, 31, 30, 32);
         head1.setImage(theme+"head.png");
-
+*/
 
 
             if(four) {
@@ -732,6 +733,10 @@ public class LocalMultiplayerWorld extends World {
 
         Stage stage = (Stage) Exit.getScene().getWindow();
         stage.close();
+    }
+    public static Collectable getCollectable()
+    {
+        return collect;
     }
 
 
