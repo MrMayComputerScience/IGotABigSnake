@@ -63,10 +63,14 @@ public class InputManagerClass extends Actor {
 
     public void act()
     {
-        keys.put(200, new Action(2,"goUp"));
-        keys.put(205, new Action(2,"goLeft"));
-        keys.put(203, new Action(2,"goRight"));
-        keys.put(208, new Action(2,"goDown"));
+        keys.put(200, new Action(4,"goUp"));
+        keys.put(205, new Action(4,"goLeft"));
+        keys.put(203, new Action(4,"goRight"));
+        keys.put(208, new Action(4,"goDown"));
+        keys.put(17, new Action(1,"goUp"));
+        keys.put(32, new Action(1,"goLeft"));
+        keys.put(30, new Action(1,"goRight"));
+        keys.put(31, new Action(1,"goDown"));
        // System.out.println("RUnning");
 
 

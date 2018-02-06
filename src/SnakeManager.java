@@ -32,9 +32,10 @@ public class SnakeManager {
                 //collect.scoreNum +=3;
 
             }
-            if (!(snake.isDead())) {
+            if (snake.isDead()) {
 
               world.removeObject(snake);
+              snake.deGrowBody();
             }
         }
         this.world = world;

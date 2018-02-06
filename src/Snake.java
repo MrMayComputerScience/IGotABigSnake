@@ -230,6 +230,13 @@ public class Snake extends Actor {
 
         }
     }
+    public void deGrowBody(){
+        
+        for(int i = order.size()-1; i>0; i--){
+            world.removeObject(order.get(i));
+        }
+        world.removeObjects(order);
+    }
 /*    public void addBody(){
         System.out.print(order.size());
 
@@ -272,10 +279,10 @@ public class Snake extends Actor {
     public Boolean isDead(){
 
         List<Actor> obj = getIntersectingObjects(Actor.class);
-        System.out.println(obj);
+        System.out.println(obj.size());
         for(Actor actor : obj){
 
-            if(!(actor instanceof Collectable ))
+            if(!((actor instanceof Collectable )||(actor instanceof Portal )))
                 return true;
         }
 

@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdc767c8-5a05-4115-870b-1c2cc8fb26b7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Snake_jar/Theme1/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Snake_jar/Theme2/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Snake_jar/Theme3/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Snake_jar/Theme4/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Theme2/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Theme3 - Copy/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Theme4/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Thumbs.db" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme1/Thumbs.db" afterPath="$PROJECT_DIR$/src/Theme1/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Theme3/Thumbs.db" afterPath="$PROJECT_DIR$/src/Theme3/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Collectable.java" afterPath="$PROJECT_DIR$/src/Collectable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InputManagerClass.java" afterPath="$PROJECT_DIR$/src/InputManagerClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" afterPath="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Snake.java" afterPath="$PROJECT_DIR$/src/Snake.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SnakeManager.java" afterPath="$PROJECT_DIR$/src/SnakeManager.java" />
     </list>
@@ -39,8 +27,8 @@
           <file leaf-file-name="Snake.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Snake.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="274" column="30" lean-forward="false" selection-start-line="274" selection-start-column="30" selection-end-line="274" selection-end-column="30" />
+                <state relative-caret-position="69">
+                  <caret line="233" column="8" lean-forward="false" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="8" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#Snake#0;class#Snake#0" expanded="false" />
@@ -53,8 +41,6 @@
                     <element signature="method#goDown#0;class#Snake#0" expanded="false" />
                     <element signature="method#goRight#0;class#Snake#0" expanded="false" />
                     <element signature="method#goLeft#0;class#Snake#0" expanded="false" />
-                    <element signature="e#6426#6427#0" expanded="true" />
-                    <element signature="e#6477#6478#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -92,12 +78,10 @@
           <file leaf-file-name="LocalMultiplayerWorld.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1000">
-                  <caret line="284" column="9" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="295" selection-end-column="2" />
+                <state relative-caret-position="272">
+                  <caret line="305" column="43" lean-forward="true" selection-start-line="305" selection-start-column="43" selection-end-line="305" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#21370#21371#0" expanded="true" />
-                    <element signature="e#21400#21401#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -106,8 +90,8 @@
           <file leaf-file-name="Head.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Head.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1378">
-                  <caret line="148" column="50" lean-forward="true" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="50" />
+                <state relative-caret-position="2329">
+                  <caret line="148" column="50" lean-forward="false" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="50" />
                   <folding>
                     <element signature="e#3763#3764#0" expanded="true" />
                     <element signature="e#3820#3821#0" expanded="true" />
@@ -119,14 +103,14 @@
           <file leaf-file-name="InputManagerClass.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/InputManagerClass.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+                <state relative-caret-position="335">
+                  <caret line="70" column="19" lean-forward="false" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2116#2155#0" expanded="false" />
-                    <element signature="e#2369#2408#0" expanded="false" />
-                    <element signature="e#2621#2660#0" expanded="false" />
-                    <element signature="e#2875#2913#0" expanded="false" />
+                    <element signature="e#2299#2338#0" expanded="false" />
+                    <element signature="e#2552#2591#0" expanded="false" />
+                    <element signature="e#2804#2843#0" expanded="false" />
+                    <element signature="e#3058#3096#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -135,7 +119,7 @@
           <file leaf-file-name="Collectable.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Collectable.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="376">
+                <state relative-caret-position="833">
                   <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -147,8 +131,8 @@
           <file leaf-file-name="SnakeManager.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/SnakeManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+                <state relative-caret-position="525">
+                  <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -264,6 +248,7 @@
         <option value="$PROJECT_DIR$/src/SnakeClient.java" />
         <option value="$PROJECT_DIR$/src/Collectable.java" />
         <option value="$PROJECT_DIR$/src/LocalMultiplayerWorld.java" />
+        <option value="$PROJECT_DIR$/mayflower2.12.jar!/mayflower/Actor.class" />
         <option value="$PROJECT_DIR$/src/SnakeManager.java" />
         <option value="$PROJECT_DIR$/src/InputManagerClass.java" />
         <option value="$PROJECT_DIR$/src/Snake.java" />
@@ -354,8 +339,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,8 +359,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -566,6 +551,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -573,15 +559,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894068" sideWeight="0.50208336" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894068" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894068" sideWeight="0.49791667" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13489583" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15783899" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -589,30 +574,11 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993644" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993644" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28072035" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24894068" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13489583" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15783899" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -653,14 +619,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Head.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -698,7 +656,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#3763#3764#0" expanded="true" />
+            <element signature="e#3820#3821#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -715,13 +676,13 @@
     <entry file="file://$PROJECT_DIR$/src/MainMenu.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/System.java" />
     <entry file="file://$PROJECT_DIR$/src/gameover.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/mayflower2.12.jar!/mayflower/Mayflower.class">
@@ -739,13 +700,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/over.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/javafx-src.zip!/javafx/application/Application.java" />
@@ -905,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Head.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1378">
-          <caret line="148" column="50" lean-forward="true" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="50" />
+        <state relative-caret-position="2329">
+          <caret line="148" column="50" lean-forward="false" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="50" />
           <folding>
             <element signature="e#3763#3764#0" expanded="true" />
             <element signature="e#3820#3821#0" expanded="true" />
@@ -916,19 +877,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LocalMultiplayerWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1000">
-          <caret line="284" column="9" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="295" selection-end-column="2" />
+        <state relative-caret-position="272">
+          <caret line="305" column="43" lean-forward="true" selection-start-line="305" selection-start-column="43" selection-end-line="305" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#21370#21371#0" expanded="true" />
-            <element signature="e#21400#21401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/mayflower2.12.jar!/mayflower/Actor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="291" column="60" lean-forward="false" selection-start-line="291" selection-start-column="60" selection-end-line="291" selection-end-column="60" />
+          <folding>
+            <element signature="e#10091#10092#0" expanded="true" />
+            <element signature="e#10157#10158#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Collectable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="833">
           <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -938,18 +908,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SnakeManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        <state relative-caret-position="525">
+          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/InputManagerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="70" column="19" lean-forward="false" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2299#2338#0" expanded="false" />
+            <element signature="e#2552#2591#0" expanded="false" />
+            <element signature="e#2804#2843#0" expanded="false" />
+            <element signature="e#3058#3096#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Snake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="274" column="30" lean-forward="false" selection-start-line="274" selection-start-column="30" selection-end-line="274" selection-end-column="30" />
+        <state relative-caret-position="69">
+          <caret line="233" column="8" lean-forward="false" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Snake#0;class#Snake#0" expanded="false" />
@@ -962,22 +946,6 @@
             <element signature="method#goDown#0;class#Snake#0" expanded="false" />
             <element signature="method#goRight#0;class#Snake#0" expanded="false" />
             <element signature="method#goLeft#0;class#Snake#0" expanded="false" />
-            <element signature="e#6426#6427#0" expanded="true" />
-            <element signature="e#6477#6478#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InputManagerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2116#2155#0" expanded="false" />
-            <element signature="e#2369#2408#0" expanded="false" />
-            <element signature="e#2621#2660#0" expanded="false" />
-            <element signature="e#2875#2913#0" expanded="false" />
           </folding>
         </state>
       </provider>
